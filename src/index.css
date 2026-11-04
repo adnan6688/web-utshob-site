@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --primary-color: #CC0166;
+  --secondary-color: #FFF1F6;
+  --third-color: #EDF8FF;
+
+  --font-inter: "Inter", sans-serif;
+  --font-noto: "Noto Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-noto {
+  font-family: var(--font-noto);
+}
+
+/* Custom background colors */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-third {
+  background-color: var(--third-color);
+}
+
+/* Custom text colors */
+.txt {
+  color: var(--primary-color);
+}
+
+.txt-secondary {
+  color: var(--secondary-color);
+}
+
+.txt-third {
+  color: var(--third-color);
+}
