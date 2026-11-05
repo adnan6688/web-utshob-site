@@ -39,8 +39,12 @@ const WhyUthsob = () => {
                     <div className="relative w-full h-[450px] sm:h-[500px] lg:h-[530px]">
                         <img
                             src={bannar}
-                            alt="Banner"
+                            alt="Utshob event services banner"
                             className="w-full h-full object-cover rounded-xl shadow-md"
+                            width="611"
+                            height="1310"
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
                 </div>
@@ -65,6 +69,10 @@ const WhyUthsob = () => {
                                             src={item.mobile}
                                             alt={item.text}
                                             className="w-[70px] sm:w-[80px] hover:scale-105 hover:brightness-105 transition duration-500 ease-in-out"
+                                            width="70"
+                                            height="70"
+                                            loading="lazy"
+                                            decoding="async"
                                         />
                                     </div>
 
@@ -74,6 +82,10 @@ const WhyUthsob = () => {
                                             src={item.desktop}
                                             alt={item.text}
                                             className="w-[90px] md:w-[100px] hover:scale-105 hover:brightness-105 transition duration-500 ease-in-out"
+                                            width="90"
+                                            height="90"
+                                            loading="lazy"
+                                            decoding="async"
                                         />
                                     </div>
                                 </div>

@@ -1,5 +1,4 @@
 
-import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 import bannar from "../../assets/web Images/Hero image/heroimage.webp";
@@ -11,7 +10,7 @@ const Bannar = () => {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative pt-25 sm:pt-18 sm:mt-10 flex flex-col items-center justify-between gap-12 overflow-hidden sm:py-20 md:flex-row"
+      className="relative pt-25 sm:pt-18 sm:mt-10 flex flex-col items-center justify-between gap-y-4 sm:gap-29 overflow-hidden sm:py-20 md:flex-row"
     >
       <div
         data-aos="fade-right"
@@ -74,8 +73,8 @@ const Bannar = () => {
           <img
             src={bannar}
             alt="Utshob app showing event service quotations and provider comparison across Bangladesh"
-            width="500"
-            height="500"
+            width="548"
+            height="1080"
             fetchPriority="high"
             decoding="async"
             className="w-full sm:w-[80%] md:w-full lg:h-2/3 lg:w-[250px]"

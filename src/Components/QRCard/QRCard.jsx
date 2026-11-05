@@ -1,5 +1,7 @@
 
 import { BsQrCode } from "react-icons/bs";
+import customerBarCode from '../../assets/web Images/Barcode/customerQr.webp'
+import partnerbarCode from '../../assets/web Images/Barcode/partnerQr.webp'
 
 const QRCard = ({
     label,
@@ -25,6 +27,11 @@ const QRCard = ({
         return null;
     }
 
+    const qrImage = label?.toLowerCase().includes('partner') ? partnerbarCode : customerBarCode;
+    const qrAlt = label?.toLowerCase().includes('partner')
+        ? 'Utshob partner app QR code for joining as a service provider'
+        : 'Utshob customer app QR code for downloading the app';
+
     return (
        <div
     className={`flex w-full sm:w-[var(--content-width)] max-w-full items-center gap-3 rounded-xl border p-2.5 ${className}`}
@@ -36,13 +43,21 @@ const QRCard = ({
 >
             {/* QR Code */}
             <div
-                className="flex h-[84px] w-[84px] shrink-0 items-center justify-center rounded-lg border"
+                className="flex h-[84px] w-[84px] shrink-0 items-center justify-center overflow-hidden rounded-lg border"
                 style={{
                     backgroundColor: theme.qrBackground,
                     borderColor: theme.border,
                 }}
             >
-                <BsQrCode size={68} color={theme.title} />
+                <img
+                    src={qrImage}
+                    alt={qrAlt}
+                    width="84"
+                    height="84"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-contain rounded-lg"
+                />
             </div>
 
             {/* Content */}

@@ -1,11 +1,12 @@
 
-import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function EventServiceCard({
     title,
     bgColour,
     img,
+    imgWidth = 480,
+    imgHeight = 210,
     description,
     bottomText,
     href = '#',
@@ -22,6 +23,10 @@ export default function EventServiceCard({
                     className="w-full hover:cursor-pointer rounded-2xl transition-transform duration-500 ease-in-out group-hover:scale-105"
                     src={img}
                     alt={title}
+                    width={imgWidth}
+                    height={imgHeight}
+                    loading="lazy"
+                    decoding="async"
                 />
             </div>
 

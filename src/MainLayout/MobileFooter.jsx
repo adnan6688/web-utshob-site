@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/apple-touch-icon.png'
 
 const MobileFooter = () => {
@@ -9,7 +8,7 @@ const MobileFooter = () => {
                     <div className="flex gap-2">
 
                         <div className="flex justify-center items-center">
-                            <img className="w-[36px] rounded-lg" src={logo} alt="" />
+                            <img className="w-[36px] rounded-lg" src={logo} alt="Utshob app logo" width="180" height="180" loading="lazy" decoding="async" />
                         </div>
                         <div>
                             <p className="text-[16px] font-semibold">Download App</p>

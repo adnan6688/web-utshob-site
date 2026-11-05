@@ -1,4 +1,3 @@
-import React from 'react';
 import logo from '../assets/logo-utsab (1).png'
 
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
@@ -17,6 +16,10 @@ const Footer = () => {
                             src={logo}
                             alt="Utshob Logo"
                             className="h-12 w-auto object-contain mb-4"
+                            width="507"
+                            height="255"
+                            loading="lazy"
+                            decoding="async"
                         />
                     </div>
                 </div>

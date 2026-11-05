@@ -1,10 +1,19 @@
 
 
 const Count = () => {
-    const highlights = [
-        'Event requests from multiple service categories',
-        'Transparent quotation comparisons before booking',
-        'Support for planning and event execution across Bangladesh',
+    const stats = [
+        {
+            value: '800+',
+            label: 'Events Served',
+        },
+        {
+            value: '1,500+',
+            label: 'Services Delivered',
+        },
+        {
+            value: '2,000+',
+            label: 'Registered Partners — Growing',
+        },
     ];
 
     return (
@@ -20,16 +29,16 @@ const Count = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
-                    {highlights.map((highlight, index) => (
+                    {stats.map((stat, index) => (
                         <div
                             key={index}
-                            className="bg-[#F9FAFB] rounded-2xl sm:rounded-[20px] p-8 sm:p-5 text-center flex flex-col items-center gap-y-2.5 justify-center border border-gray-100 shadow-[0_4px_18px_rgba(0,0,0,0.06)] transition-shadow duration-300 ease-in-out "
+                            className="bg-white rounded-2xl sm:rounded-[20px] p-8 sm:p-5 text-center flex flex-col items-center gap-y-2.5 justify-center border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_28px_rgba(0,0,0,0.08)] transition-all duration-300 ease-in-out"
                         >
                             <span className="text-3xl sm:text-[32px] font-bold text-[#E62E77] leading-[145%] tracking-normal">
-                                {`0${index + 1}`}
+                                {stat.value}
                             </span>
                             <span className="text-sm sm:text-[14px] font-semibold text-[#626773] leading-[145%] tracking-normal">
-                                {highlight}
+                                {stat.label}
                             </span>
                         </div>
                     ))}

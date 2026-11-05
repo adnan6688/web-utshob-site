@@ -85,6 +85,8 @@ export default function EventService() {
                         key={service.id}
                         title={service.title}
                         img={service.img}
+                        imgWidth={service.key === 'rides-band-party' ? 600 : 480}
+                        imgHeight={service.key === 'rides-band-party' ? 261 : 210}
                         bgColour={service.bgColour}
                         description={service.description}
                         bottomText={service.bottomText}

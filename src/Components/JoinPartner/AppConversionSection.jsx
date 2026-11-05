@@ -56,6 +56,10 @@ export const AppConversionSection = ({
                     src={appicon}
                     alt="Partner"
                     className="h-8 w-8 rounded-full object-cover"
+                    width="324"
+                    height="324"
+                    loading="lazy"
+                    decoding="async"
                   />
                 )}
 
@@ -67,7 +71,7 @@ export const AppConversionSection = ({
           <div className=' hidden sm:block'>
             <QRCard
 
-              label="Customer APP"
+              label={app == 'partner' ? "Partner APP" : "Customer APP"}
               title="Scan to download"
               androidText="Android available now"
               iosText="iOS coming soon"
@@ -92,6 +96,8 @@ export const AppConversionSection = ({
               alt={imageAlt}
               loading="lazy"
               decoding="async"
+              width="548"
+              height="1080"
               className="max-h-[500px] w-full max-w-[320px] object-contain sm:max-w-[380px] lg:max-w-[420px]"
             />
           </div>

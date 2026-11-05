@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router";
 import logo from "../assets/logo-utsab (1).png";
@@ -79,6 +79,9 @@ const Navbar = () => {
                             className="w-[70px] sm:w-[85px] lg:w-[90px]"
                             src={logo}
                             alt="Utshob Logo"
+                            width="507"
+                            height="255"
+                            decoding="async"
                         />
                     </Link>
 

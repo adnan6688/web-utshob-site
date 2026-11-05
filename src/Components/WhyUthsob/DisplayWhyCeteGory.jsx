@@ -9,11 +9,19 @@ const DisplayWhyCeteGory = ({item}) => {
                         className="transform block  w-[80px] sm:hidden hover:scale-105 hover:brightness-105 transition duration-500 ease-in-out object-contain"
                         src={item?.image2}
                         alt={item?.title || "image"}
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                        decoding="async"
                     />
                     <img
                         className="transform w-[100px] hidden sm:block hover:scale-105 hover:brightness-105 transition duration-500 ease-in-out object-contain"
                         src={item?.img}
                         alt={item?.title || "image"}
+                        width="100"
+                        height="100"
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
                 <div className="flex justify-center mt-2">
