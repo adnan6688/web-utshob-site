@@ -53,8 +53,8 @@ export default function Root() {
       <meta name="twitter:image:alt" content="Utshob.xyz - Event Services in Bangladesh" />
 
         <link rel="icon" type="image/png" href="../../assets/logo-utsab (1).png" />
-        <link rel="apple-touch-icon" href="../../assets/logo-utsab (1).png" />
-        <link rel="shortcut icon" href="../../assets/logo-utsab (1).png" />
+        <link rel="logo-utsab-icon" href="../../assets/logo-utsab (1).png" />
+        <link rel="shortcut icon" href="/apple-touch-icon.png" />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageStructuredData) }} />
 
