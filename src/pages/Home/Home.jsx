@@ -171,7 +171,7 @@ const Home = () => {
 
             {/* Why Utshob */}
             <div className="mt-12 bg-[#F3F4F6] sm:mt-16">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-0 sm:px-6 sm:py-12 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-0 sm:px-6 sm:py-0 lg:px-0">
                     <WhyUseUtshobSection />
                 </div>
             </div>
@@ -184,7 +184,7 @@ const Home = () => {
             <div className="bg-[#EDF8FF] ">
                 <div
                     ref={partnerRef}
-                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
+                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-8 lg:px-0"
                 >
                     <AppConversionSection
                         title="Your Event Services, in One App"

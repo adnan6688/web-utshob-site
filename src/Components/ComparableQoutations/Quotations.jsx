@@ -4,7 +4,7 @@ import ServiceComparison from './ServiceComparison'
 
 export default function Quotations() {
     return (
-        <div className='sm:py-[52px] flex flex-col gap-y-6'>
+        <div className='sm:py-[20px] flex flex-col gap-y-6'>
 
             <div className='flex flex-col gap-y-4 md:flex-row justify-between'>
 
