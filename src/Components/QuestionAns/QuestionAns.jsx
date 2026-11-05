@@ -20,7 +20,7 @@ const QuestionAns = ({
 
     return (
         <div className="relative flex flex-col gap-y-3 overflow-hidden">
-            <h2 className="text-[34px] font-bold leading-[120%] tracking-normal">
+            <h2 className=" text-2xl sm:text-[34px] font-bold leading-[120%] tracking-normal">
                 {title}
             </h2>
 

@@ -213,7 +213,7 @@ export default function DesignLedFeature() {
             onClick={() => {
               // TODO: Connect the approved DESIGN_GALLERY route
             }}
-            className="w-[80%] sm:w-auto rounded-[9px] bg-[#E62E77] px-3.5 flex gap-x-2 py-3 text-center text-[13px] font-semibold text-white hover:bg-[#CC0166] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#CC0166] "
+            className="w-[80%] sm:w-auto rounded-[9px] bg-[#E62E77] px-3.5 flex gap-x-2 py-3 text-center text-[10px] font-semibold text-white hover:bg-[#CC0166] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#CC0166] "
           >
             Explore Designs in the Utshob App
           </Button>

@@ -15,7 +15,7 @@ const Bannar = () => {
       {/* Hero Content */}
       <div
         data-aos="fade-right"
-        className="w-full border space-y-[14px]  text-start sm:px-0 sm:text-left md:w-[65%]"
+        className="w-full  space-y-[14px]  text-start sm:px-0 sm:text-left md:w-[65%]"
       >
         <p className="text-[12px] bg-[#FFF1F6] rounded-l-full rounded-r-full w-fit p-2 font-semibold leading-[145%] tracking-normal">
           Event App মানেই Utshob.xyz

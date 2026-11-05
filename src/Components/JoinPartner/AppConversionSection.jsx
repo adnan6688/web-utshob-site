@@ -25,7 +25,7 @@ export const AppConversionSection = ({
       <div className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-16">
         {/* Content */}
         <div className="flex w-full flex-col gap-y-[14px] lg:flex-2 ">
-          <h2 className="text-3xl font-bold leading-[145%] tracking-normal text-[#111318] sm:text-[38px]">
+          <h2 className="text-2xl font-bold leading-[145%] tracking-normal text-[#111318] sm:text-[38px]">
             {title}
           </h2>
 

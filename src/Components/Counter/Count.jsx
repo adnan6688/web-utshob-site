@@ -22,7 +22,7 @@ const Count = () => {
                 {/* Section Header */}
                 <div className="flex flex-col gap-y-4">
                     {/* Exact H2 Heading matching SEO & AEO Hand-off specs */}
-                    <h2 className="text-[28px] text-wrap sm:text-[38px] font-bold text-[#111318] tracking-normal leading-[145%]">
+                    <h2 className="text-2xl text-wrap sm:text-[38px] font-bold text-[#111318] tracking-normal leading-[145%]">
                         Growing Across Bangladesh
                     </h2>
                     <p className="text-base sm:text-[15px] text-[#626773] leading-[145%]">

@@ -9,7 +9,7 @@ export default function Quotations() {
             <div className='flex flex-col gap-y-4 md:flex-row justify-between'>
 
 
-                <div className='md:w-[40%] flex flex-col gap-y-3'>
+                <div className='w-full md:w-[40%] flex flex-col gap-y-3'>
 
                     <span className="inline-flex w-fit max-w-full flex-wrap items-center gap-x-1 sm:gap-x-2 rounded-md bg-[#FFF1F6] p-2.5 sm:pr-10 rounded-l-full rounded-r-full font-inter text-[11px] font-semibold leading-[16px] tracking-normal text-[#E62E77]">
                         <span className="mr-1 flex items-center gap-2">
@@ -28,7 +28,7 @@ export default function Quotations() {
 
                     <h2
                         id="service-comparison-heading"
-                        className="font-bold text-[#111318] leading-[38px] text-[30px] [word-spacing:4px] sm:leading-[38px] lg:text-[36px] lg:leading-[46px] lg:[word-spacing:normal]"
+                        className="font-bold text-[#111318] leading-[38px] text-[30px]  sm:leading-[38px] lg:text-[36px] lg:leading-[46px] lg:[word-spacing:normal]"
                     >
                         From One Requirement to Comparable Quotations
                     </h2>
