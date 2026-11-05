@@ -1,5 +1,4 @@
 
-import { BsQrCode } from "react-icons/bs";
 import customerBarCode from '../../assets/web Images/Barcode/customerQr.webp'
 import partnerbarCode from '../../assets/web Images/Barcode/partnerQr.webp'
 

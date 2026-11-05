@@ -1,4 +1,6 @@
 import logo from '../assets/logo-utsab (1).png'
+import customerBarCode from '../assets/web Images/Barcode/customerQr.webp'
+import partnerbarCode from '../assets/web Images/Barcode/partnerQr.webp'
 
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
@@ -8,7 +10,7 @@ import { BsQrCode } from "react-icons/bs";
 const Footer = () => {
     return (
         <footer className="bg-[#EEF3F2] text-[#4a5568]">
-            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-0  sm:pt-16 pb-4 sm:py-16">
+            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-0  sm:pt-10 pb-4 sm:py-16">
                 {/* Top Section: Logo & Links */}
                 <div>
                     <div className="col-span-1">
@@ -78,41 +80,56 @@ const Footer = () => {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             {/* Customer App Card */}
-                            <div className="border border-[#f8b4d9] bg-[#fff5f9] rounded-2xl p-[14px] flex items-center gap-4">
-
-                                <BsQrCode className='w-20 h-20 p-1 rounded-lg  object-cover'></BsQrCode>
+                            <div className="border border-[#DF266F] bg-[#FFF1F6] rounded-2xl p-[14px] flex items-center gap-4">
+                                <img
+                                    src={customerBarCode}
+                                    alt="Utshob customer app QR code"
+                                    width="80"
+                                    height="80"
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="w-20 h-20 rounded-lg object-cover"
+                                />
                                 <div className='bg-white flex-1 px-1'>
                                     <h4 className="font-bold text-gray-900 text-base">Customer App</h4>
                                     <p className="text-[#e91e63] font-semibold text-sm">Android available</p>
-                                    <p className="text-gray-400 text-xs mt-1">iOS — Coming soon</p>
-                                    <p className="text-gray-400 text-xs">Scan to download</p>
+                                    <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
+                                    <p className="text-[#626773] text-xs">Scan to download</p>
                                 </div>
                             </div>
 
                             {/* Partner App Card */}
-                            <div className="border border-[#bfe0db] bg-[#f4faf8] rounded-2xl p-4 flex items-center gap-4">
-                                <BsQrCode className='w-20 h-20 p-1 rounded-lg  object-cover'></BsQrCode>
+                            <div className="border border-[#367A70] bg-[#F1F7F6] rounded-2xl p-4 flex items-center gap-4">
+                                <img
+                                    src={partnerbarCode}
+                                    alt="Utshob partner app QR code"
+                                    width="80"
+                                    height="80"
+                                    loading="lazy"
+                                    decoding="async"
+                                    className="w-20 h-20 rounded-lg object-cover"
+                                />
                                 <div className='bg-white flex-1 p-2'>
                                     <h4 className="font-bold text-gray-900 text-base">Partner App</h4>
                                     <p className="text-[#2ca58d] font-semibold text-sm">Android available</p>
-                                    <p className="text-gray-400 text-xs mt-1">iOS — Coming soon</p>
-                                    <p className="text-gray-400 text-xs">Scan to download</p>
+                                    <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
+                                    <p className="text-[#626773] text-xs">Scan to download</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Contact & Follow Box */}
-                    <div className="lg:col-span-4 bg-[#f4faf8] border border-[#d1e8e2] rounded-2xl p-6 flex flex-col justify-between">
+                    <div className="lg:col-span-4 bg-[#F1F7F6] border border-[#367A70] rounded-2xl p-6 flex flex-col justify-between">
                         <div>
-                            <h3 className="font-bold text-gray-900 text-lg mb-3">Contact & Follow</h3>
+                            <h3 className="font-semibold text-[#111318] text-[20px] mb-3">Contact & Follow</h3>
 
                             <div className="space-y-2 mb-4">
                                 <a
                                     href="tel:+8801575336382"
-                                    className="flex items-center gap-2 text-[#2ca58d] font-bold text-base hover:underline"
+                                    className="flex items-center gap-2 text-[#367A70] font-bold text-base hover:underline"
                                 >
-                                    <FaPhoneAlt className="text-sm" />
+
                                     +88 01575 336382
                                 </a>
 
