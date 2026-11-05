@@ -38,7 +38,7 @@ export default function Root() {
         <meta property="og:description" content="Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.utshob.xyz/" />
-        <meta property="og:image" content="../../assets/logo-utsab (1).png" />
+        <meta property="og:image" content="/utshob-event-services-bangladesh.png" />
 
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -49,11 +49,11 @@ export default function Root() {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Utshob.xyz | Event Services in Bangladesh | Compare Quotations" />
       <meta name="twitter:description" content="Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app." />
-      <meta name="twitter:image" content="../../assets/logo-utsab (1).png" />
+      <meta name="twitter:image" content="utshob-event-services-bangladesh.png" />
       <meta name="twitter:image:alt" content="Utshob.xyz - Event Services in Bangladesh" />
 
-        <link rel="icon" type="image/png" href="../../assets/logo-utsab (1).png" />
-        <link rel="logo-utsab-icon" href="../../assets/logo-utsab (1).png" />
+        <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
+        <link rel="logo-utsab-icon" href="/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/apple-touch-icon.png" />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageStructuredData) }} />

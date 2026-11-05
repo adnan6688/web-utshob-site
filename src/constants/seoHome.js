@@ -38,8 +38,10 @@ export const organizationSchema = {
   url: 'https://www.utshob.xyz/',
   logo: 'https://www.utshob.xyz/apple-touch-icon.png',
   sameAs: [
-    'https://play.google.com/store/apps/details?id=xyz.Utshob',
-    'https://www.utshob.xyz/',
+    "https://www.facebook.com/utshob.xyz.official",
+    "https://www.linkedin.com/company/utshob-xyz/",
+    "https://www.instagram.com/utshob.xyz/",
+    'https://www.youtube.com/@utshob.xyz.official'
   ],
   contactPoint: {
     '@type': 'ContactPoint',
