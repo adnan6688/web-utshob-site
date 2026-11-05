@@ -23,7 +23,7 @@ const Bannar = () => {
 
         <h1
           id="hero-heading"
-          className="font-inter text-[40px] font-bold leading-snug tracking-normal text-[#111318] md:text-2xl lg:text-[56px] lg:leading-[115%]"
+          className="font-inter text-[36px] sm:text-[40px] font-bold leading-snug tracking-normal text-[#111318] md:text-2xl lg:text-[56px] lg:leading-[115%]"
         >
           Find Event Services Across Bangladesh
         </h1>

@@ -30,12 +30,12 @@ const Navbar = () => {
         menuItems.map((item) => {
             const className = `${
                 mobile
-                    ? "block w-full rounded-lg px-4 py-3 text-sm"
-                    : "whitespace-nowrap text-sm xl:text-base"
+                    ? "block w-full rounded-lg px-4 py-3 "
+                    : "whitespace-nowrap "
             } ${
                 activeMenu === item.path
-                    ? "font-semibold text-[#E62E77] bg-[#FFF1F6]"
-                    : "text-gray-700 hover:text-[#E62E77]"
+                    ? " "
+                    : "text-gray-700 "
             } transition-colors duration-200`;
 
             if (location.pathname !== "/") {
@@ -83,26 +83,19 @@ const Navbar = () => {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <nav className="hidden items-center gap-3 lg:flex xl:gap-4">
+                    <nav className="hidden text-sm font-medium  items-center gap-3 lg:flex xl:gap-4">
                         {renderMenuItems()}
                     </nav>
 
                     {/* Right Side Actions */}
                     <div className="flex shrink-0 items-center gap-2">
 
-                        {/* Get Quotations - Desktop */}
-                        <div className="hidden lg:block">
-                            <Button className="rounded-[10px] bg-[#E62E77] px-5 py-3 text-sm font-semibold leading-[145%] text-white transition-all duration-300 hover:bg-[#CC2165]">
-                                Get Quotations in App
-                            </Button>
-                        </div>
-
                         {/* Download App - Tablet and Desktop */}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details?id=xyz.Utshob"
-                            className="hidden items-center justify-center whitespace-nowrap rounded-[10px] border border-[#E62E77] bg-white px-4 py-2.5 text-xs font-semibold text-[#E62E77] transition-all duration-300 hover:bg-[#FFF1F6] sm:inline-flex lg:px-5 lg:py-3 lg:text-sm"
+                            className="hidden items-center justify-center whitespace-nowrap rounded-[10px] border border-[#DF266F] bg-white px-4 py-2.5 text-xs font-semibold text-[#111318] transition-all duration-300 hover:bg-[#FFF1F6] sm:inline-flex lg:px-5 lg:py-3 lg:text-sm"
                         >
                             Download App
                         </a>
@@ -132,7 +125,7 @@ const Navbar = () => {
                             : "max-h-0 pb-0 opacity-0"
                     }`}
                 >
-                    <nav className="flex flex-col gap-1 border-t border-gray-100 pt-3">
+                    <nav className="flex flex-col text-sm font-medium gap-1 border-t border-gray-100 pt-3">
                         {renderMenuItems(true)}
                     </nav>
                 </div>
