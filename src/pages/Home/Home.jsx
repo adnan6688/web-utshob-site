@@ -222,6 +222,8 @@ const Home = () => {
                     className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
                 >
                     <AppConversionSection
+                        requestHomeUrl='https://play.google.com/store/apps/details?id=xyz.utshob.partner'
+                        appDownloadUrl='https://play.google.com/store/apps/details?id=xyz.utshob.partner'
                         title="Grow Your Event Service Business with Utshob"
                         des="Receive relevant customer requests, submit your quotation and get the opportunity to be selected based on your offer and service profile."
                         button1="Join as a Service Provider"

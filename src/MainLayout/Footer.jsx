@@ -127,21 +127,21 @@ const Footer = () => {
                             <p className="text-xs font-semibold text-gray-700 mb-3">Follow Utshob</p>
                             <div className="flex gap-2">
                                 <a
-                                    href="#"
+                                    href="https://www.facebook.com/utshob.xyz.official"
                                     aria-label="Facebook"
                                     className="w-9 h-9 bg-white text-[#1877f2] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
                                 >
                                     <FaFacebookF />
                                 </a>
                                 <a
-                                    href="#"
+                                    href="https://www.linkedin.com/company/utshob-xyz/"
                                     aria-label="LinkedIn"
                                     className="w-9 h-9 bg-white text-[#0a66c2] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
                                 >
                                     <FaLinkedinIn />
                                 </a>
                                 <a
-                                    href="#"
+                                    href="https://www.instagram.com/utshob.xyz/"
                                     aria-label="Instagram"
                                     className="w-9 h-9 bg-white text-[#e4405f] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
                                 >
