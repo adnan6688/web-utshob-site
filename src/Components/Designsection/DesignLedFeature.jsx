@@ -192,7 +192,7 @@ export default function DesignLedFeature() {
         {/* Section Heading */}
         <h2
           id="design-led-heading"
-          className="text-[30px] font-bold leading-[145%] tracking-normal text-[#111318] sm:text-[38px] "
+          className="text-2xl font-bold leading-[145%] tracking-normal text-[#111318] sm:text-[38px] "
         >
           Choose a Design or Bring Your Own Idea
         </h2>

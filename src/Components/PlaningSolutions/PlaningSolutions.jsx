@@ -86,7 +86,7 @@ export default function PlanningSolutions() {
         {/* Heading */}
         <h2
           id="planning-solutions-heading"
-          className=" text-[30px]  sm:text-[37px] font-bold leading-[145%]  [word-spacing:9px] tracking-normal sm:[word-spacing:0px] text-[#111318]"
+          className=" text-2xl  sm:text-[37px] font-bold leading-[145%]  tracking-normal text-[#111318]"
         >
           Planning an Entire Event?
         </h2>

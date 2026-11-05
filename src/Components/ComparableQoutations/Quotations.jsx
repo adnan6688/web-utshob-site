@@ -28,7 +28,7 @@ export default function Quotations() {
 
                     <h2
                         id="service-comparison-heading"
-                        className="font-bold text-[#111318] leading-[38px] text-[30px]  sm:leading-[38px] lg:text-[36px] lg:leading-[46px] lg:[word-spacing:normal]"
+                        className="font-bold text-[#111318] leading-[38px] text-2xl  sm:leading-[38px] lg:text-[36px] lg:leading-[46px] lg:[word-spacing:normal]"
                     >
                         From One Requirement to Comparable Quotations
                     </h2>
