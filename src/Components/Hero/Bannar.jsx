@@ -70,14 +70,15 @@ const Bannar = () => {
 
       <div data-aos="fade-left" className="sm:block md:w-[35%]">
         <div className="mx-auto flex w-[80%] justify-center sm:w-[70%] md:mx-0 md:w-full">
-          <img
-            src={bannar}
-            alt="Utshob app showing event service quotations and provider comparison across Bangladesh"
-            width="548"
-            height="1080"
-            fetchPriority="high"
-            decoding="async"
-            className="w-full sm:w-[80%] md:w-full lg:h-2/3 lg:w-[250px]"
+            <img
+              src={bannar}
+              alt="Utshob app showing event service quotations and provider comparison across Bangladesh"
+              width="548"
+              height="1080"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+              className="w-full sm:w-[80%] md:w-full lg:h-2/3 lg:w-[250px]"
           />
         </div>
       </div>
