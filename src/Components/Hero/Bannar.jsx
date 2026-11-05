@@ -10,12 +10,12 @@ const Bannar = () => {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative pt-25 sm:pt-18 sm:mt-10  flex flex-col items-center justify-between gap-12 overflow-hidden sm:py-20 md:flex-row"
+      className="relative  pt-25 sm:pt-18 sm:mt-10  flex flex-col items-center justify-between gap-12 overflow-hidden sm:py-20 md:flex-row"
     >
       {/* Hero Content */}
       <div
         data-aos="fade-right"
-        className="w-full space-y-[14px] px-3 text-start sm:px-0 sm:text-left md:w-[65%]"
+        className="w-full border space-y-[14px]  text-start sm:px-0 sm:text-left md:w-[65%]"
       >
         <p className="text-[12px] bg-[#FFF1F6] rounded-l-full rounded-r-full w-fit p-2 font-semibold leading-[145%] tracking-normal">
           Event App মানেই Utshob.xyz
