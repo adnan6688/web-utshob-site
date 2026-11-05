@@ -6,10 +6,12 @@ import car from '../../assets/web Images/CarRental/car.webp'
 import cake from '../../assets/web Images/Cake/cake.webp'
 import bandparty from '../../assets/web Images/BandParty/bandParty.webp'
 import eventRantal from '../../assets/web Images/EventRental/evenRental.webp'
+import { CATEGORY_ROUTE } from '../../constants/seoHome';
 
 const eventServices = [
     {
         id: 1,
+        key: 'event-decoration',
         title: "Event Decoration",
         img : decorImage,
         bgColour: "#FFF1F6",
@@ -19,6 +21,7 @@ const eventServices = [
     },
     {
         id: 2,
+        key: 'photography-videography',
         title: "Photography & Videography",
         img : memories,
         bgColour: "#EDF8FF",
@@ -28,6 +31,7 @@ const eventServices = [
     },
     {
         id: 3,
+        key: 'car-rental',
         title: "Car Rental",
         img : car,
         bgColour: "#FFF1F6",
@@ -37,6 +41,7 @@ const eventServices = [
     },
     {
         id: 4,
+        key: 'rides-band-party',
         title: "Rides & Band Party",
         img : bandparty,
         bgColour: "#FFF1F6",
@@ -46,6 +51,7 @@ const eventServices = [
     },
     {
         id: 5,
+        key: 'cake',
         title: "Cake",
         img: cake,
         bgColour: "#FFF1F6",
@@ -55,6 +61,7 @@ const eventServices = [
     },
     {
         id: 6,
+        key: 'event-rental-support',
         title: "Event Rental",
         img : eventRantal,
         bgColour: "#FFF1F6",
@@ -66,9 +73,7 @@ const eventServices = [
 
 export default function EventService() {
     return (
-        <div className='flex flex-col gap-y-5'>
-
-
+        <div id="event-services" className='flex flex-col gap-y-5'>
             <div className='flex flex-col gap-y-[22px] '>
                 <h2 className='font-bold  text-[#111318] leading-[145%] text-[30px] tracking-normal'>Event Services You Can Find on Utshob</h2>
                 <p className='text-[#626773] text-[16px]'>From decoration and photography to transport, cake and event support, choose the service you need and request quotations through the Utshob app.</p>
@@ -83,6 +88,7 @@ export default function EventService() {
                         bgColour={service.bgColour}
                         description={service.description}
                         bottomText={service.bottomText}
+                        href={CATEGORY_ROUTE(service.key)}
                     />
                 ))}
             </div>

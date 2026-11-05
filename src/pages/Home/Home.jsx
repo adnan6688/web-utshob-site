@@ -54,7 +54,6 @@ const faqs = [
     },
 ];
 
-
 const faqsBn = [
     {
         q: "Utshob.xyz কী?",
@@ -102,6 +101,19 @@ const faqsBn = [
     },
 ];
 
+const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+        },
+    })),
+};
+
 const Home = () => {
 
     const { whyRef, customerRef, partnerRef, homeRef } = AuthHooks()
@@ -109,6 +121,7 @@ const Home = () => {
 
     return (
         <div className=' '>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             {/* Hero */}
             <div className="bg-[#F7F8FA]" ref={homeRef}>
                 <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0">
@@ -191,7 +204,7 @@ const Home = () => {
             </div>
 
             {/* Bangla FAQ */}
-            <div className="bg-[#F3F4F6]">
+            <div className="bg-[#F3F4F6]" lang="bn">
                 <div className="mx-auto w-full max-w-[1180px] px-4 py-10 sm:px-6 sm:py-13 lg:px-0">
                     <QuestionAns
                         title="Utshob.xyz নিয়ে বিভিন্ন প্রশ্নোত্তর"

@@ -19,8 +19,8 @@ const QuestionAns = ({
     };
 
     return (
-        <div className="relative flex flex-col gap-y-3 overflow-hidden">
-            <h2 className=" text-2xl sm:text-[34px] font-bold leading-[120%] tracking-normal">
+        <div className="relative flex flex-col gap-y-3 overflow-hidden" lang={en_Or_bn === 'bn' ? 'bn' : 'en'}>
+            <h2 className="text-2xl sm:text-[34px] font-bold leading-[120%] tracking-normal">
                 {title}
             </h2>
 
@@ -84,11 +84,11 @@ const QuestionAns = ({
                     >
                         {showAll ? (
                             <>
-                                Show Less <FaArrowUp size={12} />
+                                {en_Or_bn === "bn" ? 'কম প্রশ্ন দেখুন' : 'Show Less'} <FaArrowUp size={12} />
                             </>
                         ) : (
                             <>
-                                Show more questions <FaArrowDown size={12} />
+                                {en_Or_bn === "bn" ? 'আরও প্রশ্ন দেখুন' : 'Show more questions'} <FaArrowDown size={12} />
                             </>
                         )}
                     </button>

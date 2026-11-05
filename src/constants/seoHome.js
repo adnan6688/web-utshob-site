@@ -11,7 +11,7 @@ export const CATEGORY_ROUTE = (categoryKey) => {
     'photography-videography': '/#event-services',
     'car-rental': '/#event-services',
     'rides-band-party': '/#event-services',
-    cake: '/#event-services',
+    'cake': '/#event-services',
     'event-rental-support': '/#event-services',
   };
 
@@ -35,8 +35,11 @@ export const organizationSchema = {
   name: 'Utshob.xyz',
   legalName: 'Utsab Platform Limited',
   url: 'https://www.utshob.xyz/',
-  logo: 'https://www.utshob.xyz/logo-utsab.png',
-  sameAs: ['https://play.google.com/store/apps/details?id=xyz.Utshob'],
+  logo: 'https://www.utshob.xyz/apple-touch-icon.png',
+  sameAs: [
+    'https://play.google.com/store/apps/details?id=xyz.Utshob',
+    'https://www.utshob.xyz/',
+  ],
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'customer support',
@@ -59,6 +62,19 @@ export const homepageStructuredData = {
         '@type': 'SearchAction',
         target: 'https://www.utshob.xyz/?q={search_term_string}',
         'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'WebPage',
+      url: 'https://www.utshob.xyz/',
+      name: 'Utshob.xyz | Event Services in Bangladesh | Compare Quotations',
+      description: 'Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app.',
+      inLanguage: 'en',
+      isPartOf: {
+        '@id': 'https://www.utshob.xyz/#website',
+      },
+      about: {
+        '@id': 'https://www.utshob.xyz/#organization',
       },
     },
   ],

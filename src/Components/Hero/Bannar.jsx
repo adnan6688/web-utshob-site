@@ -5,17 +5,17 @@ import { FaArrowRight } from "react-icons/fa";
 import bannar from "../../assets/web Images/Hero image/heroimage.webp";
 import logoIcon from "../../assets/apple-touch-icon.png";
 import Button from "../Shared/Button";
+import { APP_DOWNLOAD_URL, REQUEST_HOME } from '../../constants/seoHome';
 
 const Bannar = () => {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative  pt-25 sm:pt-18 sm:mt-10  flex flex-col items-center justify-between gap-12 overflow-hidden sm:py-20 md:flex-row"
+      className="relative pt-25 sm:pt-18 sm:mt-10 flex flex-col items-center justify-between gap-12 overflow-hidden sm:py-20 md:flex-row"
     >
-      {/* Hero Content */}
       <div
         data-aos="fade-right"
-        className="w-full  space-y-[14px]  text-start sm:px-0 sm:text-left md:w-[65%]"
+        className="w-full space-y-[14px] text-start sm:px-0 sm:text-left md:w-[65%]"
       >
         <p className="text-[12px] bg-[#FFF1F6] rounded-l-full rounded-r-full w-fit p-2 font-semibold leading-[145%] tracking-normal">
           Event App মানেই Utshob.xyz
@@ -34,7 +34,6 @@ const Bannar = () => {
           before you book.
         </p>
 
-        {/* Booking Steps */}
         <div className="flex flex-wrap items-center gap-2 font-inter text-[16px] font-semibold tracking-normal text-[#111318]">
           <span>One Request</span>
           <FaArrowRight className="shrink-0" aria-hidden="true" />
@@ -52,27 +51,29 @@ const Bannar = () => {
           সারাদেশে ইভেন্ট সার্ভিস খুঁজুন, তুলনা করুন ও বুক করুন।
         </p>
 
-        {/* CTA Buttons */}
         <div className="flex flex-col gap-y-3 sm:flex-row sm:gap-x-3">
           <Button
             img={logoIcon}
+            onClick={() => window.open(APP_DOWNLOAD_URL, '_blank', 'noopener,noreferrer')}
             className="flex gap-x-2 rounded-[10px] bg-[#E62E77] py-2 text-[14px] font-semibold leading-[145%] tracking-normal text-white sm:px-4"
           >
             Get Quotations in App
           </Button>
 
-          <Button className="rounded-[10px] border border-[#E62E77] bg-white py-3 text-[14px] font-semibold leading-[145%] tracking-normal text-[#111318] sm:px-4">
+          <a
+            href="#event-services"
+            className="inline-flex items-center justify-center rounded-[10px] border border-[#E62E77] bg-white px-4 py-3 text-[14px] font-semibold leading-[145%] tracking-normal text-[#111318] transition-colors hover:bg-[#FFF1F6] sm:px-4"
+          >
             Explore Event Services
-          </Button>
+          </a>
         </div>
       </div>
 
-      {/* Hero Image */}
       <div data-aos="fade-left" className="sm:block md:w-[35%]">
         <div className="mx-auto flex w-[80%] justify-center sm:w-[70%] md:mx-0 md:w-full">
           <img
             src={bannar}
-            alt="Utshob event services banner"
+            alt="Utshob app showing event service quotations and provider comparison across Bangladesh"
             width="500"
             height="500"
             fetchPriority="high"

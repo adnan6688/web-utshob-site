@@ -1,6 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
-import Button from "../Shared/Button";
-
+import { PLANNER_ROUTE } from '../../constants/seoHome';
 
 const planningSolutions = [
   {
@@ -11,7 +10,7 @@ const planningSolutions = [
     cta: "Explore Event Planning",
     background: "bg-white",
     badge: "pink",
-    route: "EVENT_PLANNER",
+    route: "event-planner",
   },
   {
     id: "02",
@@ -21,7 +20,7 @@ const planningSolutions = [
     cta: "Explore Wedding Planning",
     background: "bg-white",
     badge: "pink",
-    route: "WEDDING_PLANNER",
+    route: "wedding-planner",
   },
   {
     id: "03",
@@ -31,7 +30,7 @@ const planningSolutions = [
     cta: "Explore Birthday Planning",
     background: "bg-[#F1F7F6]",
     badge: "plain",
-    route: "BIRTHDAY_PLANNER",
+    route: "birthday-planner",
   },
   {
     id: "04",
@@ -41,18 +40,17 @@ const planningSolutions = [
     cta: "Explore Corporate Events",
     background: "bg-white",
     badge: "pink",
-    route: "CORPORATE_PLANNER",
+    route: "corporate-event-management",
   },
 ];
 
 function PlanningCard({ item }) {
   return (
-   <article
-  className={`flex flex-col gap-y-3 rounded-[18px] border border-[#D6E5E2] shadow-[0_6px_20px_rgba(17,24,39,0.08)] transition-shadow duration-300 ease-in-out hover:shadow-[0_10px_28px_rgba(17,24,39,0.12)] p-5 ${item.background}`}
->
-      {/* Number */}
+    <article
+      className={`flex flex-col gap-y-3 rounded-[18px] border border-[#D6E5E2] shadow-[0_6px_20px_rgba(17,24,39,0.08)] transition-shadow duration-300 ease-in-out hover:shadow-[0_10px_28px_rgba(17,24,39,0.12)] p-5 ${item.background}`}
+    >
       <span
-        className={` inline-flex w-8 h-5 sm:w-8 sm:h-5 items-center justify-center rounded-full  font-semibold ${
+        className={`inline-flex w-8 h-5 sm:w-8 sm:h-5 items-center justify-center rounded-full font-semibold ${
           item.badge === "pink"
             ? "bg-[#E62E77] text-white"
             : "text-[#111318]"
@@ -61,16 +59,21 @@ function PlanningCard({ item }) {
         {item.id}
       </span>
 
-      {/* Card title */}
       <h3 className="font-semibold leading-[18px] tracking-normal text-[#18181B] text-[18px] sm:leading-[145%]">
         {item.title}
       </h3>
 
-      {/* Description */}
-      <p className="  tracking-normal leading-[15px] text-[#626773] text-[13px] sm:leading-[145%]">
+      <p className="tracking-normal leading-[15px] text-[#626773] text-[13px] sm:leading-[145%]">
         {item.description}
       </p>
 
+      <a
+        href={PLANNER_ROUTE(item.route)}
+        className="mt-auto inline-flex items-center gap-2 text-[13px] font-semibold text-[#111318] hover:text-[#DF266F]"
+      >
+        <span>{item.cta}</span>
+        <FaArrowRight className="shrink-0" aria-hidden="true" />
+      </a>
     </article>
   );
 }
@@ -83,20 +86,17 @@ export default function PlanningSolutions() {
       className="w-full bg-white px-2 sm:px-0"
     >
       <div className="flex flex-col gap-y-[22px]">
-        {/* Heading */}
         <h2
           id="planning-solutions-heading"
-          className=" text-2xl  sm:text-[37px] font-bold leading-[145%]  tracking-normal text-[#111318]"
+          className="text-2xl sm:text-[37px] font-bold leading-[145%] tracking-normal text-[#111318]"
         >
           Planning an Entire Event?
         </h2>
 
-        {/* Description */}
-        <p className=" font-normal leading-[145%] tracking-normal text-[#626773] text-[16px] ">
-         Explore planning solutions for weddings, birthdays, corporate events and other occasions, and understand which services you may need for each part of your event.
+        <p className="font-normal leading-[145%] tracking-normal text-[#626773] text-[16px]">
+          Explore planning solutions for weddings, birthdays, corporate events and other occasions, and understand which services you may need for each part of your event.
         </p>
 
-        {/* Planner cards */}
         <div className="grid grid-cols-1 gap-[12px] sm:grid-cols-2 lg:grid-cols-4 lg:gap-[14px]">
           {planningSolutions.map((item) => (
             <PlanningCard
