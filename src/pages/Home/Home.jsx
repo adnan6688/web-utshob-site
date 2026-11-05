@@ -158,7 +158,7 @@ const Home = () => {
 
             {/* Why Utshob */}
             <div className="mt-12 bg-[#F3F4F6] sm:mt-16">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-6 sm:py-12 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-0 sm:px-6 sm:py-12 lg:px-0">
                     <WhyUseUtshobSection />
                 </div>
             </div>

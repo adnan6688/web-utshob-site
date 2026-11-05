@@ -88,7 +88,7 @@ export const WhyUseUtshobSection = () => {
   ];
 
   return (
-    <section className="py-[64px]">
+    <section className="py-[30px] sm:py-[64px]">
       <div className="flex flex-col gap-y-[22px]">
         {/* Exact H2 Heading matching SEO & AEO Hand-off specs */}
         <h2 className="text-2xl sm:text-[38px] font-bold text-[#111318]  tracking-normal">
