@@ -134,11 +134,11 @@ const Footer = () => {
                                 </a>
 
                                 <a
-                                    href="mailto:info@utshob.xyz"
+                                    href="mailto:utshobplatform@utshob.xyz"
                                     className="flex items-center gap-2 text-gray-500 text-sm hover:underline"
                                 >
                                     <FaEnvelope className="text-xs" />
-                                    info@utshob.xyz
+                                    utshobplatform@utshob.xyz
                                 </a>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ const Footer = () => {
                                     target='_blank'
                                     href="https://www.facebook.com/utshob.xyz.official"
                                     aria-label="Facebook"
-                                    className="w-9 h-9 bg-white text-[#1877f2] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
+                                    className="w-9 h-9 bg-white text-[#1877f2] rounded-full flex items-center justify-center border  border-[#D6E5E2]  hover:shadow-md transition-all text-sm"
                                 >
                                     <FaFacebookF />
                                 </a>
@@ -158,7 +158,7 @@ const Footer = () => {
                                     target='_blank'
                                     href="https://www.linkedin.com/company/utshob-xyz/"
                                     aria-label="LinkedIn"
-                                    className="w-9 h-9 bg-white text-[#0a66c2] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
+                                    className="w-9 h-9 bg-white text-[#0a66c2] rounded-full flex items-center justify-center border  border-[#D6E5E2]  hover:shadow-md transition-all text-sm"
                                 >
                                     <FaLinkedinIn />
                                 </a>
@@ -166,16 +166,16 @@ const Footer = () => {
                                     target='_blank'
                                     href="https://www.instagram.com/utshob.xyz/"
                                     aria-label="Instagram"
-                                    className="w-9 h-9 bg-white text-[#e4405f] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
+                                    className="w-9 h-9 bg-white text-[#e4405f] rounded-full flex items-center justify-center border  border-[#D6E5E2]  hover:shadow-md transition-all text-sm"
                                 >
                                     <FaInstagram />
                                 </a>
                                 <a
                                     target='_blank'
                                     rel="noopener noreferrer"
-                                    href="https://www.youtube.com/@utshobxyz"
+                                    href="https://www.youtube.com/@utshob.xyz.official"
                                     aria-label="YouTube"
-                                    className="w-9 h-9 bg-white text-[#ff0000] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
+                                    className="w-9 h-9 bg-white text-[#ff0000] rounded-full flex items-center justify-center border border-[#D6E5E2] hover:shadow-md transition-all text-sm"
                                 >
                                     <FaYoutube />
                                 </a>

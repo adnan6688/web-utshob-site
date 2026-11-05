@@ -60,6 +60,9 @@ export const homepageStructuredData = {
       name: 'Utshob.xyz',
       url: 'https://www.utshob.xyz/',
       inLanguage: ['en', 'bn'],
+      publisher: {
+        '@id': 'https://www.utshob.xyz/#organization',
+      },
       potentialAction: {
         '@type': 'SearchAction',
         target: 'https://www.utshob.xyz/?q={search_term_string}',
@@ -68,6 +71,7 @@ export const homepageStructuredData = {
     },
     {
       '@type': 'WebPage',
+      '@id': 'https://www.utshob.xyz/#webpage',
       url: 'https://www.utshob.xyz/',
       name: 'Utshob.xyz | Event Services in Bangladesh | Compare Quotations',
       description: 'Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app.',

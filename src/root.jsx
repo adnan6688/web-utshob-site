@@ -40,6 +40,18 @@ export default function Root() {
         <meta property="og:url" content="https://www.utshob.xyz/" />
         <meta property="og:image" content="https://www.utshob.xyz/utshob-event-services-bangladesh.webp" />
 
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/webp" />
+        <meta property="og:image:alt" content="Utshob.xyz - Event Services in Bangladesh" />
+
+
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Utshob.xyz | Event Services in Bangladesh | Compare Quotations" />
+      <meta name="twitter:description" content="Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app." />
+      <meta name="twitter:image" content="https://www.utshob.xyz/utshob-event-services-bangladesh.webp" />
+      <meta name="twitter:image:alt" content="Utshob.xyz - Event Services in Bangladesh" />
+
         <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="shortcut icon" href="/apple-touch-icon.png" />
