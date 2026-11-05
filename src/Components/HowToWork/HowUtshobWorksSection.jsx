@@ -78,7 +78,7 @@ export const HowUtshobWorksSection = () => {
   ];
 
   return (
-    <section className="">
+    <section id="how-utshob-works" className="">
       <div className="flex flex-col gap-y-[22px]">
         {/* Exact H2 Heading matching SEO & AEO Hand-off specs */}
         <h2 className="text-[30px] sm:text-[38px] font-bold sm:font-semibold text-gray-900 tracking-normal leading-[145%] text-left">

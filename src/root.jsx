@@ -31,7 +31,7 @@ export default function Root() {
 
         <meta
           name="robots"
-          content="index, no-follow"
+          content="index, follow"
         />
 
         <meta property="og:title" content="Utshob.xyz | Event Services in Bangladesh | Compare Quotations" />

@@ -1,9 +1,9 @@
 export const APP_DOWNLOAD_URL = 'https://play.google.com/store/apps/details?id=xyz.Utshob';
 export const PARTNER_APP_URL = 'https://play.google.com/store/apps/details?id=xyz.utshob.partner';
 export const PARTNER_SIGNUP = 'https://www.utshob.xyz/';
-export const CUSTOMER_CARE = 'tel:01575336382';
-export const REQUEST_HOME = '/';
-export const DESIGN_GALLERY = '/';
+export const CUSTOMER_CARE = 'tel:+8801575336382';
+export const REQUEST_HOME = 'https://www.utshob.xyz/';
+export const DESIGN_GALLERY = 'https://www.utshob.xyz/';
 
 export const CATEGORY_ROUTE = (categoryKey) => {
   const routes = {
@@ -32,6 +32,7 @@ export const PLANNER_ROUTE = (plannerKey) => {
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://www.utshob.xyz/#organization',
   name: 'Utshob.xyz',
   legalName: 'Utsab Platform Limited',
   url: 'https://www.utshob.xyz/',
@@ -55,6 +56,7 @@ export const homepageStructuredData = {
     organizationSchema,
     {
       '@type': 'WebSite',
+      '@id': 'https://www.utshob.xyz/#website',
       name: 'Utshob.xyz',
       url: 'https://www.utshob.xyz/',
       inLanguage: ['en', 'bn'],

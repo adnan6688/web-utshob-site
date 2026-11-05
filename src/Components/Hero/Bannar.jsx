@@ -61,7 +61,7 @@ const Bannar = () => {
           </Button>
 
           <a
-            href="#event-services"
+            href="/#event-services"
             className="inline-flex items-center justify-center rounded-[10px] border border-[#E62E77] bg-white px-4 py-3 text-[14px] font-semibold leading-[145%] tracking-normal text-[#111318] transition-colors hover:bg-[#FFF1F6] sm:px-4"
           >
             Explore Event Services

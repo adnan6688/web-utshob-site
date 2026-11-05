@@ -28,12 +28,12 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-gray-900 mb-4 text-base">Event Services</h3>
                         <ul className="space-y-2.5 text-sm text-gray-600">
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Event Decoration</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Photography & Videography</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Car Rental</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Rides & Band Party</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Cake</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Event Rental & Support</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Event Decoration</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Photography & Videography</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Car Rental</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Rides & Band Party</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Cake</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Event Rental & Support</a></li>
                         </ul>
                     </div>
 
@@ -41,10 +41,10 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-gray-900 mb-4 text-base">Planning Solutions</h3>
                         <ul className="space-y-2.5 text-sm text-gray-600">
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Event Planner</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Wedding Planner</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Birthday Party Planner</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Corporate Event Management</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Event Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Wedding Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Birthday Party Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Corporate Event Management</a></li>
                         </ul>
                     </div>
 
@@ -52,12 +52,12 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-gray-900 mb-4 text-base">Company & Support</h3>
                         <ul className="space-y-2.5 text-sm text-gray-600">
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">About Utshob</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">How Utshob Works</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Cancellation & Refund</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Customer Care</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Privacy Policy</a></li>
-                            <li><a href="#" className="hover:text-[#e91e63] transition-colors">Terms & Conditions</a></li>
+                            <li><a href="/about-us" className="hover:text-[#e91e63] transition-colors">About Utshob</a></li>
+                            <li><a href="/#how-utshob-works" className="hover:text-[#e91e63] transition-colors">How Utshob Works</a></li>
+                            <li><a href="/refund" className="hover:text-[#e91e63] transition-colors">Cancellation & Refund</a></li>
+                            <li><a href="/#customer-care" className="hover:text-[#e91e63] transition-colors">Customer Care</a></li>
+                            <li><a href="/privacy-policy" className="hover:text-[#e91e63] transition-colors">Privacy Policy</a></li>
+                            <li><a href="/terms-and-conditions" className="hover:text-[#e91e63] transition-colors">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
@@ -151,7 +151,9 @@ const Footer = () => {
                                     <FaInstagram />
                                 </a>
                                 <a
-                                    href="#"
+                                    target='_blank'
+                                    rel="noopener noreferrer"
+                                    href="https://www.youtube.com/@utshobxyz"
                                     aria-label="YouTube"
                                     className="w-9 h-9 bg-white text-[#ff0000] rounded-full flex items-center justify-center border hover:shadow-md transition-all text-sm"
                                 >

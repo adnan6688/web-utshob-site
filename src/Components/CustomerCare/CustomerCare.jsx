@@ -4,7 +4,7 @@ import {Phone} from 'lucide-react';
 import Button from '../Shared/Button';
 const CustomerCare = () => {
     return (
-        <div className='space-y-4'>
+        <div id="customer-care" className='space-y-4'>
             <h2 className='text-[20px] sm:text-3xl md:text-4xl lg:text-4xl font-semibold'>Need Help Using Utshob?</h2>
             <p className='text-[15px] text-[#626773]'>Contact Utshob.xyz support for help with requests, quotations or confirmed bookings.</p>
             <div>
