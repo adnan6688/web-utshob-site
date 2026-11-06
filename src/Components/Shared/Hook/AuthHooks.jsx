@@ -8,6 +8,7 @@ const AuthHooks = () => {
         return {
             scroll: () => {},
             homeRef: { current: null },
+            eventServicesRef: { current: null },
             serviceRef: { current: null },
             whyRef: { current: null },
             partnerRef: { current: null },
