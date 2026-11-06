@@ -9,5 +9,6 @@ export default [
     route('about-us', './pages/Home/AboutUs.jsx', { id: 'about-us' }),
     route('delete-account', './Components/DeleteAccount/DeleteAccount.jsx', { id: 'delete-account' }),
     route('customer-delete-account', './Components/DeleteAccount/DeleteAccount.jsx', { id: 'customer-delete-account' }),
+    route('event-decoration', './pages/Category/EventDecor.jsx', { id: 'event-decoration' })
   ]),
 ];
