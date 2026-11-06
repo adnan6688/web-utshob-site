@@ -1,11 +1,6 @@
 import React from 'react';
 
-export const meta = () => [
-    { title: 'Privacy policy | Utshob.xyz: Event Planning Platform Bangladesh' },
-    { name: 'description', content: 'Review the official Utshob.xyz Privacy Policy. Learn how we collect, use, and protect your personal information when you use our event planning and vendor booking services in Bangladesh.' },
-    { name: 'robots', content: 'index, follow' },
-    { tagName: 'link', rel: 'canonical', href: 'https://www.utshob.xyz/privacy-policy' },
-];
+
 
 const PrivecyPolicy = () => {
     return (
