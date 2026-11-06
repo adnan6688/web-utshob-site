@@ -49,7 +49,7 @@ export default function Root() {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Utshob.xyz | Event Services in Bangladesh | Compare Quotations" />
       <meta name="twitter:description" content="Find event services across Bangladesh with Utshob.xyz. Submit one request, receive quotations, compare providers and book through the Utshob app." />
-      <meta name="twitter:image" content="utshob-event-services-bangladesh.png" />
+      <meta name="twitter:image" content="/utshob-event-services-bangladesh.png" />
       <meta name="twitter:image:alt" content="Utshob.xyz - Event Services in Bangladesh" />
 
         <link rel="icon" type="image/png" href="/apple-touch-icon.png" />

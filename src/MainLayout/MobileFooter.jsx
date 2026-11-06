@@ -12,7 +12,7 @@ const MobileFooter = () => {
                         </div>
                         <div>
                             <p className="text-[16px] font-semibold">Download App</p>
-                            <p className="text-[9px] font-semibold">2000+ Event Services provided all over Bangladesh</p>
+                            <p className="text-[9px] font-semibold">2,000+ Event Services provided all over Bangladesh</p>
                         </div>
                     </div>
 

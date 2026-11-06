@@ -9,7 +9,7 @@ export const meta = () => [
 
 const TermsAndCondition = () => {
     return (
-        <div className='max-w-[1280px] mx-auto' >
+        <div className='max-w-[1180px] mx-auto' >
 
             <div className="p-2 py-20 sm:py-20 text-gray-700">
                 <h1 className="text-3xl font-bold mb-4">Utshob.xyz – Terms & Conditions</h1>
@@ -191,7 +191,7 @@ const TermsAndCondition = () => {
                     <ul className="list-disc list-inside space-y-2">
                         <li>For questions, concerns, or notices:</li>
                         <li>Utsab Platform Limited (Utshob)</li>
-                        <li>Email: info@utshob.xyz</li>
+                        <li>Email: utshobplatform@utshob.xyz</li>
                         <li>Website: utshob.xyz</li>
                     </ul>
                 </section>

@@ -9,7 +9,7 @@ export const meta = () => [
 
 const PrivecyPolicy = () => {
     return (
-        <div className='max-w-[1280px] mx-auto pt-20 px-2 sm:px-0'>
+        <div className='max-w-[1180px] mx-auto pt-20 px-2 sm:px-0'>
 
             <div className="px-2  text-gray-700">
                 <h1 className="text-2xl sm:text-3xl font-bold mb-4">Utshob Privacy Policy</h1>

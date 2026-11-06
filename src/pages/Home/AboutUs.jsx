@@ -1,16 +1,11 @@
 
 import React from 'react';
 
-export const meta = () => [
-    { title: 'About us | Utshob.xyz: Event Planning Platform Bangladesh' },
-    { name: 'description', content: 'Learn about Utshob\'s mission to revolutionize event planning in Bangladesh. Discover how we connect you with verified, high-quality vendors for stress-free weddings and corporate events.' },
-    { name: 'robots', content: 'index, follow' },
-    { tagName: 'link', rel: 'canonical', href: 'https://www.utshob.xyz/about-us' },
-];
+
 
 const AboutUs = () => {
     return (
-        <div className='relative overflow-hidden max-w-[1280px] mx-auto'>
+        <div className='relative overflow-hidden max-w-[1180px] mx-auto'>
 
             <div className='sm:pt-30 pt-20 '>
 

@@ -10,7 +10,7 @@ export const meta = () => [
 
 const Refund = () => {
     return (
-        <div className='max-w-[1280px] mx-auto'>
+        <div className='max-w-[1180px] mx-auto'>
 
 
 
