@@ -116,7 +116,7 @@ const faqSchema = {
 
 const Home = () => {
 
-    const { whyRef, customerRef, partnerRef, homeRef } = AuthHooks()
+    const { whyRef, customerRef, partnerRef, homeRef, eventServicesRef, serviceRef, howRef } = AuthHooks()
 
 
     return (
@@ -130,7 +130,7 @@ const Home = () => {
             </div>
 
             {/* Event Services */}
-            <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+            <div ref={eventServicesRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
                 <EventService />
             </div>
 
@@ -158,12 +158,12 @@ const Home = () => {
             </div>
 
                         {/* How Utshob Works */}
-            <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+            <div ref={howRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
                 <HowUtshobWorksSection />
             </div>
 
             {/* Planning Solutions */}
-            <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0">
+            <div ref={serviceRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0">
                 <PlanningSolutions />
             </div>
 
@@ -182,10 +182,7 @@ const Home = () => {
 
             {/* Customer App Conversion */}
             <div className="bg-[#EDF8FF] ">
-                <div
-                    ref={partnerRef}
-                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-8 lg:px-0"
-                >
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-8 lg:px-0">
                     <AppConversionSection
                         title="Your Event Services, in One App"
                         des="Create service requests, receive quotations, compare providers and manage confirmed bookings through the Utshob app."
@@ -219,7 +216,7 @@ const Home = () => {
             <div>
                 <div
                     ref={partnerRef}
-                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
+                    className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
                 >
                     <AppConversionSection
                         requestHomeUrl='https://play.google.com/store/apps/details?id=xyz.utshob.partner'

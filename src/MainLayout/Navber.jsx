@@ -10,11 +10,11 @@ const Navbar = () => {
     const [activeMenu, setActiveMenu] = useState("/");
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-    const { homeRef, scroll, serviceRef, partnerRef, howRef } = AuthHooks();
+    const { scroll, eventServicesRef, serviceRef, partnerRef, howRef } = AuthHooks();
     const location = useLocation();
 
     const menuItems = [
-        { label: "Event Services", ref: homeRef, path: "/" },
+        { label: "Event Services", ref: eventServicesRef, path: "/" },
         { label: "Planning Solutions", ref: serviceRef, path: "/services" },
         { label: "How Utshob Works", ref: howRef, path: "/how" },
         { label: "Join as Partner", ref: partnerRef, path: "/partner" },
