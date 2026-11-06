@@ -30,8 +30,8 @@ const Navbar = () => {
         menuItems.map((item) => {
             const className = `${
                 mobile
-                    ? "block w-full rounded-lg px-4 py-3 "
-                    : "whitespace-nowrap "
+                    ? "block w-full cursor-pointer rounded-lg px-4 py-3 "
+                    : "cursor-pointer whitespace-nowrap "
             } ${
                 activeMenu === item.path
                     ? " "
@@ -98,7 +98,7 @@ const Navbar = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details?id=xyz.Utshob"
-                            className="hidden items-center justify-center whitespace-nowrap rounded-[10px] border border-[#DF266F] bg-white px-4 py-2.5 text-xs font-semibold text-[#111318] transition-all duration-300 hover:bg-[#FFF1F6] sm:inline-flex lg:px-5 lg:py-3 lg:text-sm"
+                            className="hidden cursor-pointer items-center justify-center whitespace-nowrap rounded-[10px] border border-[#DF266F] bg-white px-4 py-2.5 text-xs font-semibold text-[#111318] transition-all duration-300 hover:bg-[#FFF1F6] sm:inline-flex lg:px-5 lg:py-3 lg:text-sm"
                         >
                             Download App
                         </a>
@@ -109,7 +109,7 @@ const Navbar = () => {
                             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
                             aria-expanded={mobileMenuOpen}
-                            className="flex h-10 w-10 items-center justify-center rounded-[10px] border border-[#E62E77] bg-white text-[#E62E77] transition-all duration-300 hover:bg-[#FFF1F6] active:scale-95 lg:hidden"
+                            className="flex h-10 w-10 cursor-pointer items-center justify-center rounded-[10px] border border-[#E62E77] bg-white text-[#E62E77] transition-all duration-300 hover:bg-[#FFF1F6] active:scale-95 lg:hidden"
                         >
                             {mobileMenuOpen ? (
                                 <FiX size={21} />
