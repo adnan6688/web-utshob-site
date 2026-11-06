@@ -138,7 +138,7 @@ const Footer = () => {
                                     className="flex items-center gap-2 text-gray-500 text-sm hover:underline"
                                 >
                                     <FaEnvelope className="text-xs" />
-                                    utshobplatform@utshob.xyz
+                                    admin@utshob.xyz
                                 </a>
                             </div>
                         </div>
