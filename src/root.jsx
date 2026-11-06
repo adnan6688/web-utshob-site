@@ -54,7 +54,7 @@ export default function Root() {
 
         <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
         <link rel="logo-utsab-icon" href="/utshob-event-services-bangladesh.png" />
-        <link rel="shortcut icon" href="/utshob-event-services-bangladesh.png" />
+        <link rel="shortcut icon" href="/apple-touch-icon.png" />
 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageStructuredData) }} />
 
