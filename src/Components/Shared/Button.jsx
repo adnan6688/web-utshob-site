@@ -12,7 +12,7 @@ const Button = ({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`inline-flex items-center justify-center rounded-2xl font-inter text-base font-medium shadow-sm transition-all duration-200 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50 ${className}`}
+      className={`inline-flex hover:cursor-pointer items-center justify-center rounded-2xl font-inter text-base font-medium shadow-sm transition-all duration-200 active:scale-[0.98] disabled:pointer-events-none disabled:opacity-50 ${className}`}
     >
       {img && (
         <span className="flex items-center justify-center rounded-full border-4 border-white">
