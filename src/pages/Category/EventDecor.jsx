@@ -3,6 +3,7 @@ import Path from '../../Components/Shared/Path';
 import ServiceHero from '../../Components/Shared/ServiceHero';
 import { serviceHeroData } from '../../Components/Shared/serviceHeroData';
 import EventDecorBD from '../../Components/Event/EventDecorBD';
+import EventServicesSection from '../../Components/Event/EventServicesSection';
 
 export default function EventDecor() {
   const [selectedCategory] = useState('Event Decoration');
@@ -23,6 +24,11 @@ export default function EventDecor() {
 
         <div className="">
           <EventDecorBD />
+        </div>
+
+
+        <div className='mx-auto max-w-[1180px]'>
+          <EventServicesSection></EventServicesSection>
         </div>
       </div>
 

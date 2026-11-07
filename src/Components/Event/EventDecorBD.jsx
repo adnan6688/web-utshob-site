@@ -1,14 +1,16 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa6";
+
 
 const EventDecorBD = () => {
     return (
         <section className="w-full  overflow-x-hidden bg-[#EDF8FF]">
-            <div className="mx-auto w-full max-w-[1180px]  py-10">
+            <div className="mx-auto w-full max-w-[1180px]  py-12">
 
                 <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-10">
 
                     {/* Left Content */}
-                    <div className="w-full md:max-w-[580px] flex flex-col gap-y-2.5">
+                    <div className="w-full md:max-w-[620px] flex flex-col gap-y-3">
                         <h2 className="text-[24px] sm:text-[30px] font-bold text-[#171B20] leading-[42px]">
                             Bangladesh’s Event App
                         </h2>
@@ -32,6 +34,7 @@ const EventDecorBD = () => {
                         </p>
                     </div>
 
+
                     {/* Right Request Flow Card */}
                     <div className="w-full md:w-[390px] shrink-0 min-h-[198px] rounded-[15px] border border-[#E2E5E9] bg-white px-5 sm:px-[21px] py-5 shadow-[0_4px_20px_rgba(17,19,24,0.04)]">
 
@@ -41,6 +44,7 @@ const EventDecorBD = () => {
 
                         <div className="flex items-start justify-between gap-2">
 
+                            {/* Step 1 */}
                             <div className="flex flex-col items-start flex-1">
                                 <div className="w-[30px] h-[30px] rounded-full bg-[#FFF0F5] flex items-center justify-center text-[11px] font-semibold text-[#F02678] mb-3">
                                     1
@@ -50,8 +54,10 @@ const EventDecorBD = () => {
                                 </p>
                             </div>
 
-                            <div className="pt-[6px] text-[#B5C0CE] text-[21px] leading-none">→</div>
+                            {/* Arrow 1 */}
+                            <FaArrowRight className="mt-[9px] shrink-0 text-[#B5C0CE] text-[14px]" />
 
+                            {/* Step 2 */}
                             <div className="flex flex-col items-start flex-1">
                                 <div className="w-[30px] h-[30px] rounded-full bg-[#FFF0F5] flex items-center justify-center text-[11px] font-semibold text-[#F02678] mb-3">
                                     2
@@ -61,19 +67,23 @@ const EventDecorBD = () => {
                                 </p>
                             </div>
 
-                            <div className="pt-[6px] text-[#B5C0CE] text-[21px] leading-none">→</div>
+                            {/* Arrow 2 */}
+                            <FaArrowRight className="mt-[9px] shrink-0 text-[#B5C0CE] text-[14px]" />
 
+                            {/* Step 3 */}
                             <div className="flex flex-col items-start flex-1">
                                 <div className="w-[30px] h-[30px] rounded-full bg-[#E92D79] flex items-center justify-center text-[11px] font-semibold text-white mb-3">
                                     3
                                 </div>
-                                <p className="text-[12px] font-semibold leading-[1.4] text-[#171B20]">
-                                    Compare →<br />Book
+                                <p className="flex flex-wrap items-center gap-x-1 text-[12px] font-semibold leading-[1.4] text-[#171B20]">
+                                    Compare <FaArrowRight className="text-[10px]" />
+                                    <span className="w-full">Book</span>
                                 </p>
                             </div>
 
                         </div>
                     </div>
+
 
                 </div>
             </div>

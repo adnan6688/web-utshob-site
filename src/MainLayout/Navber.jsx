@@ -39,7 +39,7 @@ const Navbar = () => {
                 } ${activeMenu === item.path ? "" : "text-gray-700"
                 } transition-colors duration-200`;
 
-            if (location.pathname !== "/") {
+            if (item.label !== "Event Services" && location.pathname !== "/") {
                 return (
                     <Link
                         key={item.label}
