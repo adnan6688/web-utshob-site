@@ -10,7 +10,7 @@ const Bannar = () => {
   return (
     <section
       aria-labelledby="hero-heading"
-      className="relative pt-25 sm:pt-18 sm:mt-10 flex flex-col items-center justify-between gap-y-4 sm:gap-29 overflow-hidden sm:py-10 md:flex-row"
+      className="relative  flex flex-col items-center justify-between gap-y-4 sm:gap-29 overflow-hidden  md:flex-row"
     >
       <div
         data-aos="fade-right"

@@ -123,8 +123,8 @@ const Home = () => {
         <div className=' '>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             {/* Hero */}
-            <div className="bg-[#F7F8FA]" ref={homeRef}>
-                <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0">
+            <div className="bg-[#F7F8FA] " ref={homeRef}>
+                <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0 py-8">
                     <Bannar />
                 </div>
             </div>

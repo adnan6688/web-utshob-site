@@ -184,12 +184,12 @@ const Navbar = () => {
                 {/* Mobile & Tablet Dropdown */}
                 <div
                     className={`overflow-hidden transition-all duration-300 ease-in-out lg:hidden ${mobileMenuOpen
-                        ? "max-h-[620px] pb-4 opacity-100"
+                        ? "max-h-[620px] pb-2 opacity-100"
                         : "max-h-0 pb-0 opacity-0"
                         }`}
                 >
                     {mobileEventOpen ? (
-                        <div className="pt-3">
+                        <div className="pt-1">
                             <Megamenu
                                 mobile
                                 setMegaMenuOpen={setMobileEventOpen}
@@ -202,7 +202,7 @@ const Navbar = () => {
                             />
                         </div>
                     ) : (
-                        <nav className="flex flex-col text-sm font-medium gap-1 border-t border-gray-100 pt-3">
+                        <nav className="flex flex-col text-sm font-medium gap-1 border-t border-gray-100 pt-2">
                             {renderMenuItems(true)}
                         </nav>
                     )}

@@ -10,7 +10,7 @@ const Layout = () => {
 
             <main
                 id="main-content"
-                className="min-h-[calc(100vh-370px)] sm:p-0 mx-auto pt-25 sm:pt-23"
+                className="min-h-[calc(100vh-370px)] sm:p-0 mx-auto pt-17 sm:pt-15"
             >
                 <Outlet />
             </main>
