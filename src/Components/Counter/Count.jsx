@@ -32,7 +32,7 @@ const Count = () => {
                     {stats.map((stat, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-2xl sm:rounded-[20px] p-8 sm:p-5 text-center flex flex-col items-center gap-y-2.5 justify-center border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_28px_rgba(0,0,0,0.08)] transition-all duration-300 ease-in-out"
+                            className="bg-white rounded-2xl sm:rounded-[20px] p-8 sm:p-5 text-center flex flex-col items-center gap-y-2.5 justify-center border border-[#E2E6EB] shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_28px_rgba(0,0,0,0.08)] transition-all duration-300 ease-in-out"
                         >
                             <span className="text-3xl sm:text-[32px] font-bold text-[#E62E77] leading-[145%] tracking-normal">
                                 {stat.value}

@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const EventDecorBD = () => {
     return (
         <section className="w-full  overflow-x-hidden bg-[#EDF8FF]">
-            <div className="mx-auto w-full max-w-[1180px]  py-12">
+            <div className="mx-auto w-full max-w-[1180px]  py-12 px-4 sm:px-0">
 
                 <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-10">
 
@@ -15,12 +15,12 @@ const EventDecorBD = () => {
                             Bangladesh’s Event App
                         </h2>
 
-                        <p className="text-[14px] sm:text-[16px] text-[#59606C] leading-[24px]">
+                        <p className="text-[14px] sm:text-[16px] text-[#59606C]   leading-[24px]">
                             Utshob brings event services together in one app, making it easier to plan without
                             searching for different service providers separately.
                         </p>
 
-                        <p className="text-[14px] sm:text-[16px] text-[#59606C] leading-[24px]">
+                        <p className="text-[14px] sm:text-[16px] text-[#59606C]   leading-[24px]">
                             You can book a single service, combine multiple services into your own event
                             package, or create separate requests for different programs on different dates.
                         </p>

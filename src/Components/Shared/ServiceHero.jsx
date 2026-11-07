@@ -47,7 +47,7 @@ const ServiceHero = ({
                                 {descriptions.map((description, index) => (
                                     <p
                                         key={index}
-                                        className="text-sm leading-[24px] tracking-normal text-[#59606C] sm:text-[16px]"
+                                        className="text-sm leading-[24px] tracking-normal text-[#59606C]   sm:text-[16px]"
                                     >
                                         {description}
                                     </p>

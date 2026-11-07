@@ -28,7 +28,7 @@ const WhyUthsob = () => {
                 <h1 className="text-[23px] sm:text-xl md:text-2xl lg:text-3xl font-semibold">
                     Why Utshob.xyz is unique
                 </h1>
-                <p className="text-[11px] sm:text-[15px] md:text-base text-gray-600 mt-1">
+                <p className="text-[11px] sm:text-[15px] md:text-base text-[#59606C]   mt-1">
                     Cost effective quality services at doorstep with utmost convenience.
                 </p>
             </div>

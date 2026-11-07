@@ -30,7 +30,7 @@ const StepCard = ({
         </div>
 
         {/* Step Title */}
-        <h3 className="text-lg sm:text-[18px] font-semibold text-gray-900 tracking-normal leading-[145%]">
+        <h3 className="text-lg sm:text-[18px] font-semibold text-[#111318] tracking-normal leading-[145%]">
           {title}
         </h3>
 
@@ -79,7 +79,7 @@ export const HowUtshobWorksSection = () => {
     <section id="how-utshob-works" className="">
       <div className="flex flex-col gap-y-[22px]">
         {/* Exact H2 Heading matching SEO & AEO Hand-off specs */}
-        <h2 className="text-[30px] sm:text-[38px] font-bold sm:font-semibold text-gray-900 tracking-normal leading-[145%] text-left">
+        <h2 className="text-[30px] sm:text-[38px] font-bold sm:font-semibold text-[#111318] tracking-normal leading-[145%] text-left">
           How Utshob Works
         </h2>
 

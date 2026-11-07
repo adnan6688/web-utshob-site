@@ -34,7 +34,7 @@ const FeatureCard = ({
         </div>
 
         {/* Card Title */}
-        <h3 className="text-lg sm:text-[18px] font-semibold text-gray-900 tracking-normal">
+        <h3 className="text-lg sm:text-[18px] font-semibold text-[#111318] tracking-normal">
           {title}
         </h3>
 

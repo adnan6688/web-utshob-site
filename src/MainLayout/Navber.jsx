@@ -210,7 +210,7 @@ const Navbar = () => {
                             />
                         </div>
                     ) : (
-                        <nav className="flex flex-col text-sm font-medium gap-1 border-t border-gray-100 pt-2">
+                        <nav className="flex flex-col text-sm font-medium gap-1 border-t border-[#E2E6EB] pt-2">
                             {renderMenuItems(true)}
                         </nav>
                     )}

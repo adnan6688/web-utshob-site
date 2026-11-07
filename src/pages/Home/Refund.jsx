@@ -23,17 +23,17 @@ const Refund = () => {
                     Refund for  In-Progress or Provided Services:
                 </h1>
 
-                <p className='text-gray-600   my-1'>- If refund is required for in-progress or completed status services, Utshob.xyz will form an investigation team within the next 3-5 working days to investigate the whole issue.
+                <p className='text-[#59606C]     my-1'>- If refund is required for in-progress or completed status services, Utshob.xyz will form an investigation team within the next 3-5 working days to investigate the whole issue.
                 </p>
-                <p className='text-gray-600   my-1'>- Refund will get initiated in 5-7 working days depending on the payment method after investigation of the Utshob.xyz team.
+                <p className='text-[#59606C]     my-1'>- Refund will get initiated in 5-7 working days depending on the payment method after investigation of the Utshob.xyz team.
 
 
                 </p>
-                <p className='text-gray-600   my-1'> - In case of cancellation initiate from Utshob.xyz's side due to unexpected situation then full refund will be processed according to the above mentioned timeline.
+                <p className='text-[#59606C]     my-1'> - In case of cancellation initiate from Utshob.xyz's side due to unexpected situation then full refund will be processed according to the above mentioned timeline.
                 </p>
-                <p className='text-gray-600   my-1'> - Cancellation fee or Service Charge may apply while refunding.
+                <p className='text-[#59606C]     my-1'> - Cancellation fee or Service Charge may apply while refunding.
                 </p>
-                <p className='text-gray-600 my-1'> - In Case of EMI payment- EMI Charge will be deducted.
+                <p className='text-[#59606C]   my-1'> - In Case of EMI payment- EMI Charge will be deducted.
                 </p>
 
 
@@ -44,14 +44,14 @@ const Refund = () => {
                         Refund for canceled services:
                     </h1>
 
-                    <p className='text-gray-600   my-1'>- Minimum cancellation fees 500 taka for each service, cancellation fees will be applicable if order is canceled in 3 working days (72 hours) of the service delivery time.
+                    <p className='text-[#59606C]     my-1'>- Minimum cancellation fees 500 taka for each service, cancellation fees will be applicable if order is canceled in 3 working days (72 hours) of the service delivery time.
                     </p>
-                    <p className='text-gray-600   my-1'>- if cancel in less than 3 working days (72 hours) of service delivery time, minimum cancellation fees will be 800 taka per service. Adjusted refund will be initiated within 48 hours of cancellation and will  be reflected to the customer account depending on payment method within 5-7 working days.
+                    <p className='text-[#59606C]     my-1'>- if cancel in less than 3 working days (72 hours) of service delivery time, minimum cancellation fees will be 800 taka per service. Adjusted refund will be initiated within 48 hours of cancellation and will  be reflected to the customer account depending on payment method within 5-7 working days.
 
                     </p>
-                    <p className='text-gray-600   my-1'>- For partial cancellation call to Utshob.xyz customer care.
+                    <p className='text-[#59606C]     my-1'>- For partial cancellation call to Utshob.xyz customer care.
                     </p>
-                    <p className='text-gray-600   my-1'>- Refunds will be applicable only for the advanced paid orders..
+                    <p className='text-[#59606C]     my-1'>- Refunds will be applicable only for the advanced paid orders..
                     </p>
 
                 </div>
@@ -67,18 +67,18 @@ const Refund = () => {
                         Cancellation  Policy
                     </h1>
 
-                    <p className='text-gray-600   my-1'>- Utshob.xyz has right to cancel any service in case unexpected situation, in case of this situation full amount will be refunded..
+                    <p className='text-[#59606C]     my-1'>- Utshob.xyz has right to cancel any service in case unexpected situation, in case of this situation full amount will be refunded..
                     </p>
-                    <p className='text-gray-600   my-1'>- To cancel an order, cancellation requests can be made from the support section of order details on utshob.xyz mobile application or call to customer care through 01575336382
+                    <p className='text-[#59606C]     my-1'>- To cancel an order, cancellation requests can be made from the support section of order details on utshob.xyz mobile application or call to customer care through 01575336382
 
                     </p>
-                    <p className='text-gray-600   my-1'>- To cancel an order partially, call customer care number 01575336382. .
+                    <p className='text-[#59606C]     my-1'>- To cancel an order partially, call customer care number 01575336382. .
                     </p>
-                    <p className='text-gray-600   my-1'>- Once cancellation is confirmed by the customer then the cancellation process will be started.
+                    <p className='text-[#59606C]     my-1'>- Once cancellation is confirmed by the customer then the cancellation process will be started.
                     </p>
-                    <p className='text-gray-600   my-1'>- Once cancellation is confirmed, the refund process will start according to the refund policy.
+                    <p className='text-[#59606C]     my-1'>- Once cancellation is confirmed, the refund process will start according to the refund policy.
                     </p>
-                    <p className='text-gray-600   my-1'>- Cancellation policy will be applicable only for the advanced paid orders.
+                    <p className='text-[#59606C]     my-1'>- Cancellation policy will be applicable only for the advanced paid orders.
                     </p>
 
                 </div>

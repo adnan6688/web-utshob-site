@@ -109,7 +109,7 @@ export default function Megamenu({
     if (mobile) {
         return (
             <div className="w-full rounded-2xl border border-[#E5E7EB] bg-white shadow-[0_12px_24px_rgba(17,19,24,0.08)]">
-                <div className="flex items-center justify-between border-b border-gray-100 px-4 py-3">
+                <div className="flex items-center justify-between border-b border-[#E2E6EB] px-4 py-3">
                     <div className="flex items-center gap-2">
                         {mobileStep === "services" && (
                             <button
@@ -186,7 +186,7 @@ export default function Megamenu({
         <div className="flex min-h-[320px] w-full overflow-hidden rounded-2xl">
 
             {/* Left Sidebar - 30% */}
-            <div className="w-[25%] p-5 flex flex-col gap-y-2 shrink-0 border-r border-gray-100 bg-[#F3F4F6] ">
+            <div className="w-[25%] p-5 flex flex-col gap-y-2 shrink-0 border-r border-[#E2E6EB] bg-[#F3F4F6] ">
 
                 <h3 className="text-xs font-semibold uppercase leading-[100%] tracking-normal text-[#E62E77]">
                     Event Service

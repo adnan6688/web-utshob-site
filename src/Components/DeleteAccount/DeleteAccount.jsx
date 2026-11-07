@@ -31,7 +31,7 @@ const DeleteAccount = () => {
                             Delete Account
                         </div>
                        
-                        <p className="text-start text-sm text-gray-600 mt-1 mb-6">
+                        <p className="text-start text-sm text-[#59606C]   mt-1 mb-6">
                             Deleting your account will automatically remove  all of your info after 30 days. You will be  able ro retrieve your account by logging back within the timeline.
                         </p>
 

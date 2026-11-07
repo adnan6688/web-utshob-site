@@ -30,8 +30,8 @@ const Footer = () => {
 
                     {/* Event Services */}
                     <div>
-                        <h3 className="font-bold text-gray-900 mb-4 text-base">Event Services</h3>
-                        <ul className="space-y-2.5 text-sm text-gray-600">
+                        <h3 className="font-bold text-[#111318] mb-4 text-base">Event Services</h3>
+                        <ul className="space-y-2.5 text-sm text-[#59606C]  ">
                             <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Event Decoration</a></li>
                             <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Photography & Videography</a></li>
                             <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Car Rental</a></li>
@@ -43,8 +43,8 @@ const Footer = () => {
 
                     {/* Planning Solutions */}
                     <div>
-                        <h3 className="font-bold text-gray-900 mb-4 text-base">Planning Solutions</h3>
-                        <ul className="space-y-2.5 text-sm text-gray-600">
+                        <h3 className="font-bold text-[#111318] mb-4 text-base">Planning Solutions</h3>
+                        <ul className="space-y-2.5 text-sm text-[#59606C]  ">
                             <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Event Planner</a></li>
                             <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Wedding Planner</a></li>
                             <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Birthday Party Planner</a></li>
@@ -54,8 +54,8 @@ const Footer = () => {
 
                     {/* Company & Support */}
                     <div>
-                        <h3 className="font-bold text-gray-900 mb-4 text-base">Company & Support</h3>
-                        <ul className="space-y-2.5 text-sm text-gray-600">
+                        <h3 className="font-bold text-[#111318] mb-4 text-base">Company & Support</h3>
+                        <ul className="space-y-2.5 text-sm text-[#59606C]  ">
                             <li><a href="/about-us" className="hover:text-[#e91e63] transition-colors">About Utshob</a></li>
                             <li><a href="/#how-utshob-works" className="hover:text-[#e91e63] transition-colors">How Utshob Works</a></li>
                             <li><a href="/refund" className="hover:text-[#e91e63] transition-colors">Cancellation & Refund</a></li>
@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
 
                 {/* Middle Section: Download Apps & Contact Box */}
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-[#FFFFFF] p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.06)]">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-[#FFFFFF] p-6 md:p-8 rounded-3xl border border-[#E2E6EB] shadow-[0_4px_20px_rgba(0,0,0,0.06)]">
                     {/* App Download Area */}
                     <div className="lg:col-span-8 space-y-6">
                         <div>
@@ -90,7 +90,7 @@ const Footer = () => {
                                     className="w-20 h-20 rounded-lg object-cover"
                                 />
                                 <div className='bg-white flex-1 px-1'>
-                                    <h4 className="font-bold text-gray-900 text-base">Customer App</h4>
+                                    <h4 className="font-bold text-[#111318] text-base">Customer App</h4>
                                     <p className="text-[#e91e63] font-semibold text-sm">Android available</p>
                                     <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
                                     <p className="text-[#626773] text-xs">Scan to download</p>
@@ -109,7 +109,7 @@ const Footer = () => {
                                     className="w-20 h-20 rounded-lg object-cover"
                                 />
                                 <div className='bg-white flex-1 p-2'>
-                                    <h4 className="font-bold text-gray-900 text-base">Partner App</h4>
+                                    <h4 className="font-bold text-[#111318] text-base">Partner App</h4>
                                     <p className="text-[#2ca58d] font-semibold text-sm">Android available</p>
                                     <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
                                     <p className="text-[#626773] text-xs">Scan to download</p>
