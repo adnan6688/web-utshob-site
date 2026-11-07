@@ -9,6 +9,11 @@ export default [
     route('about-us', './pages/Home/AboutUs.jsx', { id: 'about-us' }),
     route('delete-account', './Components/DeleteAccount/DeleteAccount.jsx', { id: 'delete-account' }),
     route('customer-delete-account', './Components/DeleteAccount/DeleteAccount.jsx', { id: 'customer-delete-account' }),
-    route('event-decoration', './pages/Category/EventDecor.jsx', { id: 'event-decoration' })
+    route('event-decoration', './pages/Category/EventDecor.jsx', { id: 'event-decoration' }),
+    route('photography-videography', './pages/Category/ServiceCategoryPage.jsx', { id: 'photography-videography' }),
+    route('car-rental', './pages/Category/ServiceCategoryPage.jsx', { id: 'car-rental' }),
+    route('rides-band-party', './pages/Category/ServiceCategoryPage.jsx', { id: 'rides-band-party' }),
+    route('cake', './pages/Category/ServiceCategoryPage.jsx', { id: 'cake' }),
+    route('event-rental-support', './pages/Category/ServiceCategoryPage.jsx', { id: 'event-rental-support' })
   ]),
 ];

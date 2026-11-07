@@ -1,18 +1,38 @@
 
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi";
 
-export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mobile = false, onCloseMenu }) {
+const CATEGORY_TO_ROUTE = {
+    "Event Decoration": "/event-decoration",
+    "Photography & Videography": "/photography-videography",
+    "Car Rental": "/car-rental",
+    "Rides & Band Party": "/rides-band-party",
+    "Cake": "/cake",
+    "Event Rental & Support": "/event-rental-support",
+};
 
-    const [selectedCategory, setSelectedCategory] = useState("Event Decoration");
+export default function Megamenu({
+    setMegaMenuOpen,
+    eventServicesRef,
+    scroll,
+    mobile = false,
+    onCloseMenu,
+    selectedCategory,
+    setSelectedCategory,
+}) {
+    const navigate = useNavigate();
     const [mobileStep, setMobileStep] = useState("categories");
+
+    const initialCategory = "Event Decoration";
+    const activeCategory = selectedCategory || initialCategory;
 
     useEffect(() => {
         if (mobile) {
             setMobileStep("categories");
-            setSelectedCategory("Event Decoration");
+            if (setSelectedCategory) setSelectedCategory(initialCategory);
         }
-    }, [mobile]);
+    }, [mobile, setSelectedCategory]);
 
     const services = {
         "Event Decoration": [
@@ -71,6 +91,7 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
 
     const categories = Object.keys(services);
 
+
     const handleServiceClick = () => {
         if (setMegaMenuOpen) setMegaMenuOpen(false);
         if (onCloseMenu) onCloseMenu();
@@ -102,7 +123,7 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
                         )}
 
                         <h3 className="text-sm font-bold uppercase tracking-[0.08em] text-[#E62E77]">
-                            {mobileStep === "services" ? selectedCategory : "Event Service"}
+                            {mobileStep === "services" ? activeCategory : "Event Service"}
                         </h3>
                     </div>
 
@@ -124,8 +145,10 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
                                     key={category}
                                     type="button"
                                     onClick={() => {
-                                        setSelectedCategory(category);
+                                        setSelectedCategory?.(category);
                                         setMobileStep("services");
+                                        const route = CATEGORY_TO_ROUTE[category];
+                                        if (route) navigate(route);
                                     }}
                                     className="flex items-center justify-between gap-3 rounded-xl border border-[#E5E7EB] bg-white px-3 py-3 text-left text-sm font-medium text-[#111318] transition hover:border-[#E62E77] hover:bg-[#FFF1F6] hover:text-[#E62E77]"
                                 >
@@ -138,7 +161,7 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
                 ) : (
                     <div className="p-3">
                         <div className="mb-3 grid grid-cols-1 gap-2">
-                            {services[selectedCategory].map((service) => (
+                            {services[activeCategory].map((service) => (
                                 <button
                                     key={service}
                                     type="button"
@@ -174,8 +197,8 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
                         <button
                             key={category}
                             type="button"
-                            onClick={() => setSelectedCategory(category)}
-                            className={`flex cursor-pointer items-center border justify-between gap-2 rounded-lg text-left text-[13px] p-[14px] font-medium transition-all duration-300 ease-in-out hover:translate-x-1 hover:shadow-sm ${selectedCategory === category
+                            onClick={() => setSelectedCategory?.(category)}
+                            className={`flex cursor-pointer items-center border justify-between gap-2 rounded-lg text-left text-[13px] p-[14px] font-medium transition-all duration-300 ease-in-out hover:translate-x-1 hover:shadow-sm ${activeCategory === category
                                     ? "text-[#FFF1F6] bg-[#E62E77] border-[#E62E77] shadow-sm"
                                     : "text-[#111318] border-[#C7CAD1] bg-white hover:border-[#E62E77] hover:bg-[#FFF1F6] hover:text-[#E62E77]"
                                 }`}
@@ -183,7 +206,7 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
                             <span>{category}</span>
 
                             <FiChevronRight
-                                className={`shrink-0 ${selectedCategory === category
+                                className={`shrink-0 ${activeCategory === category
                                         ? "text-[#FFF1F6]"
                                         : "text-[#111318]"
                                     }`}
@@ -199,17 +222,17 @@ export default function Megamenu({ setMegaMenuOpen, eventServicesRef, scroll, mo
 
                 <div className="mb-5">
                     <h3 className="text-2xl font-bold text-[#111318]">
-                        {selectedCategory}
+                        {activeCategory}
                     </h3>
 
                     <p className="mt-1 text-sm text-gray-500">
-                        Explore our {selectedCategory.toLowerCase()} services.
+                        Explore our {activeCategory.toLowerCase()} services.
                     </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-2.5">
 
-                    {services[selectedCategory].map((service) => (
+                    {services[activeCategory].map((service) => (
                         <button
                             key={service}
                             type="button"

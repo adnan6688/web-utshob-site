@@ -12,6 +12,7 @@ const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [mobileEventOpen, setMobileEventOpen] = useState(false);
     const [megaMenuOpen, setMegaMenuOpen] = useState(false);
+    const [selectedCategory, setSelectedCategory] = useState("Event Decoration");
 
     const { scroll, eventServicesRef, serviceRef, partnerRef, howRef } = AuthHooks();
     const location = useLocation();
@@ -177,7 +178,12 @@ const Navbar = () => {
                 >
                     <div className="rounded-2xl border border-[#C7CAD1] bg-white mt-2  shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
 
-                        <Megamenu setMegaMenuOpen={setMegaMenuOpen} eventServicesRef={eventServicesRef}></Megamenu>
+                        <Megamenu
+                            setMegaMenuOpen={setMegaMenuOpen}
+                            eventServicesRef={eventServicesRef}
+                            selectedCategory={selectedCategory}
+                            setSelectedCategory={setSelectedCategory}
+                        />
                     </div>
                 </div>
 
@@ -195,6 +201,8 @@ const Navbar = () => {
                                 setMegaMenuOpen={setMobileEventOpen}
                                 eventServicesRef={eventServicesRef}
                                 scroll={scroll}
+                                selectedCategory={selectedCategory}
+                                setSelectedCategory={setSelectedCategory}
                                 onCloseMenu={() => {
                                     setMobileMenuOpen(false);
                                     setMobileEventOpen(false);

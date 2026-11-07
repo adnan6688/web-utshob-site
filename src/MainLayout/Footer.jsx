@@ -5,7 +5,6 @@ import partnerbarCode from '../assets/web Images/Barcode/partnerQr.webp'
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 
-import { BsQrCode } from "react-icons/bs";
 
 const Footer = () => {
     return (

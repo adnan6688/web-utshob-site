@@ -5,19 +5,19 @@ import MobileFooter from './MobileFooter';
 
 const Layout = () => {
     return (
-        <div>
+        <div className="min-h-screen">
             <Navbar />
 
             <main
                 id="main-content"
-                className="min-h-[calc(100vh-370px)] sm:p-0 mx-auto pt-17 sm:pt-15"
+                className="mx-auto min-h-[calc(100vh-370px)] pt-17  sm:pt-15 "
             >
                 <Outlet />
             </main>
 
             <Footer />
 
-            <div className='sticky bottom-6'>
+            <div className='sticky bottom-6 z-40 mt-4'>
                 <MobileFooter />
             </div>
         </div>
