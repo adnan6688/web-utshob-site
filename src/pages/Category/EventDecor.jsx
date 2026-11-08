@@ -14,6 +14,8 @@ import EventDecoratorConsider from '../../Components/Event/EventDecoratorConside
 import EventDecorWhyChoose from '../../Components/Event/EventDecorWhyChoose';
 import EventDecorRealExperience from '../../Components/Event/EventDecorRealExperience';
 import EventDecorCompleteEvent from '../../Components/Event/EventDecorCompleteEvent';
+import EventDecorAskQuestionEn from '../../Components/Event/EventDecorAskQuestionEn';
+import EventDecorAskQuestionBn from '../../Components/Event/EventDecorQuestionBn';
 
 export default function EventDecor() {
   const [selectedCategory] = useState('Event Decoration');
@@ -84,8 +86,18 @@ export default function EventDecor() {
         <EventDecorRealExperience></EventDecorRealExperience>
       </div>
 
-      <div className={`${sectionClass}  my-28 `}l>
+      <div className={`${sectionClass}  my-20 `} l>
         <EventDecorCompleteEvent></EventDecorCompleteEvent>
+      </div>
+
+
+      <div className={`${sectionClass}  my-20 `} l>
+        <EventDecorAskQuestionEn></EventDecorAskQuestionEn>
+      </div>
+
+
+      <div className={`${sectionClass}   `} l>
+        <EventDecorAskQuestionBn></EventDecorAskQuestionBn>
       </div>
 
     </div>
