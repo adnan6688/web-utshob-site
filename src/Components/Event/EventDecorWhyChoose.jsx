@@ -52,7 +52,7 @@ const EventDecorWhyChoose = ({
           {cards.map((card) => (
             <div
               key={card.id}
-              className="bg-white rounded-[10px] px-5 py-6 border   border-t-3 border-t-[#E8356D] border-x-[#E2E6EB] border-b-[#E2E6EB]  flex flex-col justify-start min-h-[190px]"
+              className="bg-white rounded-[10px] px-5 py-6 border   border-t-3 border-t-[#E62E77] border-x-[#E2E6EB] border-b-[#E2E6EB]  flex flex-col justify-start min-h-[190px]"
             >
               <h3 className="text-[15px] font-bold text-[#111318] mb-3 leading-[22px] tracking-normal">
                 {card.title}
@@ -66,7 +66,7 @@ const EventDecorWhyChoose = ({
 
         {/* Bottom Full-Width Featured Card */}
         {featuredCard && (
-          <div className="bg-white rounded-[10px] px-5 py-6  border  border-t-3 border-t-[#E8356D] border-x-[#E2E6EB] border-b-[#E2E6EB] ">
+          <div className="bg-white rounded-[10px] px-5 py-6  border  border-t-3 border-t-[#E62E77] border-x-[#E2E6EB] border-b-[#E2E6EB] ">
             <h3 className="text-[15px] font-bold text-[#111318] mb-3 leading-[22px] tracking-normal">
               {featuredCard.title}
             </h3>

@@ -16,6 +16,9 @@ import EventDecorRealExperience from '../../Components/Event/EventDecorRealExper
 import EventDecorCompleteEvent from '../../Components/Event/EventDecorCompleteEvent';
 import EventDecorAskQuestionEn from '../../Components/Event/EventDecorAskQuestionEn';
 import EventDecorAskQuestionBn from '../../Components/Event/EventDecorQuestionBn';
+import EventDecorYourChoice from '../../Components/Event/EventDecorYourChoice';
+import EventDecorPartnerApp from '../../Components/Event/EventDecorPartnerApp';
+import NeedHelp from '../../Components/Event/NeedHelp';
 
 export default function EventDecor() {
   const [selectedCategory] = useState('Event Decoration');
@@ -86,18 +89,37 @@ export default function EventDecor() {
         <EventDecorRealExperience></EventDecorRealExperience>
       </div>
 
-      <div className={`${sectionClass}  my-20 `} l>
+      <div className={`${sectionClass}  my-20 `}>
         <EventDecorCompleteEvent></EventDecorCompleteEvent>
       </div>
 
 
-      <div className={`${sectionClass}  my-20 `} l>
+      <div className={`${sectionClass}  my-20 `}>
         <EventDecorAskQuestionEn></EventDecorAskQuestionEn>
       </div>
 
 
-      <div className={`${sectionClass}   `} l>
+      <div className={`${sectionClass}   `}>
         <EventDecorAskQuestionBn></EventDecorAskQuestionBn>
+      </div>
+
+
+
+      <div className="bg-[#FFF1F6] py-5 mt-10">
+        <div className={`${sectionClass}   `}>
+          <EventDecorYourChoice></EventDecorYourChoice>
+        </div>
+      </div>
+
+
+      <div className="bg-[#EDF8FF]">
+        <div className={`${sectionClass} py-10  `}>
+          <EventDecorPartnerApp></EventDecorPartnerApp>
+        </div>
+      </div>
+
+      <div  className={`${sectionClass} py-20  `}>
+        <NeedHelp></NeedHelp>
       </div>
 
     </div>

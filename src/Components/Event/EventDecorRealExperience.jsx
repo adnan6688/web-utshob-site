@@ -55,7 +55,7 @@ const StatItem = ({ end, suffix = "+", title, description }) => {
     return (
         <div ref={ref} className="flex flex-col gap-y-2 items-start">
             {/* Animated Number */}
-            <h3 className="text-2xl font-bold text-[#E8356D] mb-2 tracking-tight">
+            <h3 className="text-2xl font-bold text-[#E62E77] mb-2 tracking-tight">
                 {count.toLocaleString()}{suffix}
             </h3>
             {/* Title */}

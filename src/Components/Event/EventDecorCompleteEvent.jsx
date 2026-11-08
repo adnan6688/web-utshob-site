@@ -157,7 +157,7 @@ const EventDecorCompleteEvent = ({
                             <a
                                 href={`#${service.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
                                 aria-label={`Explore ${service.title}`}
-                                className="inline-flex items-center gap-1.5 text-[#E8356D] font-semibold text-xs group transition-colors duration-300 hover:text-[#CC0166]"
+                                className="inline-flex items-center gap-1.5 text-[#E62E77] font-semibold text-xs group transition-colors duration-300 hover:text-[#CC0166]"
                             >
                                 Explore
                                 <FaArrowRight className="text-[10px] transition-transform duration-300 group-hover:translate-x-1" />
@@ -175,7 +175,7 @@ const EventDecorCompleteEvent = ({
                         type="button"
                         onClick={() => setShowAll(prev => !prev)}
                         aria-expanded={showAll}
-                        className="border-2 border-[#E8356D] text-[#E8356D] hover:bg-[#FFF0F5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 text-sm shadow-sm cursor-pointer"
+                        className="border-2 border-[#E62E77] text-[#E62E77] hover:bg-[#FFF0F5] font-semibold py-3 px-6 rounded-xl transition-all duration-300 text-sm shadow-sm cursor-pointer"
                     >
                         {showAll
                             ? "Show Less Services"
