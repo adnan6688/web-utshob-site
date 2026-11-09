@@ -25,6 +25,10 @@ const SERVICE_TO_ROUTE = {
     "Head Table Decoration": "/event-decoration-head-table",
     "Mehendi Stage Decoration": "/event-decoration-mehendi-stage",
     "Kunjo Decoration": "/event-decoration-kunjo",
+    "Wedding Car Rental": "/wedding-car-rental",
+    "Micro Bus Rental": "/micro-bus-rental",
+    "Airport Transfer": "/airport-transfer",
+    "Premium Car Rental": "/premium-car-rental",
 };
 
 export default function Megamenu({
@@ -52,56 +56,56 @@ export default function Megamenu({
     const services = {
         "Event Decoration": [
             "Wedding Stage Decoration",
-            "Holud Stage Decoration",
-            "Birthday Decoration",
-            "Basor Ghor Decoration",
-            "Wedding Car Decoration",
-            "Photo Booth Rental",
-            "360 Photo Booth Rental",
-            "Wedding Gate Decoration",
-            "Wedding Walkway Decoration",
-            "Head Table Decoration",
-            "Mehendi Stage Decoration",
-            "Kunjo Decoration",
+            // "Holud Stage Decoration",
+            // "Birthday Decoration",
+            // "Basor Ghor Decoration",
+            // "Wedding Car Decoration",
+            // "Photo Booth Rental",
+            // "360 Photo Booth Rental",
+            // "Wedding Gate Decoration",
+            // "Wedding Walkway Decoration",
+            // "Head Table Decoration",
+            // "Mehendi Stage Decoration",
+            // "Kunjo Decoration",
         ],
 
-        "Photography & Videography": [
-            "Wedding Photography",
-            "Wedding Videography",
-            "Pre Wedding Photography",
-            "Cinematic Wedding Film",
-            "Birthday Photography",
-            "Event Photography",
-        ],
+        // "Photography & Videography": [
+        //     "Wedding Photography",
+        //     "Wedding Videography",
+        //     "Pre Wedding Photography",
+        //     "Cinematic Wedding Film",
+        //     "Birthday Photography",
+        //     "Event Photography",
+        // ],
 
         "Car Rental": [
             "Wedding Car Rental",
             "Micro Bus Rental",
             "Airport Transfer",
-            "Premium Car Rental",
+            // "Premium Car Rental",
         ],
 
-        "Rides & Band Party": [
-            "DJ Party",
-            "Live Band",
-            "Sound System",
-            "Stage Performance",
-        ],
+        // "Rides & Band Party": [
+        //     "DJ Party",
+        //     "Live Band",
+        //     "Sound System",
+        //     "Stage Performance",
+        // ],
 
-        "Cake": [
-            "Wedding Cake",
-            "Birthday Cake",
-            "Custom Theme Cake",
-            "Anniversary Cake",
-        ],
+        // "Cake": [
+        //     "Wedding Cake",
+        //     "Birthday Cake",
+        //     "Custom Theme Cake",
+        //     "Anniversary Cake",
+        // ],
 
-        "Event Rental & Support": [
-            "Chair Rental",
-            "Table Rental",
-            "Lighting Rental",
-            "Sound System Rental",
-            "Event Equipment",
-        ],
+        // "Event Rental & Support": [
+        //     "Chair Rental",
+        //     "Table Rental",
+        //     "Lighting Rental",
+        //     "Sound System Rental",
+        //     "Event Equipment",
+        // ],
     };
 
     const categories = Object.keys(services);

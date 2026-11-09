@@ -48,7 +48,7 @@ export default function CarRentalBookingProcessSection() {
     <section className="w-full  bg-sky-50/50 rounded-3xl text-gray-800">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2 tracking-normal">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 tracking-normal">
           How Car Rental Booking Works on Utshob
         </h2>
         <p className="text-sm sm:text-base font-medium text-pink-600">

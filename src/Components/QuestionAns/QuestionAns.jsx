@@ -8,6 +8,7 @@ const QuestionAns = ({
     faqs = [],
     en_Or_bn,
     limit = 5,
+    bg = ''
 }) => {
     const [openIndex, setOpenIndex] = useState(null);
     const [showAll, setShowAll] = useState(false);
@@ -32,11 +33,8 @@ const QuestionAns = ({
                         return (
                             <div
                                 key={`${item.q}-${index}`}
-                                className={`relative p-4 ${
-                                    en_Or_bn === "bn"
-                                        ? "bg-[#FFFFFF] rounded-[14px]"
-                                        : "border border-[#D6E5E2] rounded-[14px]"
-                                }`}
+                                className={`relative p-4 rounded-[14px] ${en_Or_bn === 'bn' ? 'bg-[#FFFFFF]' : 'border border-[#D6E5E2]'
+                                    } ${bg === 'white' ? 'bg-white' : ''}`}
                             >
                                 <button
                                     type="button"
