@@ -80,7 +80,7 @@ export default function CarRentalRequirment() {
                     <span className="text-[10px] font-bold tracking-normalr text-[#D61F68] uppercase">
                         TELL PARTNERS EXACTLY WHAT YOU NEED
                     </span>
-                    <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                    <h2 className="text-2xl sm:text-3xl font-bold text-[#111318]">
                         Define Your Car Rental Requirement
                     </h2>
                     <p className="text-xs sm:text-sm text-[#5E6878] max-w-4xl leading-relaxed">
@@ -102,7 +102,7 @@ export default function CarRentalRequirment() {
                                     <div className="w-8 h-8 rounded-full bg-[#D61F68] text-white font-bold text-xs flex items-center justify-center ">
                                         {item.number}
                                     </div>
-                                    <h3 className="text-sm font-bold text-gray-900 ">
+                                    <h3 className="text-sm font-bold text-[#111318] ">
                                         {item.title}
                                     </h3>
                                 </div>
@@ -119,7 +119,7 @@ export default function CarRentalRequirment() {
 
                 {/* Bottom Footer Note */}
                 <div className="pt-4">
-                    <p className="text-xs sm:text-sm font-bold text-gray-900">
+                    <p className="text-xs sm:text-sm font-bold text-[#111318]">
                         The clearer your requirement, the easier it becomes to compare different quotations against the same transportation need.
                     </p>
                 </div>

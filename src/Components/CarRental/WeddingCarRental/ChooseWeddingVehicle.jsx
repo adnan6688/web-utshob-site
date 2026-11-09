@@ -52,10 +52,10 @@ export default function ChooseWeddingVehicle() {
   ];
 
   return (
-    <section className="w-full  bg-slate-50/40 text-gray-800">
+    <section className="w-full  bg-slate-50/40 text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-normal">
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] tracking-normal">
           Choose the Wedding Vehicles You Need
         </h2>
       </div>
@@ -78,7 +78,7 @@ export default function ChooseWeddingVehicle() {
               </div>
 
               {/* Title */}
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 leading-snug">
+              <h3 className="text-lg sm:text-xl font-bold text-[#111318] mb-3 leading-snug">
                 {card.title}
               </h3>
 

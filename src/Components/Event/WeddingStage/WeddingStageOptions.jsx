@@ -27,7 +27,7 @@ export default function WeddingStageOptions() {
     return (
         <section className="">
             <div className="">
-                <h2 className="text-2xl sm:text-[28px] leading-[145%] tracking-normal font-bold text-gray-900 mb-8">
+                <h2 className="text-2xl sm:text-[28px] leading-[145%] tracking-normal font-bold text-[#111318] mb-8">
                     Wedding Stage Options You Can Request
                 </h2>
 
@@ -41,7 +41,7 @@ export default function WeddingStageOptions() {
                             <div className="absolute top-0 left-0 bottom-0 w-1.5 bg-[#E62E77]" />
 
                             <div className="pl-2">
-                                <h3 className="text-[17px] leading-[145%] tracking-normal font-bold text-gray-800 mb-2">
+                                <h3 className="text-[17px] leading-[145%] tracking-normal font-bold text-[#111318] mb-2">
                                     {item.title}
                                 </h3>
                                 <p className="text-[13px] text-[#626773] leading-[145%] tracking-normal ">

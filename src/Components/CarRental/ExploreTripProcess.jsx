@@ -35,7 +35,7 @@ export default function ExploreTripProcess() {
 
         {/* Header Title & Subtitle */}
         <div className="space-y-2">
-          <h2 className="text-xl sm:text-[32px] font-bold text-gray-900 flex flex-wrap items-center gap-2">
+          <h2 className="text-xl sm:text-[32px] font-bold text-[#111318] flex flex-wrap items-center gap-2">
             <span>Explore the Vehicle</span>
             <FaArrowRight className="text-base sm:text-lg " />
 
@@ -63,7 +63,7 @@ export default function ExploreTripProcess() {
                     {item.step}
                   </div>
 
-                  <h3 className="text-[18px] font-bold text-gray-900 ">
+                  <h3 className="text-[18px] font-bold text-[#111318] ">
                     {item.title}
                   </h3>
                 </div>

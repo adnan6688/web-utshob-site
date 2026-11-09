@@ -33,7 +33,7 @@ export default function MultiplePrograms() {
       <div className="">
         {/* Header Section */}
         <div className="mb-8 text-left">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-normal mb-3">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] tracking-normal mb-3">
             One Wedding, Multiple Programs
           </h2>
           <p className="text-sm sm:text-base text-[#5E6878] mb-2">
@@ -62,7 +62,7 @@ export default function MultiplePrograms() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-[21px] font-bold text-gray-900 mb-2">
+                <h3 className="text-[21px] font-bold text-[#111318] mb-2">
                   {program.title}
                 </h3>
 
@@ -77,7 +77,7 @@ export default function MultiplePrograms() {
 
         {/* Bottom Note */}
         <div>
-          <p className="text-xs sm:text-base font-semibold text-gray-900">
+          <p className="text-xs sm:text-base font-semibold text-[#111318]">
             Each requirement can be structured according to the actual program.
           </p>
         </div>

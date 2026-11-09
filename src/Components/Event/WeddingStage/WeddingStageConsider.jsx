@@ -16,7 +16,7 @@ export default function WeddingStageConsider() {
     <section className="">
       <div className="">
         {/* Section Heading */}
-        <h2 className="text-2xl sm:text-[28px] font-bold text-gray-900 mb-2">
+        <h2 className="text-2xl sm:text-[28px] font-bold text-[#111318] mb-2">
           What to Consider Before Choosing a Wedding Stage Decorator
         </h2>
         <p className="text-[15px] text-[#5E6878]  mb-8 leading-relaxed">
@@ -41,7 +41,7 @@ export default function WeddingStageConsider() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <span className="text-xs font-medium text-gray-800">{item}</span>
+              <span className="text-xs font-medium text-[#111318]">{item}</span>
             </div>
           ))}
         </div>

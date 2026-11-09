@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function MicroBusHero() {
   return (
-    <section className="w-full  bg-white text-gray-800">
+    <section className="w-full  bg-white text-[#111318]">
       {/* Top Header Section */}
       <div className="mb-8 text-left">
         {/* Main Title */}
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal leading-tight mb-4">
+        <h1 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal leading-tight mb-4">
           Microbus Rental in Dhaka & Bangladesh
         </h1>
 
@@ -44,12 +44,12 @@ export default function MicroBusHero() {
         </div>
 
         {/* Highlight Title */}
-        <h3 className="text-base sm:text-lg font-bold text-gray-900 leading-snug mb-2">
+        <h3 className="text-base sm:text-lg font-bold text-[#111318] leading-snug mb-2">
           Verified Noah and HiAce examples; representative until partner bid identifies actual capacity, model and vehicle photos.
         </h3>
 
         {/* Disclaimer Subtext */}
-        <p className="text-xs text-gray-400 leading-relaxed">
+        <p className="text-xs text-[#5C6370] leading-relaxed">
           Representative discovery image only. It must not imply exact model, availability, condition, decoration or owned-fleet status.
         </p>
       </div>

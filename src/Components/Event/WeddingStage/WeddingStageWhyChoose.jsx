@@ -29,7 +29,7 @@ export default function WeddingStageWhyChoose() {
       <div className=" space-y-6">
         {/* Title */}
         <div className='flex flex-col gap-y-1'>
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] mb-1">
             Why Choose Utshob for Wedding Stage Decoration?
           </h2>
           <p className="text-[15px] font-semibold text-[#E62E77]">
@@ -48,7 +48,7 @@ export default function WeddingStageWhyChoose() {
                 <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-pink-50 text-[#E62E77] text-xs font-bold mb-3 border border-[#E1E5EA]">
                   {card.number}
                 </span>
-                <h3 className="text-sm font-bold text-gray-900 mb-1.5">
+                <h3 className="text-sm font-bold text-[#111318] mb-1.5">
                   {card.title}
                 </h3>
                 <p className="text-xs text-[#59606C] leading-relaxed">
@@ -61,7 +61,7 @@ export default function WeddingStageWhyChoose() {
 
         {/* Bottom Tagline Box */}
         <div className="bg-white rounded-2xl p-5 border border-[#F0C5D6]">
-          <h4 className="text-sm font-bold text-gray-900 mb-1">
+          <h4 className="text-sm font-bold text-[#111318] mb-1">
             Event App মানে Utshob.xyz
           </h4>
           <p className="text-xs text-[#E62E77] font-medium">

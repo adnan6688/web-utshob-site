@@ -29,7 +29,7 @@ export default function WeddingStageCompare() {
   return (
     <section className="">
       <div className=" space-y-8">
-        <h2 className="text-2xl sm:text-3xl leading-[38px] font-bold text-gray-900">
+        <h2 className="text-2xl sm:text-3xl leading-[38px] font-bold text-[#111318]">
           Compare Before You Book
         </h2>
 
@@ -46,7 +46,7 @@ export default function WeddingStageCompare() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-[16px] leading-[22px] font-bold text-gray-900">{feature.title}</h3>
+                <h3 className="text-[16px] leading-[22px] font-bold text-[#111318]">{feature.title}</h3>
                 <p className="text-[13px] text-[#667085] mt-1">{feature.description}</p>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function WeddingStageCompare() {
         {/* Quotation Comparison Container */}
         <div className="bg-white rounded-2xl border border-[#F0C5D6] p-6 ">
           <div className="flex items-center justify-between mb-6">
-            <h3 className="text-[18px] font-bold text-gray-900">
+            <h3 className="text-[18px] font-bold text-[#111318]">
               Customer Quotation Comparison
             </h3>
             <span className="text-[13px] text-pink-500 bg-pink-50 px-3 py-1 rounded-full font-medium">
@@ -67,7 +67,7 @@ export default function WeddingStageCompare() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Quotation A */}
             <div className="bg-[#F4F6F8] rounded-xl p-4 ">
-              <h4 className="text-[13px] font-bold text-gray-900 mb-3">Quotation A</h4>
+              <h4 className="text-[13px] font-bold text-[#111318] mb-3">Quotation A</h4>
               <ul className="space-y-[7px]">
                 {checkList.map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-[13px] text-[#667085]">
@@ -80,7 +80,7 @@ export default function WeddingStageCompare() {
 
             {/* Quotation B (Highlighted Pink Border) */}
             <div className="bg-pink-50/30 rounded-xl p-4 border border-[#F0C5D6]">
-              <h4 className="text-[13px] font-bold text-gray-900 mb-3">Quotation B</h4>
+              <h4 className="text-[13px] font-bold text-[#111318] mb-3">Quotation B</h4>
               <ul className="space-y-[7px]">
                 {checkList.map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-[13px] text-pink-600 font-medium">
@@ -93,7 +93,7 @@ export default function WeddingStageCompare() {
 
             {/* Quotation C */}
             <div className="bg-[#F4F6F8] rounded-xl p-4">
-              <h4 className="text-[13px] font-bold text-gray-900 mb-3">Quotation C</h4>
+              <h4 className="text-[13px] font-bold text-[#111318] mb-3">Quotation C</h4>
               <ul className="space-y-[7px]">
                 {checkList.map((item, i) => (
                   <li key={i} className="flex items-center gap-2 text-[13px] text-[#667085]">

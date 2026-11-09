@@ -12,7 +12,7 @@ export default function WeddingCarRentalHeroSection() {
     ];
 
     return (
-        <section className=" text-gray-800">
+        <section className=" text-[#111318]">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 {/* Left Column - Content */}
                 <div className="lg:col-span-7 flex flex-col justify-center">
@@ -24,13 +24,13 @@ export default function WeddingCarRentalHeroSection() {
                     </div>
 
                     {/* Main Title */}
-                    <h1 className="text-3xl sm:text-[4xl] md:text-[52px] font-bold text-gray-900 tracking-normal leading-[57px] mb-4">
+                    <h1 className="text-3xl sm:text-[4xl] md:text-[52px] font-bold text-[#111318] tracking-normal leading-[57px] mb-4">
                         Wedding Car Rental in <br className="hidden sm:inline" />
                         Dhaka & Bangladesh
                     </h1>
 
                     {/* Subtitle / Key Hook */}
-                    <h2 className="text-lg sm:text-[19px] font-semibold text-gray-800 mb-4">
+                    <h2 className="text-lg sm:text-[19px] font-semibold text-[#111318] mb-4">
                         Arrange the vehicle or complete transportation plan your wedding actually needs.
                     </h2>
 
@@ -70,7 +70,7 @@ export default function WeddingCarRentalHeroSection() {
                         ACTUAL PROPOSAL PROOF
                     </span>
                     {/* Card Title */}
-                    <h3 className="text-lg sm:text-[24px] font-bold text-gray-900 leading-tight mb-6">
+                    <h3 className="text-lg sm:text-[24px] font-bold text-[#111318] leading-tight mb-6">
                         Compare the Vehicle Partners Can Actually Provide
                     </h3>
 
@@ -106,7 +106,7 @@ export default function WeddingCarRentalHeroSection() {
                                 <span className="inline-flex w-fit rounded-full bg-[#FFF1F6] px-3 py-1 text-[9px] font-bold text-pink-600 tracking-normalr uppercase mb-0.5">
                                     PROOF
                                 </span>
-                                <span className="text-xs font-bold text-gray-800">
+                                <span className="text-xs font-bold text-[#111318]">
                                     {item.label}
                                 </span>
                             </div>

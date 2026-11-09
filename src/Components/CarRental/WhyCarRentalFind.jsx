@@ -39,7 +39,7 @@ export default function WhyFindCarRental() {
             <div className="">
                 {/* Section Heading */}
                 <div className="mb-10 text-left">
-                    <h2 className="text-3xl  font-bold text-gray-900 tracking-normal">
+                    <h2 className="text-3xl  font-bold text-[#111318] tracking-normal">
                         Why Find Car Rental Through Utshob?
                     </h2>
                 </div>
@@ -51,7 +51,7 @@ export default function WhyFindCarRental() {
                             key={index}
                             className="bg-white rounded-2xl p-6 sm:p-7 border border-[#E2E6EB] border-t-4 border-t-[#E62E77] shadow-xs flex flex-col justify-start transition-all duration-200 hover:shadow-md"
                         >
-                            <h3 className="text-base font-bold text-gray-900 mb-3 leading-snug">
+                            <h3 className="text-base font-bold text-[#111318] mb-3 leading-snug">
                                 {item.title}
                             </h3>
 
@@ -66,7 +66,7 @@ export default function WhyFindCarRental() {
                 <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E2E6EB] border-t-4 border-t-[#E62E77] shadow-xs grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
                     <div>
-                        <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
+                        <h3 className="text-base sm:text-lg font-bold text-[#111318] mb-3">
                             Compare More Than Price
                         </h3>
 
@@ -76,7 +76,7 @@ export default function WhyFindCarRental() {
                     </div>
 
                     <div className="md:border-l md:border-gray-200 md:pl-8">
-                        <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-3">
+                        <h3 className="text-base sm:text-lg font-bold text-[#111318] mb-3">
                             Plan Multiple Vehicles, Programs & Event Services
                         </h3>
 

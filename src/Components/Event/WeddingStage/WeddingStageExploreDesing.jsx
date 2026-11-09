@@ -37,7 +37,7 @@ export default function WeddingStageExploreDesing() {
   return (
     <section className="">
       <div className="">
-        <h2 className="text-2xl sm:text-3xl leading-[38px] tracking-normal font-bold text-gray-900 mb-2">
+        <h2 className="text-2xl sm:text-3xl leading-[38px] tracking-normal font-bold text-[#111318] mb-2">
           Explore Selected Wedding Stage Designs
         </h2>
         <p className="text-[13px] text-[#667085] leading-[13px] tracking-normal mb-8">
@@ -70,7 +70,7 @@ export default function WeddingStageExploreDesing() {
 
               {/* Card Footer Content */}
               <div className="p-4 bg-white flex flex-col justify-between flex-grow">
-                <h3 className="text-sm font-semibold text-gray-900 mb-1">
+                <h3 className="text-sm font-semibold text-[#111318] mb-1">
                   {card.title}
                 </h3>
                 <a

@@ -81,7 +81,7 @@ const CarRentalChoice = () => {
                             <IoLogoGooglePlaystore className="text-2xl text-[#34A853] shrink-0" />
 
                             <div className="flex flex-col text-left leading-none">
-                                <span className="text-[9px] text-gray-300 uppercase">
+                                <span className="text-[9px] text-[#5C6370] uppercase">
                                     GET IT ON
                                 </span>
                                 <span className="text-sm font-semibold mt-1">
@@ -99,7 +99,7 @@ const CarRentalChoice = () => {
                             <BsApple className="text-2xl text-white shrink-0" />
 
                             <div className="flex flex-col text-left leading-none">
-                                <span className="text-[9px] text-gray-300">
+                                <span className="text-[9px] text-[#5C6370]">
                                     Download on the
                                 </span>
                                 <span className="text-sm font-semibold mt-1">

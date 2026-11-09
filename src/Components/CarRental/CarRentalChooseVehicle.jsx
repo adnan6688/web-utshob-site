@@ -62,10 +62,10 @@ export default function CarRentalChooseVehicle() {
   ];
 
   return (
-    <section className="w-full  bg-white text-gray-800">
+    <section className="w-full  bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-normal">
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] mb-3 tracking-normal">
           How to Choose the Right Rental Vehicle
         </h2>
         <p className="text-[#5E6878] text-sm sm:text-base leading-relaxed mb-1">
@@ -99,7 +99,7 @@ export default function CarRentalChooseVehicle() {
                     <Check className="w-3.5 h-3.5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug mb-1">
+                    <h4 className="text-xs sm:text-sm font-bold text-[#111318] leading-snug mb-1">
                       {item.title}
                     </h4>
                     <p className="text-[11px] sm:text-xs text-[#5E6878] leading-relaxed">

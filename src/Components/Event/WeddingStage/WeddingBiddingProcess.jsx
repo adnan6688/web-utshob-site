@@ -22,7 +22,7 @@ export default function WeddingBiddingProcess() {
   return (
     <section className="flex flex-col space-y-3">
       <div>
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#111318]">
           How Providers Bid on Your Wedding Stage Requirement
         </h2>
       </div>
@@ -53,7 +53,7 @@ export default function WeddingBiddingProcess() {
               </div>
 
               <div>
-                <h3 className="text-[16px] font-bold leading-[145%] text-gray-900">
+                <h3 className="text-[16px] font-bold leading-[145%] text-[#111318]">
                   {step.title}
                 </h3>
                 <p className="text-[14px] text-[#626773] mt-0.5">

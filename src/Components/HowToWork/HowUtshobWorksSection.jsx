@@ -10,7 +10,7 @@ const StepCard = ({
   const badgeClasses = {
     white: 'bg-[#E62E6B] text-white',
     pink: 'bg-[#E62E6B] text-white',
-    blue: 'bg-white text-gray-800  ',
+    blue: 'bg-white text-[#111318]  ',
   };
 
   return (

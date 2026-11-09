@@ -11,14 +11,14 @@ export default function BookOneCar() {
   ];
 
   return (
-    <section className="w-full  text-gray-800">
+    <section className="w-full  text-[#111318]">
       <div className="">
         {/* Main Title */}
         <div className="mb-8 text-left">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal mb-3">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">
             Book One Car or the Complete Wedding Transport Plan
           </h2>
-          <p className="text-xs sm:text-sm text-gray-400">
+          <p className="text-xs sm:text-sm text-[#5C6370]">
             You can request:
           </p>
         </div>
@@ -34,7 +34,7 @@ export default function BookOneCar() {
               <span className="w-2 h-2 rounded-full bg-pink-600 shrink-0" />
 
               {/* Text Label */}
-              <span className="text-xs sm:text-sm font-semibold text-gray-800 leading-snug">
+              <span className="text-xs sm:text-sm font-semibold text-[#111318] leading-snug">
                 {option}
               </span>
             </div>

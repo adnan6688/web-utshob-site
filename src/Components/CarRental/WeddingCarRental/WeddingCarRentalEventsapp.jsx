@@ -10,7 +10,7 @@ export default function WeddingCarRentalEventsapp() {
     ];
 
     return (
-        <section className="w-full  text-gray-800">
+        <section className="w-full  text-[#111318]">
             <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
 
                 {/* Left Card */}
@@ -24,7 +24,7 @@ export default function WeddingCarRentalEventsapp() {
                         </div>
 
                         {/* Titles */}
-                        <h2 className="text-2xl text-[34px] font-bold text-gray-900 tracking-normal mb-1">
+                        <h2 className="text-2xl text-[34px] font-bold text-[#111318] tracking-normal mb-1">
                             Bangladesh’s Event App
                         </h2>
                         <h3 className="text-lg sm:text-[18px] font-semibold text-pink-600 mb-6">
@@ -42,7 +42,7 @@ export default function WeddingCarRentalEventsapp() {
 
                     {/* Footer Text / Bengali Slogan */}
                     <div className="pt-4">
-                        <p className="text-sm font-bold text-gray-900 mb-1">
+                        <p className="text-sm font-bold text-[#111318] mb-1">
                             Event App মানে Utshob.xyz
                         </p>
                         <p className="text-sm font-bold text-pink-600">
@@ -55,7 +55,7 @@ export default function WeddingCarRentalEventsapp() {
                 <div className="bg-white rounded-3xl p-4 sm:px-5 py-10 shadow-xs flex flex-col justify-between">
                     <div>
                         {/* Main Header */}
-                        <h2 className="flex flex-wrap items-center gap-2 text-xl sm:text-[24px] font-bold text-gray-900 tracking-normal leading-snug mb-4">
+                        <h2 className="flex flex-wrap items-center gap-2 text-xl sm:text-[24px] font-bold text-[#111318] tracking-normal leading-snug mb-4">
                             <span>One Request</span>
                             <FaArrowRight className=" text-sm" />
 
@@ -84,7 +84,7 @@ export default function WeddingCarRentalEventsapp() {
                                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white text-[10px] font-semibold text-pink-600 mb-2">
                                     {step.number}
                                 </span>
-                                <span className="text-xs font-semibold text-gray-900 leading-[145%] ">
+                                <span className="text-xs font-semibold text-[#111318] leading-[145%] ">
                                     {step.title}
                                 </span>
                             </div>

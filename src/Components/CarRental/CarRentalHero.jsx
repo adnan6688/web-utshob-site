@@ -12,7 +12,7 @@ export default function CarRentalHero() {
                 <div className="flex w-full flex-col gap-5 lg:w-[52%]">
 
                     <div>
-                        <h1 className="mb-3 text-3xl font-bold text-gray-900 sm:text-[38px] lg:leading-[52px]">
+                        <h1 className="mb-3 text-3xl font-bold text-[#111318] sm:text-[38px] lg:leading-[52px]">
                             Car Rental in Bangladesh
                         </h1>
 
@@ -25,7 +25,7 @@ export default function CarRentalHero() {
                     </div>
 
                     {/* Process Steps */}
-                    <div className="flex flex-wrap sm:mt-9 items-center gap-x-2 gap-y-2 text-[11px] font-semibold text-gray-800 sm:text-xs">
+                    <div className="flex flex-wrap sm:mt-9 items-center gap-x-2 gap-y-2 text-[11px] font-semibold text-[#111318] sm:text-xs">
                         <span>Define Your Requirement</span>
                         <FaArrowRight className="shrink-0 text-[#E62E77]" />
 

@@ -49,7 +49,7 @@ export default function WeddingStageBooking() {
       <div className="">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318]">
             How Wedding Stage Booking Works on Utshob
           </h2>
           <span className="self-start sm:self-auto bg-pink-100 text-pink-600 text-xs font-semibold px-3 py-1.5 rounded-full">
@@ -68,7 +68,7 @@ export default function WeddingStageBooking() {
                 <div className="w-8 h-8 rounded-full bg-pink-50 text-pink-600 text-xs font-bold flex items-center justify-center mb-3">
                 {item.step}
               </div>
-              <h3 className="text-[15px] font-bold text-gray-900 mb-1.5">
+              <h3 className="text-[15px] font-bold text-[#111318] mb-1.5">
                 {item.title}
               </h3>
               </div>

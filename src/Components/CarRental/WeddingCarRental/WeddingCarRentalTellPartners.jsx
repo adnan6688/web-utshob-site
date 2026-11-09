@@ -17,10 +17,10 @@ export default function WeddingCarRentalTellPartners() {
   ];
 
   return (
-    <section className=" bg-white text-gray-800">
+    <section className=" bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-8 text-left">
-        <h2 className="text-xl sm:text-2xl md:text-[42px] font-bold text-gray-900 mb-3 tracking-normal">
+        <h2 className="text-xl sm:text-2xl md:text-[42px] font-bold text-[#111318] mb-3 tracking-normal">
           Tell Partners Exactly What Your Wedding Needs
         </h2>
         <p className="text-[#5E6878] text-sm sm:text-base leading-[145%] mb-2">
@@ -42,7 +42,7 @@ export default function WeddingCarRentalTellPartners() {
             <span className="w-2 h-2 rounded-full bg-pink-600 shrink-0" />
             
             {/* Requirement Text */}
-            <span className="text-xs sm:text-sm font-semibold text-gray-800 leading-snug">
+            <span className="text-xs sm:text-sm font-semibold text-[#111318] leading-snug">
               {item}
             </span>
           </div>
@@ -51,7 +51,7 @@ export default function WeddingCarRentalTellPartners() {
 
       {/* Bottom Highlight Box */}
       <div className="bg-[#FFF1F6] rounded-2xl p-5 text-left">
-        <p className="text-xs sm:text-[18px] font-semibold text-gray-900">
+        <p className="text-xs sm:text-[18px] font-semibold text-[#111318]">
           Each program can have a different vehicle, date, route and timing.
         </p>
       </div>

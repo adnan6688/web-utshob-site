@@ -14,7 +14,7 @@ export default function WeddingStageAddMoreService() {
   return (
     <section className="">
       <div className="">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] mb-8">
           Book Only the Stage or Add More Services
         </h2>
 
@@ -26,7 +26,7 @@ export default function WeddingStageAddMoreService() {
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-[#E62E77] text-white text-xs font-bold mb-4">
                 01
               </span>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">
+              <h3 className="text-lg font-bold text-[#111318] mb-2">
                 Wedding Stage Only
               </h3>
               <p className="text-sm text-[#59606C]">
@@ -41,7 +41,7 @@ export default function WeddingStageAddMoreService() {
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white text-[#E62E77] border border-rose-200 text-xs font-bold mb-4">
                 02
               </span>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">
+              <h3 className="text-lg font-bold text-[#111318] mb-2">
                 Add More Services
               </h3>
               <p className="text-xs text-[#59606C] mb-5 leading-relaxed">
@@ -53,7 +53,7 @@ export default function WeddingStageAddMoreService() {
                 {addOnServices.map((service, idx) => (
                   <span
                     key={idx}
-                    className="bg-white text-gray-800 text-xs font-medium px-3.5 py-1.5 rounded-full border border-[#D7DEE7]"
+                    className="bg-white text-[#111318] text-xs font-medium px-3.5 py-1.5 rounded-full border border-[#D7DEE7]"
                   >
                     {service}
                   </span>
@@ -65,7 +65,7 @@ export default function WeddingStageAddMoreService() {
 
         {/* Bottom Banner: Separate Programs */}
         <div className="bg-[#F4F6F8] rounded-2xl p-6 border border-gray-200/60">
-          <h4 className="text-xs font-bold text-gray-900 mb-1">
+          <h4 className="text-xs font-bold text-[#111318] mb-1">
             Separate programs on different dates
           </h4>
           <p className="text-xs text-[#59606C] mb-4">
@@ -76,7 +76,7 @@ export default function WeddingStageAddMoreService() {
             {programs.map((program, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-full py-2 px-4 text-center text-xs font-medium text-gray-800  border border-[#D7DEE7]"
+                className="bg-white rounded-full py-2 px-4 text-center text-xs font-medium text-[#111318]  border border-[#D7DEE7]"
               >
                 {program}
               </div>

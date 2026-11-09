@@ -13,7 +13,7 @@ export default function WeddingStageRelativeService() {
   return (
     <section className="">
       <div className="">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] mb-6">
           Related Services
         </h2>
 
@@ -43,7 +43,7 @@ export default function WeddingStageRelativeService() {
               </div>
 
               {/* Service Title */}
-              <span className="text-xs sm:text-sm font-semibold text-gray-800">
+              <span className="text-xs sm:text-sm font-semibold text-[#111318]">
                 {service.name}
               </span>
             </a>

@@ -6,7 +6,7 @@ export default function WeddingStageSeeMore() {
         <section className="">
             <div className=" flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="">
-                    <h2 className="text-xl sm:text-[28px] font-bold text-gray-900 mb-2">
+                    <h2 className="text-xl sm:text-[28px] font-bold text-[#111318] mb-2">
                         See More Wedding Stage Designs in the Utshob App
                     </h2>
                     <p className="text-[15px] max-w-3xl leading-[145%] text-[#5E6878] ">

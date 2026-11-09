@@ -27,7 +27,7 @@ export default function ExploreOurMicroBus({ cards = DEFAULT_EXPLORE_CARDS }) {
         <div key={card.id} className={`${card.bgColor} py-12 px-6 sm:px-12 transition-colors duration-200`}>
           <div className="max-w-6xl mx-auto text-left">
             {/* Title */}
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal mb-3">
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">
               {card.title}
             </h2>
 

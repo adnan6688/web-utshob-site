@@ -38,10 +38,10 @@ export default function CarRentalCompare() {
   ];
 
   return (
-    <section className=" bg-white text-gray-800">
+    <section className=" bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl  font-bold text-gray-900 mb-2 tracking-normal">
+        <h2 className="text-3xl  font-bold text-[#111318] mb-2 tracking-normal">
           Compare More Than Car Rental Prices
         </h2>
         <h3 className="text-[16px] font-semibold text-[#E62E77] mb-4">
@@ -66,7 +66,7 @@ export default function CarRentalCompare() {
 
             {/* Card Content */}
             <div>
-              <h4 className="text-base font-bold text-gray-900 mb-1">
+              <h4 className="text-base font-bold text-[#111318] mb-1">
                 {item.title}
               </h4>
               <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">

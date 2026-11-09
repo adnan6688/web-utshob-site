@@ -44,7 +44,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
       <div className="bg-[#F3F4F6] py-12 px-3 sm:px-12">
         <div className="max-w-[1180px] mx-auto text-left">
           {/* Main Title */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal mb-3">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">
             {section1?.title}
           </h2>
 
@@ -57,7 +57,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
 
           {/* List Header */}
           {section1?.listHeader && (
-            <p className="text-xs sm:text-sm text-gray-500 mb-3 font-medium">
+            <p className="text-xs sm:text-sm text-[#5C6370] mb-3 font-medium">
               {section1.listHeader}
             </p>
           )}
@@ -67,7 +67,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
             {section1?.items?.map((item, index) => (
               <li key={index} className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-gray-800 mt-1.5 shrink-0" />
-                <span className="text-xs sm:text-sm text-gray-700 font-medium">
+                <span className="text-xs sm:text-sm text-[#5C6370] font-medium">
                   {item}
                 </span>
               </li>
@@ -76,7 +76,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
 
           {/* Footer Warning / Note */}
           {section1?.footerText && (
-            <p className="text-xs sm:text-sm text-gray-500 leading-relaxed pt-2">
+            <p className="text-xs sm:text-sm text-[#5C6370] leading-relaxed pt-2">
               {section1.footerText}
             </p>
           )}
@@ -87,13 +87,13 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
       <div className="bg-[#FFF1F6] py-12 px-3 sm:px-12">
         <div className="max-w-[1180px] mx-auto text-left">
           {/* Main Title */}
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal mb-3">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">
             {section2?.title}
           </h2>
 
           {/* List Header */}
           {section2?.listHeader && (
-            <p className="text-xs sm:text-sm text-gray-500 mb-4 font-medium">
+            <p className="text-xs sm:text-sm text-[#5C6370] mb-4 font-medium">
               {section2.listHeader}
             </p>
           )}
@@ -103,7 +103,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
             {section2?.items?.map((item, index) => (
               <li key={index} className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-gray-800 mt-1.5 shrink-0" />
-                <span className="text-xs sm:text-sm text-gray-700 font-medium">
+                <span className="text-xs sm:text-sm text-[#5C6370] font-medium">
                   {item}
                 </span>
               </li>

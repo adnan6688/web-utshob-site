@@ -17,16 +17,16 @@ export default function CompareWeddingCar() {
   ];
 
   return (
-    <section className="w-full  bg-white text-gray-800">
+    <section className="w-full  bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-8 text-left">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 tracking-normal">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] mb-3 tracking-normal">
           Compare Wedding Car Quotations Properly
         </h2>
-        <p className="text-gray-500 text-sm sm:text-base leading-relaxed mb-2">
+        <p className="text-[#5C6370] text-sm sm:text-base leading-relaxed mb-2">
           Do not compare only the price.
         </p>
-        <p className="text-gray-400 text-xs sm:text-sm">
+        <p className="text-[#5C6370] text-xs sm:text-sm">
           Check:
         </p>
       </div>
@@ -42,7 +42,7 @@ export default function CompareWeddingCar() {
             <span className="w-2 h-2 rounded-full bg-pink-600 shrink-0" />
 
             {/* Requirement Label */}
-            <span className="text-xs sm:text-sm font-semibold text-gray-800 leading-snug">
+            <span className="text-xs sm:text-sm font-semibold text-[#111318] leading-snug">
               {item}
             </span>
           </div>
@@ -51,7 +51,7 @@ export default function CompareWeddingCar() {
 
       {/* Bottom Outline Highlight Box */}
       <div className="border border-pink-300 bg-pink-50/30 rounded-2xl p-5 text-left">
-        <p className="text-xs sm:text-sm font-bold text-gray-900">
+        <p className="text-xs sm:text-sm font-bold text-[#111318]">
           For the stated trip, partner quotations include driver, fuel and toll.
         </p>
       </div>

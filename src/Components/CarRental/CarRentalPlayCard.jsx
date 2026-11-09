@@ -37,13 +37,13 @@ export default function CarRentalPlayCard() {
   ];
 
   return (
-    <section className=" bg-white text-gray-800">
+    <section className=" bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
         <span className="text-xs tracking-normalr uppercase font-semibold text-pink-600 block mb-2">
           BOOK ONE VEHICLE OR MULTIPLE VEHICLES
         </span>
-        <h2 className="text-xl sm:text-[32px] font-bold text-gray-900 mb-4 tracking-normal">
+        <h2 className="text-xl sm:text-[32px] font-bold text-[#111318] mb-4 tracking-normal">
           Build the Transport Plan Your Event Actually Needs
         </h2>
         <p className="text-[#59606C] max-w-4xl text-sm sm:text-[15px] leading-[145%] tracking-normal">
@@ -69,7 +69,7 @@ export default function CarRentalPlayCard() {
                     <span className="text-[10px] font-bold tracking-normalr text-pink-600 uppercase block">
                       {option.badge}
                     </span>
-                    <h3 className="text-lg font-bold text-gray-900 leading-snug">
+                    <h3 className="text-lg font-bold text-[#111318] leading-snug">
                       {option.title}
                     </h3>
                   </div>
@@ -96,7 +96,7 @@ export default function CarRentalPlayCard() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {exampleSteps.map((step, idx) => (
             <React.Fragment key={idx}>
-              <div className="w-full md:w-auto flex-1 bg-white rounded-full px-6 py-3 text-xs sm:text-sm font-semibold text-gray-800 text-center shadow-xs">
+              <div className="w-full md:w-auto flex-1 bg-white rounded-full px-6 py-3 text-xs sm:text-sm font-semibold text-[#111318] text-center shadow-xs">
                 {step}
               </div>
               {idx < exampleSteps.length - 1 && (
@@ -113,7 +113,7 @@ export default function CarRentalPlayCard() {
 
       {/* Footer Details */}
       <div className="mb-8">
-        <p className="text-xs sm:text-sm text-gray-900 font-bold mb-2">
+        <p className="text-xs sm:text-sm text-[#111318] font-bold mb-2">
           Different programs can have separate:{' '}
           <span className="font-semibold text-[#5E6878]">
             Dates • Vehicle types • Vehicle quantities • Routes • Pickup points • Timings

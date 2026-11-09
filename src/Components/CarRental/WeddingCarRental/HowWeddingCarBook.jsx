@@ -25,11 +25,11 @@ export default function HowWeddingCarBook() {
   ];
 
   return (
-    <section className="w-full text-gray-800">
+    <section className="w-full text-[#111318]">
       <div className="">
         {/* Main Title */}
         <div className="mb-8 text-left">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 tracking-normal">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal">
             How Wedding Car Booking Works
           </h2>
         </div>
@@ -49,12 +49,12 @@ export default function HowWeddingCarBook() {
               </div>
 
               {/* Title */}
-              <h3 className="text-base font-bold text-gray-900 mb-2 leading-[145%] tracking-normal">
+              <h3 className="text-base font-bold text-[#111318] mb-2 leading-[145%] tracking-normal">
                 {step.title}
               </h3>
 
               {/* Description */}
-              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#5C6370] leading-relaxed">
                 {step.description}
               </p>
             </div>

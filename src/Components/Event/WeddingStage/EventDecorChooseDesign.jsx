@@ -93,7 +93,7 @@ const EventDecorChooseDesign = () => {
               <div className="w-10 h-10 bg-white rounded-xl shadow-sm border border-pink-100 flex items-center justify-center mb-3">
                 <Upload className="w-5 h-5 text-[#E91E63]" />
               </div>
-              <p className="text-sm font-semibold text-gray-800 mb-2">
+              <p className="text-sm font-semibold text-[#111318] mb-2">
                 Your reference image
               </p>
               <span className="inline-block bg-white border border-pink-200 text-[#E91E63] text-xs  px-3 py-1 rounded-full  uppercase tracking-normal">
