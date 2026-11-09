@@ -10,7 +10,7 @@ const NeedHelp = () => {
           <h2 className="text-2xl sm:text-3xl font-bold text-[#1F1F1F] mb-2 tracking-tight">
             Need Help Using Utshob?
           </h2>
-          <p className="text-sm sm:text-base text-gray-500 leading-relaxed font-normal">
+          <p className="text-sm sm:text-base text-[#59606C] leading-relaxed font-normal">
             Our customer care team can help you create a request, compare quotations or manage a confirmed booking.
           </p>
         </div>

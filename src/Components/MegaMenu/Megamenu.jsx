@@ -156,7 +156,7 @@ export default function Megamenu({
                     <button
                         type="button"
                         onClick={closeMobilePanel}
-                        className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-200 text-gray-500 transition hover:border-[#E62E77] hover:text-[#E62E77]"
+                        className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-200 text-[#59606C] transition hover:border-[#E62E77] hover:text-[#E62E77]"
                         aria-label="Close menu"
                     >
                         <FiX size={18} />
@@ -251,7 +251,7 @@ export default function Megamenu({
                         {activeCategory}
                     </h3>
 
-                    <p className="mt-1 text-sm text-gray-500">
+                    <p className="mt-1 text-sm text-[#59606C]">
                         Explore our {activeCategory.toLowerCase()} services.
                     </p>
                 </div>

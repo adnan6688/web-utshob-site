@@ -93,7 +93,7 @@ const EventDecoratorConsider = ({
 
                 {/* Footer Note */}
                 {footerNote && (
-                    <p className="text-gray-500 text-xs sm:text-sm">
+                    <p className="text-[#59606C] text-xs sm:text-sm">
                         {footerNote}
                     </p>
                 )}

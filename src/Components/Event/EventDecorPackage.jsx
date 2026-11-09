@@ -41,7 +41,7 @@ const EventDecorPackage = () => {
                                 </p>
 
                                 {/* Gray Tag Box */}
-                                <p className="bg-[#F5F6F8] rounded-xl p-4 text-xs text-gray-500">
+                                <p className="bg-[#F5F6F8] rounded-xl p-4 text-xs text-[#59606C]">
                                     Stage · Birthday · Car decoration
                                 </p>
                             </div>
@@ -111,7 +111,7 @@ const EventDecorPackage = () => {
                                 <p>
                                     If your event includes several programs, you can create separate requirements for each date.
                                 </p>
-                                <p className="text-xs text-gray-500">
+                                <p className="text-xs text-[#59606C]">
                                     For example:
                                 </p>
                                 <p>

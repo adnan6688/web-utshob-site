@@ -79,7 +79,7 @@ const EventDecorChooseDesign = () => {
             <h3 className="text-lg font-bold text-[#111318] mb-2">
               Choose an Existing Design
             </h3>
-            <p className="text-sm text-gray-500 leading-relaxed">
+            <p className="text-sm text-[#59606C] leading-relaxed">
               Browse wedding stage designs available in the Utshob app and select one that matches your event.
             </p>
           </div>
@@ -105,10 +105,10 @@ const EventDecorChooseDesign = () => {
             <h3 className="text-lg font-bold text-[#111318] mb-2">
               Upload Your Own Wedding Stage Design
             </h3>
-            <p className="text-sm text-gray-500 leading-relaxed mb-2">
+            <p className="text-sm text-[#59606C] leading-relaxed mb-2">
               Already have a stage idea from Pinterest, Facebook, another event or your own reference?
             </p>
-            <p className="text-sm text-gray-500 leading-relaxed">
+            <p className="text-sm text-[#59606C] leading-relaxed">
               Upload the image and add the specifications you need.
             </p>
           </div>

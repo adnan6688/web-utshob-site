@@ -28,7 +28,7 @@ const StageHeroSection = ({
                     </h2>
 
                     {/* Description Paragraph */}
-                    <p className="text-sm sm:text-[15px] text-gray-500 leading-5 max-w-2xl">
+                    <p className="text-sm sm:text-[15px] text-[#59606C] leading-5 max-w-2xl">
                         {description}
                     </p>
 

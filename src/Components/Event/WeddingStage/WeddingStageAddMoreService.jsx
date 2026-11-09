@@ -29,7 +29,7 @@ export default function WeddingStageAddMoreService() {
               <h3 className="text-lg font-bold text-gray-900 mb-2">
                 Wedding Stage Only
               </h3>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-[#59606C]">
                 Book only Wedding Stage Decoration.
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function WeddingStageAddMoreService() {
               <h3 className="text-lg font-bold text-gray-900 mb-2">
                 Add More Services
               </h3>
-              <p className="text-xs text-gray-500 mb-5 leading-relaxed">
+              <p className="text-xs text-[#59606C] mb-5 leading-relaxed">
                 Add services such as Wedding Gate Decoration, Walkway Decoration, Head Table Decoration, Wedding Car Decoration and Photography.
               </p>
 
@@ -68,7 +68,7 @@ export default function WeddingStageAddMoreService() {
           <h4 className="text-xs font-bold text-gray-900 mb-1">
             Separate programs on different dates
           </h4>
-          <p className="text-xs text-gray-500 mb-4">
+          <p className="text-xs text-[#59606C] mb-4">
             For separate Holud, Wedding and Reception dates, create requirements for each program.
           </p>
 

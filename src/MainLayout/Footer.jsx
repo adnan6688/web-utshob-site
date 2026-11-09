@@ -134,7 +134,7 @@ const Footer = () => {
 
                                 <a
                                     href="mailto:utshobplatform@utshob.xyz"
-                                    className="flex items-center gap-2 text-gray-500 text-sm hover:underline"
+                                    className="flex items-center gap-2 text-[#59606C] text-sm hover:underline"
                                 >
                                     <FaEnvelope className="text-xs" />
                                     admin@utshob.xyz
@@ -184,7 +184,7 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Copyright */}
-                <div className="sm:pt-4 text-xs text-gray-500 flex flex-row gap-2  items-center">
+                <div className="sm:pt-4 text-xs text-[#59606C] flex flex-row gap-2  items-center">
                     <p>© 2026 Utsab Platform Limited</p>
                     <p className="text-gray-400">•</p>
                     <a href="https://www.utshob.xyz" target="_blank" rel="noreferrer" className="hover:underline">
