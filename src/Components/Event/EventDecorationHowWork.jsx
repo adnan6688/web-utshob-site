@@ -55,7 +55,7 @@ const EventDecorationHowWork = () => {
             <div className="">
                 {/* Header */}
                 <div className="mb-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#111318] mb-2">
                         How Event Decoration Works on Utshob
                     </h2>
                     <p className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[#E62E77] font-medium text-sm md:text-base">
@@ -85,7 +85,7 @@ const EventDecorationHowWork = () => {
                                     <span className="flex-shrink-0 w-10 h-10 bg-[#E62E77] text-white rounded-full flex items-center justify-center font-bold text-sm">
                                         {step.number}
                                     </span>
-                                    <h3 className="text-lg font-bold text-gray-900 leading-snug">
+                                    <h3 className="text-lg font-bold text-[#111318] leading-snug">
                                         {step.title}
                                     </h3>
                                 </div>

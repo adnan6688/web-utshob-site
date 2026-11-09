@@ -12,6 +12,21 @@ const CATEGORY_TO_ROUTE = {
     "Event Rental & Support": "/event-rental-support",
 };
 
+const SERVICE_TO_ROUTE = {
+    "Wedding Stage Decoration": "/event-decoration-wedding-stage",
+    "Holud Stage Decoration": "/event-decoration-holud-stage",
+    "Birthday Decoration": "/event-decoration-birthday",
+    "Basor Ghor Decoration": "/event-decoration-basor-ghor",
+    "Wedding Car Decoration": "/event-decoration-wedding-car",
+    "Photo Booth Rental": "/event-decoration-photo-booth",
+    "360 Photo Booth Rental": "/event-decoration-360-photo-booth",
+    "Wedding Gate Decoration": "/event-decoration-wedding-gate",
+    "Wedding Walkway Decoration": "/event-decoration-wedding-walkway",
+    "Head Table Decoration": "/event-decoration-head-table",
+    "Mehendi Stage Decoration": "/event-decoration-mehendi-stage",
+    "Kunjo Decoration": "/event-decoration-kunjo",
+};
+
 export default function Megamenu({
     setMegaMenuOpen,
     eventServicesRef,
@@ -91,10 +106,21 @@ export default function Megamenu({
 
     const categories = Object.keys(services);
 
-
-    const handleServiceClick = () => {
+    const handleServiceClick = (service, category) => {
         if (setMegaMenuOpen) setMegaMenuOpen(false);
         if (onCloseMenu) onCloseMenu();
+
+        const serviceRoute = service ? SERVICE_TO_ROUTE[service] : null;
+        if (serviceRoute) {
+            navigate(serviceRoute);
+            return;
+        }
+
+        const categoryRoute = category ? CATEGORY_TO_ROUTE[category] : null;
+        if (categoryRoute) {
+            navigate(categoryRoute);
+            return;
+        }
 
         if (scroll && eventServicesRef) {
             scroll(eventServicesRef);
@@ -165,7 +191,7 @@ export default function Megamenu({
                                 <button
                                     key={service}
                                     type="button"
-                                    onClick={handleServiceClick}
+                                    onClick={() => handleServiceClick(service, activeCategory)}
                                     className="group flex items-center justify-between gap-2 rounded-xl border border-[#E5E7EB] bg-[#F9FAFB] px-3 py-3 text-left text-sm font-semibold text-[#111318] transition hover:border-[#E62E77] hover:bg-[#FFF1F6] hover:text-[#E62E77]"
                                 >
                                     <span>{service}</span>
@@ -236,7 +262,7 @@ export default function Megamenu({
                         <button
                             key={service}
                             type="button"
-                            onClick={handleServiceClick}
+                            onClick={() => handleServiceClick(service, activeCategory)}
                             className="group flex items-center justify-between gap-2 rounded-lg px-3 py-3 hover:cursor-pointer text-left text-[13px] font-semibold text-[#111318] border border-[#C7CAD1] transition-all duration-200 hover:bg-[#FFF1F6] hover:text-[#E62E77]"
                         >
                             <span>{service}</span>

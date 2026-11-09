@@ -101,7 +101,7 @@ const EventDecorCompleteEvent = ({
         <section className="w-full">
 
             {/* Section Header */}
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl font-bold text-[#111318] mb-6">
                 {title}
             </h2>
 
@@ -142,7 +142,7 @@ const EventDecorCompleteEvent = ({
                             </div>
 
                             {/* Card Title */}
-                            <h3 className="text-[14px] font-semibold text-gray-900 mb-2 leading-5">
+                            <h3 className="text-[14px] font-semibold text-[#111318] mb-2 leading-5">
                                 {service.title}
                             </h3>
 

@@ -43,7 +43,7 @@ const EventDecorWhyChoose = ({
     <section className="">
       <div className="">
         {/* Section Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#111318] mb-10">
           {title}
         </h2>
 

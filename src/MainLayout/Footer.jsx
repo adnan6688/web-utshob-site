@@ -32,12 +32,12 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-[#111318] mb-4 text-base">Event Services</h3>
                         <ul className="space-y-2.5 text-sm text-[#59606C]  ">
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Event Decoration</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Photography & Videography</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Car Rental</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Rides & Band Party</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Cake</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#e91e63] transition-colors">Event Rental & Support</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Event Decoration</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Photography & Videography</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Car Rental</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Rides & Band Party</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Cake</a></li>
+                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Event Rental & Support</a></li>
                         </ul>
                     </div>
 
@@ -45,10 +45,10 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-[#111318] mb-4 text-base">Planning Solutions</h3>
                         <ul className="space-y-2.5 text-sm text-[#59606C]  ">
-                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Event Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Wedding Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Birthday Party Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#e91e63] transition-colors">Corporate Event Management</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Event Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Wedding Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Birthday Party Planner</a></li>
+                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Corporate Event Management</a></li>
                         </ul>
                     </div>
 
@@ -56,12 +56,12 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-[#111318] mb-4 text-base">Company & Support</h3>
                         <ul className="space-y-2.5 text-sm text-[#59606C]  ">
-                            <li><a href="/about-us" className="hover:text-[#e91e63] transition-colors">About Utshob</a></li>
-                            <li><a href="/#how-utshob-works" className="hover:text-[#e91e63] transition-colors">How Utshob Works</a></li>
-                            <li><a href="/refund" className="hover:text-[#e91e63] transition-colors">Cancellation & Refund</a></li>
-                            <li><a href="/#customer-care" className="hover:text-[#e91e63] transition-colors">Customer Care</a></li>
-                            <li><a href="/privacy-policy" className="hover:text-[#e91e63] transition-colors">Privacy Policy</a></li>
-                            <li><a href="/terms-and-conditions" className="hover:text-[#e91e63] transition-colors">Terms & Conditions</a></li>
+                            <li><a href="/about-us" className="hover:text-[#E62E77] transition-colors">About Utshob</a></li>
+                            <li><a href="/#how-utshob-works" className="hover:text-[#E62E77] transition-colors">How Utshob Works</a></li>
+                            <li><a href="/refund" className="hover:text-[#E62E77] transition-colors">Cancellation & Refund</a></li>
+                            <li><a href="/#customer-care" className="hover:text-[#E62E77] transition-colors">Customer Care</a></li>
+                            <li><a href="/privacy-policy" className="hover:text-[#E62E77] transition-colors">Privacy Policy</a></li>
+                            <li><a href="/terms-and-conditions" className="hover:text-[#E62E77] transition-colors">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const Footer = () => {
                                 />
                                 <div className='bg-white flex-1 px-1'>
                                     <h4 className="font-bold text-[#111318] text-base">Customer App</h4>
-                                    <p className="text-[#e91e63] font-semibold text-sm">Android available</p>
+                                    <p className="text-[#E62E77] font-semibold text-sm">Android available</p>
                                     <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
                                     <p className="text-[#626773] text-xs">Scan to download</p>
                                 </div>

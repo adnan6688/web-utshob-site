@@ -14,6 +14,8 @@ export default [
     route('car-rental', './pages/Category/ServiceCategoryPage.jsx', { id: 'car-rental' }),
     route('rides-band-party', './pages/Category/ServiceCategoryPage.jsx', { id: 'rides-band-party' }),
     route('cake', './pages/Category/ServiceCategoryPage.jsx', { id: 'cake' }),
-    route('event-rental-support', './pages/Category/ServiceCategoryPage.jsx', { id: 'event-rental-support' })
+    route('event-rental-support', './pages/Category/ServiceCategoryPage.jsx', { id: 'event-rental-support' }),
+    
+        route('event-decoration-wedding-stage', './pages/Category/EventDecorSubCategory/WeddingStageDecoration.jsx', { id: 'wedding_stage' }),
   ]),
 ];

@@ -59,7 +59,7 @@ const StatItem = ({ end, suffix = "+", title, description }) => {
                 {count.toLocaleString()}{suffix}
             </h3>
             {/* Title */}
-            <h4 className="text-gray-900 font-semibold leading-[18px] text-[12px] mb-1">
+            <h4 className="text-[#111318] font-semibold leading-[18px] text-[12px] mb-1">
                 {title}
             </h4>
             {/* Description */}
@@ -98,7 +98,7 @@ const EventDecorRealExperience = () => {
 
                 {/* Left Side: Heading and Subtitle (5 columns) */}
                 <div className="lg:col-span-5">
-                    <h2 className="text-3xl  font-bold text-gray-900 mb-4 leading-tight">
+                    <h2 className="text-3xl  font-bold text-[#111318] mb-4 leading-tight">
                         Built on Real Event Experience
                     </h2>
                     <p className="text-gray-600 text-[15px] leading-[23px]">
