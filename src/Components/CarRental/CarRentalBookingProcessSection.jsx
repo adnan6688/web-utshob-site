@@ -73,7 +73,7 @@ export default function CarRentalBookingProcessSection() {
               <h3 className="text-base font-bold text-gray-900 mb-2 leading-snug">
                 {step.title}
               </h3>
-              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
                 {step.description}
               </p>
             </div>

@@ -68,10 +68,10 @@ export default function CarRentalChooseVehicle() {
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
           How to Choose the Right Rental Vehicle
         </h2>
-        <p className="text-gray-500 text-sm sm:text-base leading-relaxed mb-1">
+        <p className="text-[#5E6878] text-sm sm:text-base leading-relaxed mb-1">
           Do not choose only by vehicle name or quotation price.
         </p>
-        <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
+        <p className="text-[#5E6878] text-sm sm:text-base leading-relaxed">
           The right quotation should match the complete transportation requirement—not just offer the lowest rate.
         </p>
       </div>
@@ -102,7 +102,7 @@ export default function CarRentalChooseVehicle() {
                     <h4 className="text-xs sm:text-sm font-bold text-gray-900 leading-snug mb-1">
                       {item.title}
                     </h4>
-                    <p className="text-[11px] sm:text-xs text-gray-500 leading-relaxed">
+                    <p className="text-[11px] sm:text-xs text-[#5E6878] leading-relaxed">
                       {item.description}
                     </p>
                   </div>

@@ -47,7 +47,7 @@ export default function CarRentalCompare() {
         <h3 className="text-[16px] font-semibold text-[#E62E77] mb-4">
           Compare the Complete Transport Offer
         </h3>
-        <p className="text-gray-500 max-w-3xl text-sm sm:text-base leading-relaxed">
+        <p className="text-[#5E6878] max-w-3xl text-sm sm:text-base leading-relaxed">
           The lowest quotation is not automatically the right quotation. Partners may propose different vehicles or fulfil the requirement differently.
         </p>
       </div>
@@ -69,7 +69,7 @@ export default function CarRentalCompare() {
               <h4 className="text-base font-bold text-gray-900 mb-1">
                 {item.title}
               </h4>
-              <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
                 {item.description}
               </p>
             </div>

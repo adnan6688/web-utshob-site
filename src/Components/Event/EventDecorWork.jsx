@@ -38,7 +38,7 @@ const EventDecorWork = () => {
                                 hover:-translate-y-1
                                 transition-all duration-500 ease-in-out`}
                         >
-                            <span className="text-gray-700 font-semibold text-sm">
+                            <span className="text-[#5E6878] font-semibold text-sm">
                                 {project.title}
                             </span>
                         </div>

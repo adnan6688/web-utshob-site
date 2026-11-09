@@ -115,7 +115,7 @@ export default function CarRentalPlayCard() {
       <div className="mb-8">
         <p className="text-xs sm:text-sm text-gray-900 font-bold mb-2">
           Different programs can have separate:{' '}
-          <span className="font-semibold text-gray-700">
+          <span className="font-semibold text-[#5E6878]">
             Dates • Vehicle types • Vehicle quantities • Routes • Pickup points • Timings
           </span>
         </p>

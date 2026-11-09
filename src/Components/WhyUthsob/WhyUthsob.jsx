@@ -90,7 +90,7 @@ const WhyUthsob = () => {
                                     </div>
                                 </div>
 
-                                <p className="mt-2 text-[11px] sm:text-[13px] md:text-[15px] text-center font-medium text-gray-700">
+                                <p className="mt-2 text-[11px] sm:text-[13px] md:text-[15px] text-center font-medium text-[#5E6878]">
                                     {item.text}
                                 </p>
                             </div>

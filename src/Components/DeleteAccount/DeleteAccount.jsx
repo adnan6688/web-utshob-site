@@ -37,7 +37,7 @@ const DeleteAccount = () => {
 
                         <form onSubmit={handleSubmit} className="space-y-5">
                             <div className="flex flex-col">
-                                <label className="mb-1 text-sm font-medium text-gray-700">
+                                <label className="mb-1 text-sm font-medium text-[#5E6878]">
                                     Reason for account deletion <span className="text-red-500">*</span>
                                 </label>
                                 <select
@@ -59,7 +59,7 @@ const DeleteAccount = () => {
 
                             {reason === "other" && (
                                 <div className="flex flex-col">
-                                    <label className="mb-1 text-sm font-medium text-gray-700">
+                                    <label className="mb-1 text-sm font-medium text-[#5E6878]">
                                         Type Your Reason <span className="text-gray-400 text-xs">(max 200 chars)</span>
                                     </label>
                                     <textarea
@@ -73,7 +73,7 @@ const DeleteAccount = () => {
                             )}
 
                             <div className="flex flex-col">
-                                <label className="mb-1 text-sm font-medium text-gray-700">
+                                <label className="mb-1 text-sm font-medium text-[#5E6878]">
                                     Phone Number <span className="text-red-500">*</span>
                                 </label>
                                 <input
@@ -87,7 +87,7 @@ const DeleteAccount = () => {
                             </div>
 
                             <div className="flex flex-col">
-                                <label className="mb-1 text-sm font-medium text-gray-700">
+                                <label className="mb-1 text-sm font-medium text-[#5E6878]">
                                     Email Address <span className="text-gray-400 text-xs">(optional)</span>
                                 </label>
                                 <input
@@ -112,7 +112,7 @@ const DeleteAccount = () => {
                     <div className="text-center">
                         <div className="text-green-500 text-6xl mb-4">&#10003;</div>
                         <div className="text-green-600 text-2xl font-semibold mb-2">Success</div>
-                        <div className="text-gray-700 text-lg">
+                        <div className="text-[#5E6878] text-lg">
                             Your request has been submitted successfully.
                         </div>
                     </div>

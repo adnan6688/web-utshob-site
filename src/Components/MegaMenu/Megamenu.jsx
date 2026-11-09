@@ -6,7 +6,7 @@ import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi";
 const CATEGORY_TO_ROUTE = {
     "Event Decoration": "/event-decoration",
     "Photography & Videography": "/photography-videography",
-    "Car Rental": "/car-rental",
+    "Car Rental": "/wedding-car-rental",
     "Rides & Band Party": "/rides-band-party",
     "Cake": "/cake",
     "Event Rental & Support": "/event-rental-support",

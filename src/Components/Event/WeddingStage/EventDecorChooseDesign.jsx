@@ -10,11 +10,11 @@ const EventDecorChooseDesign = () => {
         <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal leading-[38px]">
           Choose a Design or Upload Your Own
         </h2>
-        <div className="flex items-center gap-2 mt-2">
-          <span className="bg-[#FFF1F6] text-[#E91E63] text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-normal">
+        <div className="flex flex-col items-center sm:gap-2 mt-2">
+          <span className="bg-[#FFF1F6] text-[#E91E63] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-normal">
             IN THE UTSHOB APP
           </span>
-          <span className="text-xs sm:text-[13px] text-[#667085] leading-[19px]">
+          <span className="text-[10px] sm:text-[13px] text-[#667085] leading-[19px]">
             These are two ways to define the design before providers bid.
           </span>
         </div>

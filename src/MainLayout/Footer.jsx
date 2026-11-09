@@ -143,7 +143,7 @@ const Footer = () => {
                         </div>
 
                         <div>
-                            <p className="text-xs font-semibold text-gray-700 mb-3">Follow Utshob</p>
+                            <p className="text-xs font-semibold text-[#5E6878] mb-3">Follow Utshob</p>
                             <div className="flex gap-2">
                                 <a
                                     target='_blank'

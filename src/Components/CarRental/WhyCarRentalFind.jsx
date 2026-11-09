@@ -55,7 +55,7 @@ export default function WhyFindCarRental() {
                                 {item.title}
                             </h3>
 
-                            <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+                            <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
                                 {item.description}
                             </p>
                         </div>
@@ -70,7 +70,7 @@ export default function WhyFindCarRental() {
                             Compare More Than Price
                         </h3>
 
-                        <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+                        <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
                             Review vehicle, model, capacity, rating and reviews together with the quotation.
                         </p>
                     </div>
@@ -80,7 +80,7 @@ export default function WhyFindCarRental() {
                             Plan Multiple Vehicles, Programs & Event Services
                         </h3>
 
-                        <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+                        <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
                             Create one requirement for multiple vehicles and passenger groups, or separate programs, dates and timings. Car Rental can also be part of a wider event requirement in Utshob.
                         </p>
                     </div>

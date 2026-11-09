@@ -11,7 +11,7 @@ const TermsAndCondition = () => {
     return (
         <div className='max-w-[1180px] mx-auto' >
 
-            <div className="p-2 py-20 sm:py-20 text-gray-700">
+            <div className="p-2 py-20 sm:py-20 text-[#5E6878]">
                 <h1 className="text-3xl font-bold mb-4">Utshob.xyz – Terms & Conditions</h1>
                 <p className="mb-2">Last Updated: 26 September 2025</p>
                 <p className="mb-6">

@@ -17,5 +17,8 @@ export default [
     route('event-rental-support', './pages/Category/ServiceCategoryPage.jsx', { id: 'event-rental-support' }),
 
     route('event-decoration-wedding-stage', './pages/Category/EventDecorSubCategory/WeddingStageDecoration.jsx', { id: 'wedding_stage' }),
+
+
+    route('wedding-car-rental', './pages/Category/CarRental/WeddingCarRental/WeddingCarRental.jsx', { id: "wedding-car-rental" })
   ]),
 ];

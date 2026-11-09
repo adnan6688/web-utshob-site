@@ -36,7 +36,7 @@ const Navbar = () => {
             const className = `${mobile
                 ? "block w-full cursor-pointer rounded-lg px-4 py-3"
                 : "cursor-pointer whitespace-nowrap"
-                } ${activeMenu === item.path ? "" : "text-gray-700"
+                } ${activeMenu === item.path ? "" : "text-[#5E6878]"
                 } transition-colors duration-200`;
 
             if (item.label !== "Event Services" && location.pathname !== "/") {

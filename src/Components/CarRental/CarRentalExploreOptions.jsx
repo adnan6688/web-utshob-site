@@ -24,7 +24,7 @@ export default function CarRentalExploreOptions() {
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
           Explore Car Rental Options Before You Submit Your Requirement
         </h2>
-        <p className="text-gray-500 max-w-4xl text-sm sm:text-base leading-relaxed">
+        <p className="text-[#5E6878] max-w-4xl text-sm sm:text-base leading-relaxed">
           Selected real or representative category-level images help you understand the types of vehicles you may request. Exact vehicle availability for a date or trip depends on the partner.
         </p>
       </div>
