@@ -186,7 +186,7 @@ const Footer = () => {
                 {/* Bottom Copyright */}
                 <div className="sm:pt-4 text-xs text-[#59606C] flex flex-row gap-2  items-center">
                     <p>© 2026 Utsab Platform Limited</p>
-                    <p className="text-gray-400">•</p>
+                    <p className="text-[#5E6878]">•</p>
                     <a href="https://www.utshob.xyz" target="_blank" rel="noreferrer" className="hover:underline">
                         www.utshob.xyz
                     </a>

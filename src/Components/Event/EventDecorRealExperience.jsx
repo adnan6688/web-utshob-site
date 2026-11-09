@@ -55,7 +55,7 @@ const StatItem = ({ end, suffix = "+", title, description }) => {
     return (
         <div ref={ref} className="flex flex-col gap-y-2 items-start">
             {/* Animated Number */}
-            <h3 className="text-2xl font-bold text-[#E62E77] mb-2 tracking-tight">
+            <h3 className="text-2xl font-bold text-[#E62E77] mb-2 tracking-normal">
                 {count.toLocaleString()}{suffix}
             </h3>
             {/* Title */}
@@ -63,7 +63,7 @@ const StatItem = ({ end, suffix = "+", title, description }) => {
                 {title}
             </h4>
             {/* Description */}
-            <p className="text-gray-600 text-[11px] leading-[16px]">
+            <p className="text-[#5E6878] text-[11px] leading-[16px]">
                 {description}
             </p>
         </div>
@@ -101,7 +101,7 @@ const EventDecorRealExperience = () => {
                     <h2 className="text-3xl  font-bold text-[#111318] mb-4 leading-tight">
                         Built on Real Event Experience
                     </h2>
-                    <p className="text-gray-600 text-[15px] leading-[23px]">
+                    <p className="text-[#5E6878] text-[15px] leading-[23px]">
                         Built from real event-service experience and a growing network of service providers.
                     </p>
                 </div>

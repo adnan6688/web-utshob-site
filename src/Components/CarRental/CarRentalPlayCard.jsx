@@ -40,7 +40,7 @@ export default function CarRentalPlayCard() {
     <section className=" bg-white text-gray-800">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <span className="text-xs tracking-wider uppercase font-semibold text-pink-600 block mb-2">
+        <span className="text-xs tracking-normalr uppercase font-semibold text-pink-600 block mb-2">
           BOOK ONE VEHICLE OR MULTIPLE VEHICLES
         </span>
         <h2 className="text-xl sm:text-[32px] font-bold text-gray-900 mb-4 tracking-normal">
@@ -66,7 +66,7 @@ export default function CarRentalPlayCard() {
                     <Icon className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[10px] font-bold tracking-wider text-pink-600 uppercase block">
+                    <span className="text-[10px] font-bold tracking-normalr text-pink-600 uppercase block">
                       {option.badge}
                     </span>
                     <h3 className="text-lg font-bold text-gray-900 leading-snug">
@@ -74,7 +74,7 @@ export default function CarRentalPlayCard() {
                     </h3>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mt-4">
+                <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mt-4">
                   {option.description}
                 </p>
               </div>
@@ -85,7 +85,7 @@ export default function CarRentalPlayCard() {
 
       {/* Example Box */}
       <div className="border border-[#D61F68] rounded-xl bg-[#EDF8FF] ounded-2xl p-6 sm:p-8 mb-10">
-        <span className="text-[11px] font-bold tracking-wider text-pink-600 uppercase block mb-1">
+        <span className="text-[11px] font-bold tracking-normalr text-pink-600 uppercase block mb-1">
           MIXED TRANSPORT PLAN EXAMPLE
         </span>
         <p className="text-xs sm:text-sm text-[#59606C] mb-6">

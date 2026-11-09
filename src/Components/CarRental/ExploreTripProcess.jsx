@@ -44,7 +44,7 @@ export default function ExploreTripProcess() {
 
             <span>Relevant Partners Bid</span>
           </h2>
-          <p className="text-xs sm:text-[16px] text-gray-600">
+          <p className="text-xs sm:text-[16px] text-[#5E6878]">
             Start with the transport need, define passenger, route and timing, then let relevant partners quote.
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function ExploreTripProcess() {
 
 
 
-                <p className="text-[13px] text-gray-600 leading-relaxed ">
+                <p className="text-[13px] text-[#5E6878] leading-relaxed ">
                   {item.description}
                 </p>
               </div>

@@ -91,13 +91,13 @@ const EventDecorationHowWork = () => {
                                 </div>
 
                                 {/* Description */}
-                                <p className="text-gray-600 text-sm leading-relaxed">
+                                <p className="text-[#5E6878] text-sm leading-relaxed">
                                     {step.description}
                                 </p>
 
                                 {/* Optional Tags for Step 04 */}
                                 {step.tags && (
-                                    <div className="mt-3 flex flex-wrap gap-1 text-xs text-gray-600 font-medium">
+                                    <div className="mt-3 flex flex-wrap gap-1 text-xs text-[#5E6878] font-medium">
                                         {step.tags.map((tag, tIdx) => (
                                             <span key={tIdx} className="inline-flex items-center">
                                                 {tag} {tIdx < step.tags.length - 1 && <span className="mx-1 text-[#E62E77]">→</span>}

@@ -18,10 +18,10 @@ export default function CarRentalExploreOptions() {
     <section className="w-full   bg-white text-gray-800">
       {/* Header Section */}
       <div className="mb-8 text-left">
-        <span className="text-xs tracking-wider uppercase font-semibold text-pink-600 block mb-2">
+        <span className="text-xs tracking-normalr uppercase font-semibold text-pink-600 block mb-2">
           VEHICLE OPTIONS & PROOF
         </span>
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-normal">
           Explore Car Rental Options Before You Submit Your Requirement
         </h2>
         <p className="text-[#5E6878] max-w-4xl text-sm sm:text-base leading-relaxed">
@@ -59,7 +59,7 @@ export default function CarRentalExploreOptions() {
                 <ImageIcon className="w-4 h-4" />
               </div>
               <div>
-                <span className="text-[10px] font-bold tracking-wider text-pink-600 uppercase block">
+                <span className="text-[10px] font-bold tracking-normalr text-pink-600 uppercase block">
                   WEBSITE IMAGE RULE
                 </span>
                 <h3 className="text-base font-bold text-gray-900 leading-tight">
@@ -67,7 +67,7 @@ export default function CarRentalExploreOptions() {
                 </h3>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
               A category image must not be presented as "this exact car is available" unless it is the actual vehicle proposed for that requirement.
             </p>
           </div>
@@ -84,7 +84,7 @@ export default function CarRentalExploreOptions() {
                 <ShieldCheck className="w-4 h-4" />
               </div>
               <div>
-                <span className="text-[10px] font-bold tracking-wider text-pink-600 uppercase block">
+                <span className="text-[10px] font-bold tracking-normalr text-pink-600 uppercase block">
                   PARTNER BID PROOF
                 </span>
                 <h3 className="text-base font-bold text-gray-900 leading-tight">
@@ -92,7 +92,7 @@ export default function CarRentalExploreOptions() {
                 </h3>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
               Before confirming, review the actual vehicle proposed by the partner in the Utshob app.
             </p>
           </div>

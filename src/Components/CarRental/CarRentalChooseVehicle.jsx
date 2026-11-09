@@ -65,7 +65,7 @@ export default function CarRentalChooseVehicle() {
     <section className="w-full  bg-white text-gray-800">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 tracking-normal">
           How to Choose the Right Rental Vehicle
         </h2>
         <p className="text-[#5E6878] text-sm sm:text-base leading-relaxed mb-1">
@@ -85,7 +85,7 @@ export default function CarRentalChooseVehicle() {
           >
             {/* Category Title & Underline */}
             <div className="mb-6">
-              <h3 className="text-sm font-bold text-pink-600 mb-2 tracking-wide">
+              <h3 className="text-sm font-bold text-pink-600 mb-2 tracking-normal">
                 {cat.title}
               </h3>
               <div className="w-8 h-1 bg-pink-600 rounded-full" />

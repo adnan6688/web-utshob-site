@@ -19,6 +19,7 @@ export default [
     route('event-decoration-wedding-stage', './pages/Category/EventDecorSubCategory/WeddingStageDecoration.jsx', { id: 'wedding_stage' }),
 
 
-    route('wedding-car-rental', './pages/Category/CarRental/WeddingCarRental/WeddingCarRental.jsx', { id: "wedding-car-rental" })
+    route('wedding-car-rental', './pages/Category/CarRental/WeddingCarRental/WeddingCarRental.jsx', { id: "wedding-car-rental" }),
+    route('micro-bus-rental', './pages/Category/CarRental/MircobusRental/MicroBusPage.jsx', { id: 'micro-bus' })
   ]),
 ];

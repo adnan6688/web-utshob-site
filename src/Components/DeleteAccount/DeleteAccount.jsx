@@ -60,7 +60,7 @@ const DeleteAccount = () => {
                             {reason === "other" && (
                                 <div className="flex flex-col">
                                     <label className="mb-1 text-sm font-medium text-[#5E6878]">
-                                        Type Your Reason <span className="text-gray-400 text-xs">(max 200 chars)</span>
+                                        Type Your Reason <span className="text-[#5E6878] text-xs">(max 200 chars)</span>
                                     </label>
                                     <textarea
                                         className="border border-gray-300 rounded-md p-2 focus:border-blue-500 focus:outline-none resize-none h-20 text-sm"
@@ -88,7 +88,7 @@ const DeleteAccount = () => {
 
                             <div className="flex flex-col">
                                 <label className="mb-1 text-sm font-medium text-[#5E6878]">
-                                    Email Address <span className="text-gray-400 text-xs">(optional)</span>
+                                    Email Address <span className="text-[#5E6878] text-xs">(optional)</span>
                                 </label>
                                 <input
                                     type="email"

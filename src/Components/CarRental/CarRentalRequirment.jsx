@@ -77,13 +77,13 @@ export default function CarRentalRequirment() {
 
                 {/* Header Section */}
                 <div className="space-y-2">
-                    <span className="text-[10px] font-bold tracking-wider text-[#D61F68] uppercase">
+                    <span className="text-[10px] font-bold tracking-normalr text-[#D61F68] uppercase">
                         TELL PARTNERS EXACTLY WHAT YOU NEED
                     </span>
                     <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
                         Define Your Car Rental Requirement
                     </h2>
-                    <p className="text-xs sm:text-sm text-gray-600 max-w-4xl leading-relaxed">
+                    <p className="text-xs sm:text-sm text-[#5E6878] max-w-4xl leading-relaxed">
                         A Sedan for a corporate meeting, a Noah for a family trip, several HiAce vehicles for wedding guests and a Bus for a picnic should not fit the same generic rental package. Define your actual transportation requirement so relevant partners can quote against a clearer and more comparable scope.
                     </p>
                 </div>
@@ -109,7 +109,7 @@ export default function CarRentalRequirment() {
 
 
 
-                                <p className="text-xs text-gray-600 leading-relaxed">
+                                <p className="text-xs text-[#5E6878] leading-relaxed">
                                     {item.description}
                                 </p>
                             </div>

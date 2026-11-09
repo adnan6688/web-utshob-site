@@ -7,7 +7,7 @@ const NeedHelp = () => {
         
         {/* Left Column: Heading & Description */}
         <div className="max-w-2xl">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#1F1F1F] mb-2 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#1F1F1F] mb-2 tracking-normal">
             Need Help Using Utshob?
           </h2>
           <p className="text-sm sm:text-base text-[#59606C] leading-relaxed font-normal">

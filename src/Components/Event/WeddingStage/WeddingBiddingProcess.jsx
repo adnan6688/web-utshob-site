@@ -30,13 +30,13 @@ export default function WeddingBiddingProcess() {
         {/* Left Content */}
         <div className="space-y-4">
 
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-sm text-[#5E6878] leading-relaxed">
             Your selected design or uploaded reference is combined with details such as event date, location and stage specifications.
           </p>
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-sm text-[#5E6878] leading-relaxed">
             Relevant providers can review the same requirement and submit bids based on the requested setup and their current market rate.
           </p>
-          <p className="text-sm text-gray-600 leading-relaxed">
+          <p className="text-sm text-[#5E6878] leading-relaxed">
             This makes it easier to compare quotations against a clearer and more consistent requirement.
           </p>
         </div>

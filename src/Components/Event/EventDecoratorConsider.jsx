@@ -65,7 +65,7 @@ const EventDecoratorConsider = ({
                         >
                             {/* Category Title with Top Border/Line accent */}
                             <div className="mb-6">
-                                <span className="text-[#E62E77] font-bold text-sm tracking-wide block mb-1">
+                                <span className="text-[#E62E77] font-bold text-sm tracking-normal block mb-1">
                                     {cat.categoryTitle}
                                 </span>
                                 <div className="w-10 h-[3px] bg-[#E62E77] rounded-full"></div>

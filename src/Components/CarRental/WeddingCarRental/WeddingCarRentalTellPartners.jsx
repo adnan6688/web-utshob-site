@@ -50,8 +50,8 @@ export default function WeddingCarRentalTellPartners() {
       </div>
 
       {/* Bottom Highlight Box */}
-      <div className="bg-pink-50/70 rounded-2xl p-5 text-left">
-        <p className="text-xs sm:text-sm font-bold text-gray-900">
+      <div className="bg-[#FFF1F6] rounded-2xl p-5 text-left">
+        <p className="text-xs sm:text-[18px] font-semibold text-gray-900">
           Each program can have a different vehicle, date, route and timing.
         </p>
       </div>

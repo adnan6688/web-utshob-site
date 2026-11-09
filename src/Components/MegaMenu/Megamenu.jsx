@@ -76,7 +76,7 @@ export default function Megamenu({
 
         "Car Rental": [
             "Wedding Car Rental",
-            "Luxury Car Rental",
+            "Micro Bus Rental",
             "Airport Transfer",
             "Premium Car Rental",
         ],

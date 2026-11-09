@@ -19,7 +19,7 @@ export default function WeddingStageConsider() {
         <h2 className="text-2xl sm:text-[28px] font-bold text-gray-900 mb-2">
           What to Consider Before Choosing a Wedding Stage Decorator
         </h2>
-        <p className="text-[15px] text-gray-600  mb-8 leading-relaxed">
+        <p className="text-[15px] text-[#5E6878]  mb-8 leading-relaxed">
           Check the venue and stage dimensions, backdrop style, flowers and materials, lighting, setup timing, included and excluded items, provider portfolio, ratings and reviews.
         </p>
 

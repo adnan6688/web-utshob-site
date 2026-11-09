@@ -18,7 +18,7 @@ export default function WeddingCarRentalHeroSection() {
                 <div className="lg:col-span-7 flex flex-col justify-center">
                     {/* Top Badge */}
                     <div className="mb-3">
-                        <span className="inline-block bg-pink-50 text-pink-600 text-[10px] sm:text-xs font-bold tracking-wider uppercase px-3 py-1 rounded-full border border-pink-100">
+                        <span className="inline-block bg-pink-50 text-pink-600 text-[10px] sm:text-xs font-bold tracking-normalr uppercase px-3 py-1 rounded-full border border-pink-100">
                             WEDDING TRANSPORT PARENT HUB
                         </span>
                     </div>
@@ -35,7 +35,7 @@ export default function WeddingCarRentalHeroSection() {
                     </h2>
 
                     {/* Descriptive Paragraphs */}
-                    <div className="space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed mb-6">
+                    <div className="space-y-4 text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
                         <p>
                             Request a Groom’s Car, Sedan, Luxury Car, Noah, HiAce, Bus / Minibus or multiple vehicles together for the groom, bride, family members and guests.
                         </p>
@@ -66,7 +66,7 @@ export default function WeddingCarRentalHeroSection() {
                 {/* Right Column - Card Component */}
                 <div className="lg:col-span-5 bg-[#F4F6F8] border border-slate-100 rounded-3xl p-6 sm:p-8">
                     {/* Card Badge */}
-                    <span className="inline-flex w-fit items-center rounded-full bg-[#FFFFFF] px-2.5 py-1 text-[10px] font-bold tracking-wider text-pink-600 uppercase mb-3">
+                    <span className="inline-flex w-fit items-center rounded-full bg-[#FFFFFF] px-2.5 py-1 text-[10px] font-bold tracking-normalr text-pink-600 uppercase mb-3">
                         ACTUAL PROPOSAL PROOF
                     </span>
                     {/* Card Title */}
@@ -90,7 +90,7 @@ export default function WeddingCarRentalHeroSection() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent flex flex-col justify-end p-4 text-white">
                             <div className="flex items-center gap-2 mb-1">
                                 <ImageIcon className="w-4 h-4 text-sky-300" />
-                                <span className="text-xs font-bold tracking-wide">Proposed vehicle photo</span>
+                                <span className="text-xs font-bold tracking-normal">Proposed vehicle photo</span>
                             </div>
                             <p className="text-[11px] text-gray-200">Provided with each partner quotation</p>
                         </div>
@@ -103,7 +103,7 @@ export default function WeddingCarRentalHeroSection() {
                                 key={idx}
                                 className="bg-white rounded-xl p-3 border border-[#DCE3EA]  flex flex-col justify-center"
                             >
-                                <span className="inline-flex w-fit rounded-full bg-[#FFF1F6] px-3 py-1 text-[9px] font-bold text-pink-600 tracking-wider uppercase mb-0.5">
+                                <span className="inline-flex w-fit rounded-full bg-[#FFF1F6] px-3 py-1 text-[9px] font-bold text-pink-600 tracking-normalr uppercase mb-0.5">
                                     PROOF
                                 </span>
                                 <span className="text-xs font-bold text-gray-800">

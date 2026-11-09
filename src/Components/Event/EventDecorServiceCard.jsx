@@ -23,7 +23,7 @@ const EventDecorServiceCard = ({
         />
 
         {tag && (
-          <span className="absolute top-3 left-3 text-[9px] tracking-wider uppercase font-semibold text-[#59606C]   bg-white/90 px-2.5 py-1 rounded-full">
+          <span className="absolute top-3 left-3 text-[9px] tracking-normalr uppercase font-semibold text-[#59606C]   bg-white/90 px-2.5 py-1 rounded-full">
             {tag}
           </span>
         )}
