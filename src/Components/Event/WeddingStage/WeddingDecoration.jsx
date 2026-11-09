@@ -3,7 +3,7 @@ import React from 'react'
 export default function WeddingDecoration() {
     return (
         <div>
-            <div className="space-y-2">
+            <div className="space-y-5">
                 <p className="text-sm font-semibold uppercase tracking-normal text-[#E91E63]">
                     Service Context
                 </p>
