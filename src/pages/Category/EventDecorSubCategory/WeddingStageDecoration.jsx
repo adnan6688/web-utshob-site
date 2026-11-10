@@ -60,12 +60,14 @@ export default function WeddingStageDecoration() {
         <div id='wedding_stage'>
 
 
-
+            <div className={`mx-auto w-full max-w-[1180px]`}>
+                <Path from={'Home'} to={' Event Decoration / Wedding Stage Decoration'} />
+            </div>
             <div id="" className={`${sectionClass} my-2 sm:my-10`}>
                 <StageHeroSection></StageHeroSection>
             </div>
 
-            <div className="bg-[#EDF8FF]  sm:my-10">
+            <div className="bg-[#EDF8FF]  sm:my-1">
 
                 <div className={`${sectionClass} py-10 sm:py-20 `}>
                     <WeddingDecoration></WeddingDecoration>

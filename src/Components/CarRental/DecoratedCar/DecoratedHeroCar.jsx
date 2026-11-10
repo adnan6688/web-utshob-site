@@ -25,8 +25,8 @@ const DecoratedHeroCar = () => {
             </p>
           </div>
 
-          <div className="pt-2">
-            <button className="bg-[#E9337D] hover:bg-[#d6256c] text-white font-medium py-3.5 px-6 rounded-lg transition-colors duration-200  text-base">
+          <div className="pt-2 flex justify-center sm:justify-start">
+            <button className="bg-[#E9337D] hover:bg-[#d6256c] text-white font-medium py-3.5 px-4 sm:px-6 rounded-lg transition-colors duration-200 text-sm sm:text-base">
               Get Decorated Wedding Car Quotations
             </button>
           </div>
