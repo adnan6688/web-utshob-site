@@ -8,11 +8,11 @@ export const DESIGN_GALLERY = 'https://www.utshob.xyz/';
 export const CATEGORY_ROUTE = (categoryKey) => {
   const routes = {
     'event-decoration': '/event-decoration',
-    'photography-videography': '/photography-videography',
+    'photography-videography': '/',
     'car-rental': '/car-rental',
-    'rides-band-party': '/rides-band-party',
-    'cake': '/cake',
-    'event-rental-support': '/event-rental-support',
+    'rides-band-party': '/',
+    'cake': '/',
+    'event-rental-support': '/',
   };
 
   return routes[categoryKey] || '/';

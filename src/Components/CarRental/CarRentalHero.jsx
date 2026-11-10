@@ -16,7 +16,7 @@ export default function CarRentalHero() {
                             Car Rental in Bangladesh
                         </h1>
 
-                        <p className="text-sm leading-relaxed text-[#5E6878] sm:text-base">
+                        <p className="text-sm leading[145%] text-[#5E6878] sm:text-base">
                             Find car rental services in Dhaka and across Bangladesh based on
                             the trip or event you actually need. Define the vehicle, passenger,
                             route and timing, receive partner quotations and compare actual

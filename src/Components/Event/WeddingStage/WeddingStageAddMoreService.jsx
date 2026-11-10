@@ -44,7 +44,7 @@ export default function WeddingStageAddMoreService() {
               <h3 className="text-lg font-bold text-[#111318] mb-2">
                 Add More Services
               </h3>
-              <p className="text-xs text-[#59606C] mb-5 leading-relaxed">
+              <p className="text-xs text-[#59606C] mb-5 leading[145%]">
                 Add services such as Wedding Gate Decoration, Walkway Decoration, Head Table Decoration, Wedding Car Decoration and Photography.
               </p>
 

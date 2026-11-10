@@ -39,7 +39,7 @@ const EventCompare = () => {
           <p className="text-[#E62E77] font-medium text-lg mb-4 leading-[25px]">
             Make Your Decision with More Information
           </p>
-          <p className="text-[#59606C]   text-base max-w-3xl leading-relaxed">
+          <p className="text-[#59606C]   text-base max-w-3xl leading[145%]">
             Choosing an event decorator should not depend on price alone. With Utshob, you can review important service information before confirming your order.
           </p>
         </div>

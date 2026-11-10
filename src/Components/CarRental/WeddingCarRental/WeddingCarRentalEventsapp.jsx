@@ -35,7 +35,7 @@ export default function WeddingCarRentalEventsapp() {
                         <p className="text-sm sm:text-base  text-[#5E6878] mb-2">
                             Wedding transportation is rarely just one car.
                         </p>
-                        <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-2">
+                        <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mb-2">
                             Relevant partners can bid against the requirement and propose vehicles they can actually provide.
                         </p>
                     </div>
@@ -69,7 +69,7 @@ export default function WeddingCarRentalEventsapp() {
                         </h2>
 
                         {/* Subtext Flow */}
-                        <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-8">
+                        <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mb-8">
                             Define Your Wedding Transport Requirement → Relevant Partners Bid → Compare → Book
                         </p>
                     </div>

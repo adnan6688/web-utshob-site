@@ -77,7 +77,7 @@ export default function CarRentalVehicleTrip() {
 
 
 
-                                <p className="text-xs text-[#5E6878] leading-relaxed">
+                                <p className="text-xs text-[#5E6878] leading[145%]">
                                     {item.description}
                                 </p>
                             </div>

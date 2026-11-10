@@ -35,7 +35,7 @@ export default function WeddingCarRentalHeroSection() {
                     </h2>
 
                     {/* Descriptive Paragraphs */}
-                    <div className="space-y-4 text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
+                    <div className="space-y-4 text-xs sm:text-sm text-[#5E6878] leading[145%] mb-6">
                         <p>
                             Request a Groom’s Car, Sedan, Luxury Car, Noah, HiAce, Bus / Minibus or multiple vehicles together for the groom, bride, family members and guests.
                         </p>
@@ -64,7 +64,7 @@ export default function WeddingCarRentalHeroSection() {
                 </div>
 
                 {/* Right Column - Card Component */}
-                <div className="lg:col-span-5 bg-[#F4F6F8] border border-slate-100 rounded-3xl p-6 sm:p-8">
+                <div className="lg:col-span-5 bg-[#F4F6F8] border border-[#DCE3EA] rounded-3xl p-6 sm:p-8">
                     {/* Card Badge */}
                     <span className="inline-flex w-fit items-center rounded-full bg-[#FFFFFF] px-2.5 py-1 text-[10px] font-bold tracking-normalr text-pink-600 uppercase mb-3">
                         ACTUAL PROPOSAL PROOF

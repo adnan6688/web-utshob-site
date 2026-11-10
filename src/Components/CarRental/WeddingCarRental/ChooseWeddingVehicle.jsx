@@ -83,13 +83,13 @@ export default function ChooseWeddingVehicle() {
               </h3>
 
               {/* Main Description */}
-              <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-4">
+              <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mb-4">
                 {card.description}
               </p>
 
               {/* Optional Extra Paragraph */}
               {card.extraText && (
-                <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mt-4">
+                <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mt-4">
                   {card.extraText}
                 </p>
               )}

@@ -67,7 +67,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
             {section1?.items?.map((item, index) => (
               <li key={index} className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-gray-800 mt-1.5 shrink-0" />
-                <span className="text-xs sm:text-sm text-[#5C6370] font-medium">
+                <span className="text-xs sm:text-sm text-[#5C6370] ">
                   {item}
                 </span>
               </li>
@@ -76,7 +76,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
 
           {/* Footer Warning / Note */}
           {section1?.footerText && (
-            <p className="text-xs sm:text-sm text-[#5C6370] leading-relaxed pt-2">
+            <p className="text-xs sm:text-sm text-[#5C6370] leading[145%] pt-2">
               {section1.footerText}
             </p>
           )}
@@ -103,7 +103,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
             {section2?.items?.map((item, index) => (
               <li key={index} className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-gray-800 mt-1.5 shrink-0" />
-                <span className="text-xs sm:text-sm text-[#5C6370] font-medium">
+                <span className="text-xs sm:text-sm text-[#5C6370] ">
                   {item}
                 </span>
               </li>

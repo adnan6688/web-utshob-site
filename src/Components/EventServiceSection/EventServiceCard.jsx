@@ -32,15 +32,17 @@ export default function EventServiceCard({
 
             <p className="text-[#626773] text-[14px] leading-[145%] tracking-normal">{description}</p>
 
-            <a
-                href={href}
-                className="group flex items-center gap-2 text-[#111318] hover:text-[#DF266F] cursor-pointer transition-colors duration-300 ease-in-out"
-            >
-                <span className="font-semibold text-[14px] leading-[20px] tracking-normal">
-                    {bottomText}
-                </span>
-                <FaArrowRight className="shrink-0 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
-            </a>
+            {
+                href !== '/' && <a
+                    href={href}
+                    className="group flex items-center gap-2 text-[#111318] hover:text-[#DF266F] cursor-pointer transition-colors duration-300 ease-in-out"
+                >
+                    <span className="font-semibold text-[14px] leading-[20px] tracking-normal">
+                        {bottomText}
+                    </span>
+                    <FaArrowRight className="shrink-0 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
+                </a>
+            }
         </article>
     );
 }

@@ -32,7 +32,7 @@ export default function ExploreOurMicroBus({ cards = DEFAULT_EXPLORE_CARDS }) {
             </h2>
 
             {/* Description */}
-            <p className="text-xs sm:text-sm text-gray-600 leading-relaxed mb-6 max-w-3xl">
+            <p className="text-xs sm:text-sm text-gray-600 leading[145%] mb-6 max-w-3xl">
               {card.description}
             </p>
 

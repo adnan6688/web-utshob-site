@@ -91,7 +91,7 @@ const EventDecorationHowWork = () => {
                                 </div>
 
                                 {/* Description */}
-                                <p className="text-[#5E6878] text-sm leading-relaxed">
+                                <p className="text-[#5E6878] text-sm leading[145%]">
                                     {step.description}
                                 </p>
 

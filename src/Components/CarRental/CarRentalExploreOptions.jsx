@@ -24,7 +24,7 @@ export default function CarRentalExploreOptions() {
         <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] mb-3 tracking-normal">
           Explore Car Rental Options Before You Submit Your Requirement
         </h2>
-        <p className="text-[#5E6878] max-w-4xl text-sm sm:text-base leading-relaxed">
+        <p className="text-[#5E6878] max-w-4xl text-sm sm:text-base leading[145%]">
           Selected real or representative category-level images help you understand the types of vehicles you may request. Exact vehicle availability for a date or trip depends on the partner.
         </p>
       </div>
@@ -67,7 +67,7 @@ export default function CarRentalExploreOptions() {
                 </h3>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mb-6">
               A category image must not be presented as "this exact car is available" unless it is the actual vehicle proposed for that requirement.
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function CarRentalExploreOptions() {
                 </h3>
               </div>
             </div>
-            <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mb-6">
+            <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mb-6">
               Before confirming, review the actual vehicle proposed by the partner in the Utshob app.
             </p>
           </div>

@@ -70,7 +70,7 @@ export default function ExploreTripProcess() {
 
 
 
-                <p className="text-[13px] text-[#5E6878] leading-relaxed ">
+                <p className="text-[13px] text-[#5E6878] leading[145%] ">
                   {item.description}
                 </p>
               </div>

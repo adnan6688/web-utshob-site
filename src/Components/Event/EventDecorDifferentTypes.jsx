@@ -77,7 +77,7 @@ const EventDecorDifferentTypes = () => {
                             </h3>
 
                             {/* Description Content */}
-                            <div className="space-y-3 text-[#59606C]   text-xs sm:text-sm leading-relaxed">
+                            <div className="space-y-3 text-[#59606C]   text-xs sm:text-sm leading[145%]">
                                 {event.paragraphs.map((paragraph, pIdx) => (
                                     <p key={pIdx}>{paragraph}</p>
                                 ))}

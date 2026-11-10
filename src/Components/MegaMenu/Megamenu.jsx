@@ -27,8 +27,8 @@ const SERVICE_TO_ROUTE = {
     "Kunjo Decoration": "/event-decoration-kunjo",
     "Wedding Car Rental": "/wedding-car-rental",
     "Micro Bus Rental": "/micro-bus-rental",
-    "Airport Transfer": "/airport-transfer",
-    "Premium Car Rental": "/premium-car-rental",
+    "Noah Rental": "/noah-rental",
+    "Decorated Wedding Car": "/decoratore-car-rental",
 };
 
 export default function Megamenu({
@@ -81,8 +81,9 @@ export default function Megamenu({
         "Car Rental": [
             "Wedding Car Rental",
             "Micro Bus Rental",
-            "Airport Transfer",
-            // "Premium Car Rental",
+            "Noah Rental",
+            "Decorated Wedding Car",
+
         ],
 
         // "Rides & Band Party": [

@@ -39,7 +39,7 @@ export default function HowWeddingCarBook() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="bg-white rounded-3xl p-6 sm:p-7  border border-slate-100/60 flex flex-col justify-start transition-all duration-200 "
+              className="bg-white rounded-3xl p-6 sm:p-7  border border-[#DCE3EA]/60 flex flex-col justify-start transition-all duration-200 "
             >
               {/* Step Number Circle */}
               <div className="mb-4">
@@ -54,7 +54,7 @@ export default function HowWeddingCarBook() {
               </h3>
 
               {/* Description */}
-              <p className="text-xs sm:text-sm text-[#5C6370] leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#5C6370] leading[145%]">
                 {step.description}
               </p>
             </div>

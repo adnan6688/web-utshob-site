@@ -74,7 +74,7 @@ const EventDecorPackage = () => {
                                 </p>
 
                                 {/* White Formula Box with Pink Text */}
-                                <p className="bg-white rounded-xl p-3 text-xs font-semibold text-[#E62E77] leading-relaxed flex flex-wrap items-center gap-x-2 gap-y-2">
+                                <p className="bg-white rounded-xl p-3 text-xs font-semibold text-[#E62E77] leading[145%] flex flex-wrap items-center gap-x-2 gap-y-2">
                                     <span>Wedding Stage</span>
                                     <FaPlus className="shrink-0 text-[9px]" />
 

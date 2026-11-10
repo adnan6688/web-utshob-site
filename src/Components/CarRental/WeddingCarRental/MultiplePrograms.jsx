@@ -67,7 +67,7 @@ export default function MultiplePrograms() {
                 </h3>
 
                 {/* Subtitle / Details */}
-                <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed">
+                <p className="text-xs sm:text-sm text-[#5E6878] leading[145%]">
                   {program.subtitle}
                 </p>
               </div>

@@ -23,7 +23,7 @@ export default function CompareWeddingCar() {
         <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] mb-3 tracking-normal">
           Compare Wedding Car Quotations Properly
         </h2>
-        <p className="text-[#5C6370] text-sm sm:text-base leading-relaxed mb-2">
+        <p className="text-[#5C6370] text-sm sm:text-base leading[145%] mb-2">
           Do not compare only the price.
         </p>
         <p className="text-[#5C6370] text-xs sm:text-sm">

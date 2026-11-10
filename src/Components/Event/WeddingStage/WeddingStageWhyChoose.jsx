@@ -51,7 +51,7 @@ export default function WeddingStageWhyChoose() {
                 <h3 className="text-sm font-bold text-[#111318] mb-1.5">
                   {card.title}
                 </h3>
-                <p className="text-xs text-[#59606C] leading-relaxed">
+                <p className="text-xs text-[#59606C] leading[145%]">
                   {card.description}
                 </p>
               </div>

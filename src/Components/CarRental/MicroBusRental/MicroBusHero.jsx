@@ -1,56 +1,101 @@
+
 import React from 'react';
 
-export default function MicroBusHero() {
+const defaultContent = {
+  title: 'Microbus Rental in Dhaka & Bangladesh',
+
+  descriptions: [
+    'Need a Microbus but not sure whether Noah or HiAce is the better fit?',
+    'Start with your passenger count, luggage, route and trip requirement instead of choosing only by vehicle name.',
+    'Then explore the relevant Noah or HiAce option and submit the actual requirement in the Utshob app.',
+  ],
+
+  cta: {
+    text: 'Find Microbus Options',
+    onClick: null,
+  },
+
+  asset: {
+    badge: 'VERIFIED ASSET REQUIRED',
+    title:
+      'Verified Noah and HiAce examples; representative until partner bid identifies actual capacity, model and vehicle photos.',
+    disclaimer:
+      'Representative discovery image only. It must not imply exact model, availability, condition, decoration or owned-fleet status.',
+  },
+};
+
+export default function MicroBusHero({
+  content = {},
+  className = '',
+  styles = {},
+}) {
+  const data = {
+    ...defaultContent,
+    ...content,
+    cta: {
+      ...defaultContent.cta,
+      ...content.cta,
+    },
+    asset: {
+      ...defaultContent.asset,
+      ...content.asset,
+    },
+  };
+
   return (
-    <section className="w-full  bg-white text-[#111318]">
-      {/* Top Header Section */}
-      <div className="mb-8 text-left">
-        {/* Main Title */}
-        <h1 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal leading-tight mb-4">
-          Microbus Rental in Dhaka & Bangladesh
+    <section
+      className={`w-full bg-white text-[#111318] ${className}`}
+    >
+      {/* Hero Content */}
+      <div className={`mb-8 text-left ${styles.header || ''}`}>
+        <h1
+          className={`mb-4 text-2xl font-bold leading-tight tracking-normal text-[#111318] sm:text-3xl ${styles.title || ''}`}
+        >
+          {data.title}
         </h1>
 
-        {/* Body Paragraphs */}
-        <div className="space-y-3 text-sm sm:text-base text-gray-600 leading-relaxed max-w-4xl mb-8">
-          <p>
-            Need a Microbus but not sure whether Noah or HiAce is the better fit?
-          </p>
-          <p>
-            Start with your passenger count, luggage, route and trip requirement instead of choosing only by vehicle name.
-          </p>
-          <p>
-            Then explore the relevant Noah or HiAce option and submit the actual requirement in the Utshob app.
-          </p>
+        <div
+          className={`mb-8 max-w-4xl space-y-3 text-sm leading[145%] text-gray-600 sm:text-base ${styles.description || ''}`}
+        >
+          {data.descriptions.map((description, index) => (
+            <p key={index}>{description}</p>
+          ))}
         </div>
 
-        {/* CTA Button */}
+        {/* CTA */}
         <div>
           <button
             type="button"
-            className="bg-pink-600 hover:bg-pink-700 text-white font-semibold text-xs sm:text-sm px-6 py-3.5 rounded-xl shadow-md transition-colors duration-200"
+            onClick={data.cta.onClick}
+            className={`rounded-xl bg-pink-600 px-6 py-3.5 text-xs font-semibold text-white shadow-md transition-colors duration-200 hover:bg-pink-700 sm:text-sm ${styles.button || ''}`}
           >
-            Find Microbus Options
+            {data.cta.text}
           </button>
         </div>
       </div>
 
-      {/* Verified Asset Required Container */}
-      <div className="w-full bg-[#F3F4F6] border border-slate-100 rounded-3xl p-6 sm:p-8 min-h-[220px] flex flex-col justify-start">
-        {/* Pink Badge */}
+      {/* Verified Asset */}
+      <div
+        className={`flex min-h-[220px] w-full flex-col justify-start rounded-3xl border border-[#DCE3EA] bg-[#F3F4F6] p-6 sm:p-8 ${styles.asset || ''}`}
+      >
         <div className="mb-3">
-          <span className="inline-block bg-pink-50 text-pink-600 text-[10px] sm:text-xs font-bold tracking-normal uppercase px-3 py-1 rounded-full border border-pink-100">
-            VERIFIED ASSET REQUIRED
+          <span
+            className={`inline-block rounded-full border border-pink-100 bg-pink-50 px-3 py-1 text-[10px] font-bold uppercase tracking-normal text-pink-600 sm:text-xs ${styles.badge || ''}`}
+          >
+            {data.asset.badge}
           </span>
         </div>
 
-        {/* Highlight Title */}
-        <h3 className="text-base sm:text-lg font-bold text-[#111318] leading-snug mb-2">
-          Verified Noah and HiAce examples; representative until partner bid identifies actual capacity, model and vehicle photos.
+        <h3
+          className={`mb-2 text-base font-semibold leading-5 text-[#111318] sm:text-lg ${styles.assetTitle || ''}`}
+        >
+          {data.asset.title}
         </h3>
 
-        {/* Disclaimer Subtext */}
-        <p className="text-xs text-[#5C6370] leading-relaxed">
-          Representative discovery image only. It must not imply exact model, availability, condition, decoration or owned-fleet status.
+        <p
+          className={`text-xs leading-5 text-[#5C6370] ${styles.disclaimer || ''}`}
+        >
+          {data.asset.disclaimer}
         </p>
       </div>
     </section>

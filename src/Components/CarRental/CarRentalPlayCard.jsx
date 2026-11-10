@@ -74,7 +74,7 @@ export default function CarRentalPlayCard() {
                     </h3>
                   </div>
                 </div>
-                <p className="text-xs sm:text-sm text-[#5E6878] leading-relaxed mt-4">
+                <p className="text-xs sm:text-sm text-[#5E6878] leading[145%] mt-4">
                   {option.description}
                 </p>
               </div>
@@ -119,7 +119,7 @@ export default function CarRentalPlayCard() {
             Dates • Vehicle types • Vehicle quantities • Routes • Pickup points • Timings
           </span>
         </p>
-        <p className="text-xs sm:text-sm text-[#59606C] leading-relaxed">
+        <p className="text-xs sm:text-sm text-[#59606C] leading[145%]">
           You do not have to force the whole event into one generic transport package. You can also arrange other event services through Utshob when your event requires them.
         </p>
       </div>
