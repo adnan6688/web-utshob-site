@@ -12,6 +12,7 @@ import QuestionAns from '../../../../Components/QuestionAns/QuestionAns';
 import EventDecorYourChoice from '../../../../Components/Event/EventDecorYourChoice';
 import EventDecorPartnerApp from '../../../../Components/Event/EventDecorPartnerApp';
 import NeedHelp from '../../../../Components/Event/NeedHelp';
+import Path from '../../../../Components/Shared/Path';
 
 
 
@@ -76,7 +77,13 @@ export default function WeddingCarRental() {
 
     return (
         <div id='wedding-car-rental'>
-            <div className={`${sectionClass} my-10`}>
+
+            <div className='mx-auto w-full max-w-[1180px]'>
+                <Path from={'Home'} to={'  Car Rental / Wedding Car Rental'}></Path>
+            </div>
+
+            
+            <div className={`${sectionClass}  mt-3 mb-10`}>
                 <WeddingCarRentalHeroSection />
             </div>
 
@@ -120,16 +127,16 @@ export default function WeddingCarRental() {
                 </div>
             </div>
 
-            <div className={`${sectionClass} py-10`}>
+            <div className={`${sectionClass} py-5 sm:py-10`}>
                 <EventDecorRealExperience></EventDecorRealExperience>
             </div>
 
-            <div className={`${sectionClass} py-10`}>
+            <div className={`${sectionClass} py-5 sm:py-10`}>
                 <QuestionAns faqs={weddingCarRentalFAQs} en_Or_bn={'en'} limit={7} title={'Wedding Car Rental FAQ'}></QuestionAns>
             </div>
 
 
-            <div className="bg-[#EDF8FF]  mt-10 py-10">
+            <div className="bg-[#EDF8FF]  mt-1 sm:mt-10 py-5 sm:py-10">
                 <div className={`${sectionClass}`}>
                     <QuestionAns faqs={weddingCarRentalFAQsBn} en_Or_bn={'en'} limit={7} title={'বাংলা AEO — Wedding Car Rental'}></QuestionAns>
 
@@ -149,7 +156,7 @@ export default function WeddingCarRental() {
                 </div>
             </div>
 
-            <div className={`${sectionClass} py-20  `}>
+            <div className={`${sectionClass} py-10 sm:py-20  `}>
                 <NeedHelp></NeedHelp>
             </div>
         </div>

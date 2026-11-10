@@ -137,7 +137,7 @@ const EventDecorRealExperience = ({
                 {/* Left Side */}
                 <div className="lg:col-span-5">
                     {title && (
-                        <h2 className="mb-4 text-3xl font-bold leading-tight text-[#111318]">
+                        <h2 className="mb-4 text-xl sm:text-2xl md:text-3xl font-bold leading-tight text-[#111318]">
                             {title}
                         </h2>
                     )}

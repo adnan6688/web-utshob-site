@@ -112,11 +112,11 @@ export default function CarRentalCategory() {
     return (
         <div id='car_rental'>
 
-            <div className={`${sectionClass} my-10`}>
+            <div className={`${sectionClass} mb-2 sm:mb-10`}>
                 <CarRentalHero></CarRentalHero>
             </div>
 
-            <div className="bg-[#EDF8FF] py-10">
+            <div className="bg-[#EDF8FF] py-5 sm:py-10">
                 <div className={`${sectionClass}`}>
                     <CarRentalEventApp></CarRentalEventApp>
                 </div>
@@ -129,7 +129,7 @@ export default function CarRentalCategory() {
 
 
             <div className="bg-[#F5F6F8] py-5">
-                <div className={`${sectionClass} my-10`}>
+                <div className={`${sectionClass} sm:my-10`}>
                     <ExploreTripProcess></ExploreTripProcess>
                 </div>
 
@@ -151,11 +151,11 @@ export default function CarRentalCategory() {
                 <CarRentalCompare></CarRentalCompare>
             </div>
 
-            <div className={`${sectionClass} my-20`}>
+            <div className={`${sectionClass} my-10 sm:my-20`}>
                 <CarRentalExploreOptions></CarRentalExploreOptions>
             </div>
 
-            <div className="bg-[#EDF8FF] py-10 my-10">
+            <div className="bg-[#EDF8FF] py-10  my-10 ">
                 <div className={`${sectionClass}`}>
                     <CarRentalBookingProcessSection></CarRentalBookingProcessSection>
                 </div>
@@ -183,14 +183,14 @@ export default function CarRentalCategory() {
                 <QuestionAns faqs={carRentalFAQsBn} limit={8} title={'গাড়ি ভাড়া নিয়ে সাধারণ প্রশ্ন'} en_Or_bn={'en'} ></QuestionAns>
             </div>
 
-            <div className="bg-[#FFF1F6] sm:my-16 my-10 py-10">
+            <div className="bg-[#FFF1F6] sm:mt-16 mt-10 py-10 ">
                 <div className={`${sectionClass}  `} >
                     <CarRentalChoice></CarRentalChoice>
                 </div>
             </div>
 
 
-            <div className="bg-[#EDF8FF]">
+            <div className="bg-[#EDF8FF] ">
                 <div className={`${sectionClass} py-10  `}>
                     <EventDecorPartnerApp></EventDecorPartnerApp>
                 </div>

@@ -45,10 +45,10 @@ export default function CarRentalBookingProcessSection() {
   ];
 
   return (
-    <section className="w-full  bg-sky-50/50 rounded-3xl text-[#111318]">
+    <section className="w-full   bg-sky-50/50 rounded-3xl text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] mb-2 tracking-normal">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#111318] mb-2 tracking-normal">
           How Car Rental Booking Works on Utshob
         </h2>
         <p className="text-sm sm:text-base font-medium text-pink-600">

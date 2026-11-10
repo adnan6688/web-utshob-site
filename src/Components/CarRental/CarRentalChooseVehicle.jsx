@@ -65,7 +65,7 @@ export default function CarRentalChooseVehicle() {
     <section className="w-full  bg-white text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] mb-3 tracking-normal">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#111318] mb-3 tracking-normal">
           How to Choose the Right Rental Vehicle
         </h2>
         <p className="text-[#5E6878] text-sm sm:text-base leading[145%] mb-1">

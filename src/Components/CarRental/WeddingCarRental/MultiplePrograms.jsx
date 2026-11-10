@@ -33,7 +33,7 @@ export default function MultiplePrograms() {
       <div className="">
         {/* Header Section */}
         <div className="mb-8 text-left">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] tracking-normal mb-3">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#111318] tracking-normal mb-3">
             One Wedding, Multiple Programs
           </h2>
           <p className="text-sm sm:text-base text-[#5E6878] mb-2">

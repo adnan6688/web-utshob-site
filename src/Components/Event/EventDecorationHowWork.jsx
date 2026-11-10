@@ -54,8 +54,8 @@ const EventDecorationHowWork = () => {
         <section className="">
             <div className="">
                 {/* Header */}
-                <div className="mb-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#111318] mb-2">
+                <div className="mb-3 sm:mb-10">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#111318] mb-2">
                         How Event Decoration Works on Utshob
                     </h2>
                     <p className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[#E62E77] font-medium text-sm md:text-base">

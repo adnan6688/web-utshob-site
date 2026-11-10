@@ -21,7 +21,7 @@ export default function CarRentalExploreOptions() {
         <span className="text-xs tracking-normalr uppercase font-semibold text-pink-600 block mb-2">
           VEHICLE OPTIONS & PROOF
         </span>
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] mb-3 tracking-normal">
+        <h2 className="text-xl sm:text-4xl font-bold text-[#111318] mb-3 tracking-normal">
           Explore Car Rental Options Before You Submit Your Requirement
         </h2>
         <p className="text-[#5E6878] max-w-4xl text-sm sm:text-base leading[145%]">

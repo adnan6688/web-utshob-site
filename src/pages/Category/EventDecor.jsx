@@ -70,7 +70,7 @@ export default function EventDecor() {
       </div>
 
       <div className='bg-[#EDF8FF] py-5'>
-        <div className={`${sectionClass} my-10`}>
+        <div className={`${sectionClass} my-2 sm:my-10`}>
           <EventDecorationHowWork></EventDecorationHowWork>
         </div>
       </div>

@@ -22,18 +22,18 @@ const GroomCarDecoratioins = () => {
       </p>
 
       {/* Cards Grid / Container */}
-      <div className="flex flex-wrap gap-4 items-center">
-        {items.map((item, index) => (
-          <div
-            key={index}
-            className="bg-white px-5 py-4 rounded-xl border border-slate-100 flex-1 min-w-[180px] max-w-[220px] text-center flex items-center justify-center min-h-[70px]"
-          >
-            <span className="text-xs md:text-sm font-semibold text-slate-700 leading-snug">
-              {item}
-            </span>
-          </div>
-        ))}
-      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+  {items.map((item, index) => (
+    <div
+      key={index}
+      className="bg-white px-5 py-4 rounded-xl border border-slate-100 text-center flex items-center justify-center min-h-[70px]"
+    >
+      <span className="text-xs md:text-sm font-semibold text-slate-700 leading-snug">
+        {item}
+      </span>
+    </div>
+  ))}
+</div>
     </section>
   );
 };

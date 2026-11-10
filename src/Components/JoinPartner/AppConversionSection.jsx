@@ -76,7 +76,7 @@ export const AppConversionSection = ({
               androidText="Android available now"
               iosText="iOS coming soon"
               actionText=""
-              contentWidth="60%"
+              contentWidth="75%"
               colors={{
                 background: app == 'partner' ? '#E8F7F5' : "#FFF1F6",
                 border: app == 'partner' ? '#367A70' : "#E8D1DB",

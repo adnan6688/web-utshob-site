@@ -51,7 +51,7 @@ export default function CarRentalVehicleTrip() {
 
                 {/* Section Heading */}
                 <div>
-                    <h2 className="text-2xl sm:text-3xl font-bold text-[#111318]">
+                    <h2 className="text-xl sm:text-3xl font-bold text-[#111318]">
                         Find the Right Vehicle for Your Trip
                     </h2>
                 </div>
@@ -67,7 +67,7 @@ export default function CarRentalVehicleTrip() {
                                 {/* Icon Badge */}
 
                                 <div className='flex gap-x-5 items-center'>
-                                    <div className="w-15 h-11 rounded-2xl bg-[#D61F68] text-white flex items-center justify-center">
+                                    <div className="w-10 sm:w-15 h-11 rounded-2xl bg-[#D61F68] text-white flex items-center justify-center">
                                         <IoBagRemoveOutline className="text-xl" />
                                     </div>
                                     <h3 className="text-base font-bold text-[#111318] ">

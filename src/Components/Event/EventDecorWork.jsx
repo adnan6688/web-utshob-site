@@ -16,7 +16,7 @@ const EventDecorWork = () => {
             <div className="">
                 {/* Header */}
                 <div className="mb-10">
-                    <h2 className="text-3xl  leading-[42px] font-bold text-[#111318] mb-2">
+                    <h2 className="text-2xl sm:text-3xl  leading-[42px] font-bold text-[#111318] mb-2">
                         See Real Event Decoration Work
                     </h2>
                     <p className="text-[#E62E77] font-medium text-[18px] leading-[25px] mb-4">

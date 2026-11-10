@@ -14,6 +14,7 @@ import WeddingStageWhyChoose from '../../../Components/Event/WeddingStage/Weddin
 import Count from '../../../Components/Counter/Count';
 import WeddingStageRelativeService from '../../../Components/Event/WeddingStage/WeddingStageRelativeService';
 import QuestionAns from '../../../Components/QuestionAns/QuestionAns';
+import Path from '../../../Components/Shared/Path';
 
 const weddingStageFAQs = [
     {
@@ -57,6 +58,9 @@ export default function WeddingStageDecoration() {
     const sectionClass = 'mx-auto w-full max-w-[1180px] px-4 lg:px-0';
     return (
         <div id='wedding_stage'>
+
+         
+
             <div id="" className={`${sectionClass} my-10`}>
                 <StageHeroSection></StageHeroSection>
             </div>

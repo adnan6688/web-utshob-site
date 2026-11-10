@@ -41,7 +41,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
   return (
     <section className="w-full ">
       {/* Top Section (Grey Background) */}
-      <div className="bg-[#F3F4F6] py-12 px-3 sm:px-12">
+      <div className="bg-[#F3F4F6] py-5 sm:py-12 px-3 sm:px-12">
         <div className="max-w-[1180px] mx-auto text-left">
           {/* Main Title */}
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">
@@ -84,7 +84,7 @@ export default function NoahHiceTellPartners({ data = DEFAULT_NOAH_VS_HIACE_DATA
       </div>
 
       {/* Bottom Section (Pink Background) */}
-      <div className="bg-[#FFF1F6] py-12 px-3 sm:px-12">
+      <div className="bg-[#FFF1F6] py-5 sm:py-12 px-3 sm:px-12">
         <div className="max-w-[1180px] mx-auto text-left">
           {/* Main Title */}
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111318] tracking-normal mb-3">

@@ -6,6 +6,7 @@ import QuestionAns from '../../../../Components/QuestionAns/QuestionAns';
 import NeedHelp from '../../../../Components/Event/NeedHelp';
 import EventDecorRealExperience from '../../../../Components/Event/EventDecorRealExperience';
 import EventsPoweredByUtshob from '../../../../Components/CarRental/MicroBusRental/EventsPoweredByUtshob';
+import Path from '../../../../Components/Shared/Path';
 
 
 const NOAH_HELP_DATA = {
@@ -183,23 +184,32 @@ export default function NoahRentalPage() {
   return (
     <div id="noah-rental">
 
-      <div className={`${sectionClass} my-10`}>
+      <div className={`mx-auto w-full max-w-[1180px]`}>
+        <Path from={'Home'} to={' Car Rental / Noah Car Rental'} />
+      </div>
+
+
+      <div className={`${sectionClass} mb-10`}>
         <MicroBusHero content={noahHeroContent} ></MicroBusHero>
       </div>
 
 
-      <NoahHiceTellPartners data={DEFAULT_NOAH_CAPACITY_DATA}></NoahHiceTellPartners>
+      <div>
+        <NoahHiceTellPartners data={DEFAULT_NOAH_CAPACITY_DATA}></NoahHiceTellPartners>
 
+      </div>
 
-      <div className="bg-[#EDF8FF] py-10">
-        <div className={``}>
+      <div className="bg-[#EDF8FF] py-5 sm:py-10">
+          <div className={`${sectionClass} mb-5 sm:mb-10`}>
           <PopularMicrobusUses data={DEFAULT_USES_DATA}></PopularMicrobusUses>
         </div>
       </div>
 
 
-      <PopularMicrobusUses data={DEFAULT_NOAH_BOOKING_DATA}></PopularMicrobusUses>
+     <div className={`${sectionClass} mb-5 sm:mb-10 mt-5`}>
+       <PopularMicrobusUses data={DEFAULT_NOAH_BOOKING_DATA}></PopularMicrobusUses>
 
+     </div>
 
 
       <div className='bg-[#EDF8FF] py-10'>
@@ -223,7 +233,7 @@ export default function NoahRentalPage() {
       </div>
 
       <div className={`${sectionClass} py-10 sm:py-15 `}>
-       <EventsPoweredByUtshob></EventsPoweredByUtshob>
+        <EventsPoweredByUtshob></EventsPoweredByUtshob>
       </div>
 
     </div>

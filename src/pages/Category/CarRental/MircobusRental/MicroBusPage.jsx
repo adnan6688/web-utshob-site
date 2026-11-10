@@ -4,6 +4,7 @@ import NoahHiceTellPartners from '../../../../Components/CarRental/MicroBusRenta
 import ExploreOurMicroBus from '../../../../Components/CarRental/MicroBusRental/ExploreOurMicroBus';
 import PopularMicrobusUses from '../../../../Components/CarRental/MicroBusRental/PopularMicrobusUses';
 import QuestionAns from '../../../../Components/QuestionAns/QuestionAns';
+import Path from '../../../../Components/Shared/Path';
 
 
 const microbusRentalFAQs = [
@@ -74,7 +75,13 @@ export default function MicroBusPage() {
     return (
         <div id='micro-bus'>
 
-            <div className={`${sectionClass} my-10`}>
+
+            <div className='mx-auto w-full max-w-[1180px]'>
+                <Path from={'Home'} to={'  Car Rental / Microbus Rental'}></Path>
+            </div>
+
+
+            <div className={`${sectionClass} mt-3 mb-10`}>
                 <MicroBusHero></MicroBusHero>
             </div>
 

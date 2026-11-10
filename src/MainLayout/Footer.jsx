@@ -9,7 +9,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelo
 const Footer = () => {
     return (
         <footer className="bg-[#EEF3F2] text-[#4a5568]">
-            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-0  sm:pt-10 pb-4 sm:py-16">
+            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-0 pt-5 sm:pt-10 pb-4 sm:py-16">
                 {/* Top Section: Logo & Links */}
                 <div>
                     <div className="col-span-1">

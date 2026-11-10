@@ -77,10 +77,10 @@ export default function CarRentalRequirment() {
 
                 {/* Header Section */}
                 <div className="space-y-2">
-                    <span className="text-[10px] font-bold tracking-normalr text-[#D61F68] uppercase">
+                    <span className="text-[10px] font-bold tracking-normal text-[#D61F68] uppercase">
                         TELL PARTNERS EXACTLY WHAT YOU NEED
                     </span>
-                    <h2 className="text-2xl sm:text-3xl font-bold text-[#111318]">
+                    <h2 className="text-xl sm:text-3xl font-bold text-[#111318]">
                         Define Your Car Rental Requirement
                     </h2>
                     <p className="text-xs sm:text-sm text-[#5E6878] max-w-4xl leading[145%]">

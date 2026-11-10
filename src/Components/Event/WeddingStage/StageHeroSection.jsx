@@ -2,6 +2,7 @@ import React from 'react';
 import { Sparkles } from 'lucide-react';
 import { FaArrowRight } from "react-icons/fa6";
 import Button from '../../Shared/Button';
+import Path from '../../Shared/Path';
 
 const StageHeroSection = ({
     title = "Wedding Stage Decoration",
@@ -13,12 +14,16 @@ const StageHeroSection = ({
 }) => {
     return (
         <section className="w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
                 {/* Left Column - Content */}
-                <div className="lg:col-span-7 flex flex-col space-y-6">
+                <div className="lg:col-span-7  flex flex-col space-y-4">
+
+                    <div className={`mx-auto w-full max-w-[1180px]`}>
+                        <Path from={'Home'} to={' Event Decoration / Wedding Stage Decoration'} />
+                    </div>
                     {/* Main Title */}
-                    <h1 className="text-4xl  font-bold tracking-normal text-[#111318] leading-12">
+                    <h1 className="text-xl sm:text-2xl md:text-3xl  font-bold tracking-normal text-[#111318] leading-12">
                         {title}
                     </h1>
 

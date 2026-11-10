@@ -45,7 +45,7 @@ const EventDecoratorConsider = ({
             <div className="">
                 {/* Header Section */}
                 <div className="mb-8">
-                    <h2 className="text-3xl  leading-[42px] font-bold text-[#111318] mb-3">
+                    <h2 className="text-2xl sm:text-3xl  leading-[42px] font-bold text-[#111318] mb-3">
                         {title}
                     </h2>
                     <p className="text-[#59606C] text-[16px]  text-base mb-6">

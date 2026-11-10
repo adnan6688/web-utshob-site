@@ -52,7 +52,7 @@ const EventsPoweredByUtshob = ({
               key={index}
               className="flex min-h-[72px] flex-col justify-center rounded-lg border border-[#D1D5DB] px-3.5 py-2.5"
             >
-              <h3 className="mb-1 text-[24px] font-bold leading-7 tracking-normal text-[#111318]">
+              <h3 className="mb-1 text-[24px] font-semibold leading-7 tracking-normal text-[#111318]">
                 {stat.value}
               </h3>
 

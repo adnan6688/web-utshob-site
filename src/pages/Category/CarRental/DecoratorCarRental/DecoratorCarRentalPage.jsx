@@ -10,6 +10,7 @@ import RelatedCarRentalServices from '../../../../Components/CarRental/Decorated
 import QuestionAns from '../../../../Components/QuestionAns/QuestionAns';
 import NeedHelp from '../../../../Components/Event/NeedHelp';
 import EventsPoweredByUtshob from '../../../../Components/CarRental/MicroBusRental/EventsPoweredByUtshob';
+import Path from '../../../../Components/Shared/Path';
 
 
 const DEFAULT_DECORATED_WEDDING_CAR_FAQ_DATA = {
@@ -89,7 +90,7 @@ const DEFAULT_EVENTS_DATA = {
       label: 'Verified Providers',
     },
   ],
-  sourceNote : ''
+  sourceNote: ''
 };
 
 const DEFAULT_DECORATED_WEDDING_CAR_NEED_HELP_DATA = {
@@ -102,16 +103,20 @@ const DEFAULT_DECORATED_WEDDING_CAR_NEED_HELP_DATA = {
 };
 export default function DecoratorCarRentalPage() {
 
-  const sectionClass = "mx-auto max-w-[1180px] px-4 py-8";
+  const sectionClass = "mx-auto max-w-[1180px] px-4 sm:px-0 py-8";
   return (
     <div id="decoratore-car-rental" >
 
 
-      <div className={`${sectionClass}`}>
+      <div className='mx-auto w-full max-w-[1180px]'>
+        <Path from={'Home'} to={'  Car Rental / Wedding Car Rental / Decorated Wedding Car'}></Path>
+      </div>
+
+      <div className={`mx-auto  px-4 sm:px-0 max-w-[1180px] `}>
         <DecoratedHeroCar></DecoratedHeroCar>
       </div>
 
-      <div className="bg-[#F4F6F8] my-10">
+      <div className="bg-[#F4F6F8] my-5 sm:my-10">
         <div className={`${sectionClass} sm:py-15`}>
           <DefineTheCardecoration></DefineTheCardecoration>
         </div>
@@ -143,7 +148,7 @@ export default function DecoratorCarRentalPage() {
         </div>
       </div>
 
-      <div className="bg-[#EDF8FF] py-10">
+      <div className="bg-[#EDF8FF] py-5 sm:py-10">
         <div className={`${sectionClass}`}>
           <RelatedCarRentalServices></RelatedCarRentalServices>
         </div>
@@ -165,7 +170,7 @@ export default function DecoratorCarRentalPage() {
       </div>
 
 
-      <div className="bg-[#E62E77] py-10">
+      <div className="bg-[#E62E77] py-5 sm:py-10">
         <div className={`${sectionClass}`}>
           <NeedHelp data={DEFAULT_DECORATED_WEDDING_CAR_NEED_HELP_DATA}></NeedHelp>
         </div>

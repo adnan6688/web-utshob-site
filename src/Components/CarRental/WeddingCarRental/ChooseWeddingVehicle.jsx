@@ -55,7 +55,7 @@ export default function ChooseWeddingVehicle() {
     <section className="w-full  bg-slate-50/40 text-[#111318]">
       {/* Header Section */}
       <div className="mb-10 text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#111318] tracking-normal">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#111318] tracking-normal">
           Choose the Wedding Vehicles You Need
         </h2>
       </div>

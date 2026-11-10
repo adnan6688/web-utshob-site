@@ -38,14 +38,14 @@ export default function WhyFindCarRental() {
         <section className="w-full bg-pink-50/40">
             <div className="">
                 {/* Section Heading */}
-                <div className="mb-10 text-left">
-                    <h2 className="text-3xl  font-bold text-[#111318] tracking-normal">
+                <div className="mb-4 sm:mb-10 text-left">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl  font-bold text-[#111318] tracking-normal">
                         Why Find Car Rental Through Utshob?
                     </h2>
                 </div>
 
                 {/* 6-Card Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-6 mb-6">
                     {topFeatures.map((item, index) => (
                         <div
                             key={index}

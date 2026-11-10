@@ -13,7 +13,7 @@ const DEFAULT_USES_DATA = {
     'Picnics and group outings',
   ],
   footerText: '',
-  bgColor: 'bg-slate-50/90',
+  bgColor: '',
 };
 
 export default function PopularMicrobusUses({
@@ -24,14 +24,14 @@ export default function PopularMicrobusUses({
     subtitle,
     uses = [],
     footerText,
-    bgColor = 'bg-slate-50/90',
+    bgColor = '',
   } = data;
 
   return (
     <section
-      className={`w-full ${bgColor} px-6 py-14 text-[#111318] sm:px-12`}
+      className={`w-full ${bgColor}  text-[#111318] `}
     >
-      <div className="mx-auto max-w-[1180px] text-left">
+      <div className="text-left">
 
         {/* Section Heading */}
         <h2 className="mb-4 text-2xl font-bold tracking-normal text-[#111318] sm:text-3xl">
