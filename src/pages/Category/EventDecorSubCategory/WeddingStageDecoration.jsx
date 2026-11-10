@@ -59,40 +59,40 @@ export default function WeddingStageDecoration() {
     return (
         <div id='wedding_stage'>
 
-         
 
-            <div id="" className={`${sectionClass} my-10`}>
+
+            <div id="" className={`${sectionClass} my-2 sm:my-10`}>
                 <StageHeroSection></StageHeroSection>
             </div>
 
-            <div className="bg-[#EDF8FF] my-10">
+            <div className="bg-[#EDF8FF]  sm:my-10">
 
                 <div className={`${sectionClass} py-10 sm:py-20 `}>
                     <WeddingDecoration></WeddingDecoration>
                 </div>
             </div>
 
-            <div className={`${sectionClass} py-10 `}>
+            <div className={`${sectionClass} py-2 sm:py-10 `}>
                 <EventDecorChooseDesign></EventDecorChooseDesign>
             </div>
-            <div className={`${sectionClass} py-10 `}>
+            <div className={`${sectionClass}  sm:py-10 `}>
                 <WeddingStageOptions></WeddingStageOptions>
             </div>
 
-            <div className="bg-[#FFF1F6] my-5">
+            <div className="bg-[#FFF1F6] sm:my-5">
                 <div className={`${sectionClass} py-10 `}>
                     <WeddingStageSeeMore></WeddingStageSeeMore>
                 </div>
             </div>
 
 
-            <div className={`${sectionClass} py-15 `}>
+            <div className={`${sectionClass} py-4 sm:py-15 `}>
                 <WeddingBiddingProcess></WeddingBiddingProcess>
             </div>
 
             <div className="bg-[#F4F6F8]">
 
-                <div className={`${sectionClass} py-10 `}>
+                <div className={`${sectionClass} py-5 sm:py-10 `}>
                     <WeddingStageCompare></WeddingStageCompare>
                 </div>
             </div>
