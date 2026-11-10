@@ -79,8 +79,8 @@ export default function WeddingStageDecoration() {
                 <WeddingStageOptions></WeddingStageOptions>
             </div>
 
-            <div className="bg-[#FFF1F6] sm:my-5">
-                <div className={`${sectionClass} py-10 `}>
+            <div className="bg-[#FFF1F6] my-3 sm:my-5">
+                <div className={`${sectionClass} py-5 sm:py-10 `}>
                     <WeddingStageSeeMore></WeddingStageSeeMore>
                 </div>
             </div>

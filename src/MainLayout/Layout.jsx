@@ -5,12 +5,12 @@ import MobileFooter from './MobileFooter';
 
 const Layout = () => {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen overflow-x-hidden">
             <Navbar />
 
             <main
                 id="main-content"
-                className="mx-auto min-h-[calc(100vh-370px)] pt-17  sm:pt-15 "
+                className="mx-auto w-full min-h-[calc(100vh-370px)] overflow-x-hidden pt-17 sm:pt-15"
             >
                 <Outlet />
             </main>

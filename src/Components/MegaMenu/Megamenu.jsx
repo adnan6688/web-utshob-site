@@ -72,7 +72,7 @@ export default function Megamenu({
         // "Photography & Videography": [
         //     "Wedding Photography",
         //     "Wedding Videography",
-        //     "Pre Wedding Photography",
+        //     "Pre-Wedding Photography",
         //     "Cinematic Wedding Film",
         //     "Birthday Photography",
         //     "Event Photography",
@@ -83,7 +83,6 @@ export default function Megamenu({
             "Micro Bus Rental",
             "Noah Rental",
             "Decorated Wedding Car",
-
         ],
 
         // "Rides & Band Party": [
@@ -106,10 +105,15 @@ export default function Megamenu({
         //     "Lighting Rental",
         //     "Sound System Rental",
         //     "Event Equipment",
+        //     "Stage Setup",
         // ],
     };
 
     const categories = Object.keys(services);
+
+    const handleCategoryHover = (category) => {
+        if (setSelectedCategory) setSelectedCategory(category);
+    };
 
     const handleServiceClick = (service, category) => {
         if (setMegaMenuOpen) setMegaMenuOpen(false);
@@ -228,6 +232,8 @@ export default function Megamenu({
                         <button
                             key={category}
                             type="button"
+                            onMouseEnter={() => handleCategoryHover(category)}
+                            onFocus={() => handleCategoryHover(category)}
                             onClick={() => setSelectedCategory?.(category)}
                             className={`flex cursor-pointer items-center border justify-between gap-2 rounded-lg text-left text-[13px] p-[14px] font-medium transition-all duration-300 ease-in-out hover:translate-x-1 hover:shadow-sm ${activeCategory === category
                                     ? "text-[#FFF1F6] bg-[#E62E77] border-[#E62E77] shadow-sm"
