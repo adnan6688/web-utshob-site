@@ -66,11 +66,13 @@ export default function CarRentalVehicleTrip() {
                             <div className='flex flex-col gap-y-3'>
                                 {/* Icon Badge */}
 
-                                <div className='flex gap-x-5 items-center'>
-                                    <div className="w-10 sm:w-15 h-11 rounded-2xl bg-[#D61F68] text-white flex items-center justify-center">
+
+                                <div className="flex items-center gap-3 sm:gap-4">
+                                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#D61F68] text-white sm:h-12 sm:w-12">
                                         <IoBagRemoveOutline className="text-xl" />
                                     </div>
-                                    <h3 className="text-base font-bold text-[#111318] ">
+
+                                    <h3 className="min-w-0 text-base font-bold leading-6 text-[#111318] sm:text-lg">
                                         {item.title}
                                     </h3>
                                 </div>

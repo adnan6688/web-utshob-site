@@ -1,5 +1,6 @@
 import { APP_DOWNLOAD_URL, REQUEST_HOME } from '../../constants/seoHome';
 import mobile from '../../assets/web Images/Hero image/heroimage.webp';
+import partnerMobile from '../../assets/uthosob-partner.webp'
 import icon from '../../assets/icon.webp'
 import Button from '../Shared/Button';
 import QRCard from '../QRCard/QRCard';
@@ -92,7 +93,7 @@ export const AppConversionSection = ({
         <div className="flex w-full flex-1 justify-center lg:justify-end">
           <div className="flex w-full flex-1 justify-center lg:justify-end">
             <img
-              src={mobile}
+              src={app == 'partner' ? partnerMobile : mobile}
               alt={imageAlt}
               loading="lazy"
               decoding="async"

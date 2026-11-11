@@ -16,6 +16,7 @@ import QuestionAns from '../../../Components/QuestionAns/QuestionAns';
 import CarRentalChoice from '../../../Components/CarRental/CarRentalChoice';
 import EventDecorPartnerApp from '../../../Components/Event/EventDecorPartnerApp';
 import NeedHelp from '../../../Components/Event/NeedHelp';
+import Path from '../../../Components/Shared/Path';
 
 
 
@@ -112,6 +113,10 @@ export default function CarRentalCategory() {
     return (
         <div id='car_rental'>
 
+
+            <div className={` flex justify-start`}>
+                <Path from={'Home'} to={' Car Rental'} />
+            </div>
             <div className={`${sectionClass} mb-2 sm:mb-10`}>
                 <CarRentalHero></CarRentalHero>
             </div>

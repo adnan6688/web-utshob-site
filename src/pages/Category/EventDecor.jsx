@@ -29,7 +29,7 @@ export default function EventDecor() {
   return (
     <div id='event-decoration' className=''>
 
-      <div className={`${sectionClass} flex justify-start`}>
+      <div className={` flex justify-start`}>
         <Path from={'Home'} to={'Event Decoration'} />
       </div>
 

@@ -5,7 +5,7 @@ import Button from '../Shared/Button';
 
 export default function CarRentalHero() {
     return (
-        <section className="w-full py-6 sm:py-8 lg:py-10">
+        <section className="w-full ">
             <div className="flex flex-col gap-8 lg:flex-row lg:items-stretch">
 
                 {/* Left Content */}

@@ -117,8 +117,8 @@ export default function CarRentalServices() {
                 </div>
 
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-3.5">
 
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-3.5">
                     {rentalServices.map((service) => {
                         const Icon = service.icon;
 
@@ -127,41 +127,40 @@ export default function CarRentalServices() {
                                 key={service.title}
                                 className="flex min-w-0 flex-col overflow-hidden rounded-xl border border-[#E2E6EB] bg-white"
                             >
-
                                 {/* Card Header */}
                                 <div
-                                    className={`flex min-h-[35px] items-center gap-2 px-2.5 py-1.5 ${service.headerColor}`}
+                                    className={`flex min-h-[48px] items-center gap-2.5 px-3 py-2 ${service.headerColor}`}
                                 >
-                                    <div className="flex h-[21px] w-[21px] shrink-0 items-center justify-center rounded-full bg-[#E92D79] text-white">
-                                        <Icon className="text-[13px]" />
+                                    <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#E92D79] text-white">
+                                        <Icon className="text-base" />
                                     </div>
 
-                                    <div className="flex flex-col space-y-1">
-                                        <span className="text-[9px] font-bold uppercase leading-[13px] text-[#D61F68] tracking-normal">
+                                    <div className="flex flex-col gap-0.5">
+                                        <span className="text-[10px] font-bold uppercase leading-4 tracking-normal text-[#D61F68]">
                                             SERVICE GROUP
                                         </span>
 
-                                        <span className="text-[9px] leading-[13px] text-[#586070]">
+                                        <span className="text-xs leading-4 text-[#586070]">
                                             {service.serviceGroup}
                                         </span>
                                     </div>
                                 </div>
 
                                 {/* Card Content */}
-                                <div className="flex flex-1 flex-col p-2.5 sm:p-3">
+                                <div className="flex flex-1 flex-col p-3 sm:p-4">
 
-                                    <h3 className="mb-2 text-sm font-bold text-[#171B20] sm:text-[17px] leading-[22px]">
+                                    <h3 className="mb-2 text-base font-bold leading-6 text-[#171B20] sm:text-lg">
                                         {service.title}
                                     </h3>
 
                                     {service.description && (
-                                        <p className="mb-3 text-[9px] leading-[17px] text-[#59606C] sm:text-[12px]">
+                                        <p className="mb-3 text-[13px] leading-5 text-[#59606C] sm:text-sm">
                                             {service.description}
                                         </p>
                                     )}
 
                                     {service.suitableFor && (
-                                        <p className="mb-1 text-[12px] text-[#59606C]">
+                                        <p className="mb-2 text-[13px] leading-5 text-[#59606C] sm:text-sm">
                                             {service.suitableFor}
                                         </p>
                                     )}
@@ -169,15 +168,15 @@ export default function CarRentalServices() {
                                     {/* Explore Items */}
                                     {service.exploreItems.length > 0 && (
                                         <div className="mb-3">
-                                            <p className="mb-1 text-[10px] leading-[14px] font-bold text-[#171B20]">
+                                            <p className="mb-2 text-sm font-bold leading-5 text-[#171B20]">
                                                 Explore:
                                             </p>
 
-                                            <ul className="space-y-1">
+                                            <ul className="space-y-2">
                                                 {service.exploreItems.map((item) => (
                                                     <li
                                                         key={item}
-                                                        className="text-[11px] leading-[12px] text-[#59606C]"
+                                                        className="text-[13px] leading-5 text-[#59606C] sm:text-sm"
                                                     >
                                                         {item}
                                                     </li>
@@ -187,33 +186,32 @@ export default function CarRentalServices() {
                                     )}
 
                                     {service.footerText && (
-                                        <p className="mb-3 text-[11px] leading-[17px] text-[#59606C]">
+                                        <p className="mb-3 text-xs leading-5 text-[#59606C] sm:text-[13px]">
                                             {service.footerText}
                                         </p>
                                     )}
 
                                     {/* Action Links */}
-                                    <div className="mt-auto flex flex-wrap gap-x-1 gap-y-1 pt-1">
+                                    <div className="mt-auto flex flex-wrap gap-x-1.5 gap-y-1 pt-2">
 
-                                        {service.links.map((link) => (
+                                        {service.links.map((link, index) => (
                                             <a
                                                 key={link}
                                                 href="#explore"
-                                                className="text-[11px] font-semibold leading-[14px] text-[#D61F68] hover:underline"
+                                                className="text-xs font-semibold leading-5 text-[#D61F68] hover:underline sm:text-[13px]"
                                             >
                                                 {link}
-                                                {service.links.length > 1 ? " ·" : ""}
+                                                {index !== service.links.length - 1 && " ·"}
                                             </a>
                                         ))}
 
                                     </div>
-
                                 </div>
                             </article>
                         );
                     })}
-
                 </div>
+
             </div>
         </section>
     );

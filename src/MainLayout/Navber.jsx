@@ -1,18 +1,13 @@
 
 import { useState } from "react";
-import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import { FiMenu, FiX } from "react-icons/fi";
 import { Link, useLocation } from "react-router";
 import logo from "../assets/logo-utsab (1).png";
 import AuthHooks from "../Components/Shared/Hook/AuthHooks";
-import Button from "../Components/Shared/Button";
-import Megamenu from "../Components/MegaMenu/Megamenu";
 
 const Navbar = () => {
     const [activeMenu, setActiveMenu] = useState("/");
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [mobileEventOpen, setMobileEventOpen] = useState(false);
-    const [megaMenuOpen, setMegaMenuOpen] = useState(false);
-    const [selectedCategory, setSelectedCategory] = useState("Event Decoration");
 
     const { scroll, eventServicesRef, serviceRef, partnerRef, howRef } = AuthHooks();
     const location = useLocation();
@@ -28,7 +23,6 @@ const Navbar = () => {
         scroll(item.ref);
         setActiveMenu(item.path);
         setMobileMenuOpen(false);
-        setMegaMenuOpen(false);
     };
 
     const renderMenuItems = (mobile = false) =>
@@ -46,49 +40,11 @@ const Navbar = () => {
                         to="/"
                         onClick={() => {
                             setMobileMenuOpen(false);
-                            setMegaMenuOpen(false);
-                            setMobileEventOpen(false);
                         }}
                         className={className}
                     >
                         {item.label}
                     </Link>
-                );
-            }
-
-            if (mobile && item.label === "Event Services") {
-                return (
-                    <button
-                        key={item.label}
-                        type="button"
-                        onClick={() => {
-                            setMobileEventOpen(true);
-                            setMegaMenuOpen(false);
-                        }}
-                        className={`${className} flex items-center justify-between text-left`}
-                    >
-                        <span>{item.label}</span>
-                        <FiChevronDown size={16} className="text-[#E62E77]" />
-                    </button>
-                );
-            }
-
-            if (!mobile && item.label === "Event Services") {
-                return (
-                    <button
-                        key={item.label}
-                        type="button"
-                        onClick={() => handleClick(item)}
-                        onMouseEnter={() => setMegaMenuOpen(true)}
-                        aria-expanded={megaMenuOpen}
-                        className={`${className} flex items-center gap-1`}
-                    >
-                        {item.label}
-                        <FiChevronDown
-                            className={`transition-transform duration-200 ${megaMenuOpen ? "rotate-180" : ""
-                                }`}
-                        />
-                    </button>
                 );
             }
 
@@ -107,7 +63,6 @@ const Navbar = () => {
     return (
         <header
             className="fixed left-0 top-0 z-50 w-full border-b border-white/30 bg-white/80 shadow-sm backdrop-blur-xl"
-            onMouseLeave={() => setMegaMenuOpen(false)}
         >
             <div className="mx-auto max-w-[1180px] px-3 sm:px-4 lg:px-0">
                 <div className="flex h-16 items-center justify-between gap-3">
@@ -118,7 +73,6 @@ const Navbar = () => {
                         className="shrink-0"
                         onClick={() => {
                             setMobileMenuOpen(false);
-                            setMegaMenuOpen(false);
                         }}
                     >
                         <img
@@ -150,9 +104,6 @@ const Navbar = () => {
                         <button
                             type="button"
                             onClick={() => {
-                                if (mobileMenuOpen && mobileEventOpen) {
-                                    setMobileEventOpen(false);
-                                }
                                 setMobileMenuOpen(!mobileMenuOpen);
                             }}
                             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
@@ -168,25 +119,6 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {/* Desktop Mega Menu */}
-                <div
-                    onMouseEnter={() => setMegaMenuOpen(true)}
-                    className={`absolute left-1/2 top-full hidden w-[calc(100%-32px)] max-w-[1180px] -translate-x-1/2 pt-2 lg:block transition-all duration-300 ${megaMenuOpen
-                        ? "visible translate-y-0 opacity-100"
-                        : "invisible -translate-y-2 opacity-0 pointer-events-none"
-                        }`}
-                >
-                    <div className="rounded-2xl border border-[#C7CAD1] bg-white mt-2  shadow-[0_4px_16px_rgba(0,0,0,0.06)]">
-
-                        <Megamenu
-                            setMegaMenuOpen={setMegaMenuOpen}
-                            eventServicesRef={eventServicesRef}
-                            selectedCategory={selectedCategory}
-                            setSelectedCategory={setSelectedCategory}
-                        />
-                    </div>
-                </div>
-
                 {/* Mobile & Tablet Dropdown */}
                 <div
                     className={`overflow-hidden transition-all duration-300 ease-in-out lg:hidden ${mobileMenuOpen
@@ -194,26 +126,9 @@ const Navbar = () => {
                         : "max-h-0 pb-0 opacity-0"
                         }`}
                 >
-                    {mobileEventOpen ? (
-                        <div className="pt-1">
-                            <Megamenu
-                                mobile
-                                setMegaMenuOpen={setMobileEventOpen}
-                                eventServicesRef={eventServicesRef}
-                                scroll={scroll}
-                                selectedCategory={selectedCategory}
-                                setSelectedCategory={setSelectedCategory}
-                                onCloseMenu={() => {
-                                    setMobileMenuOpen(false);
-                                    setMobileEventOpen(false);
-                                }}
-                            />
-                        </div>
-                    ) : (
-                        <nav className="flex flex-col text-sm font-medium gap-1 border-t border-[#E2E6EB] pt-2">
-                            {renderMenuItems(true)}
-                        </nav>
-                    )}
+                    <nav className="flex flex-col text-sm font-medium gap-1 border-t border-[#E2E6EB] pt-2">
+                        {renderMenuItems(true)}
+                    </nav>
                 </div>
             </div>
         </header>
