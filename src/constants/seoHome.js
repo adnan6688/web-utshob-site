@@ -8,7 +8,7 @@ export const DESIGN_GALLERY = 'https://www.utshob.xyz/';
 export const CATEGORY_ROUTE = (categoryKey) => {
   const routes = {
     'event-decoration': '/event-decoration',
-    'photography-videography': '/',
+    'photography-videography': '/photography-videography',
     'car-rental': '/car-rental',
     'rides-band-party': '/',
     'cake': '/',

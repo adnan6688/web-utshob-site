@@ -1,9 +1,57 @@
+
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa6';
 import gari from '../../assets/web Images/CarRental/marcedezBand.jpg';
 import Button from '../Shared/Button';
 
-export default function CarRentalHero() {
+const DEFAULT_DATA = {
+    title: 'Car Rental in Bangladesh',
+
+    description: `Find car rental services in Dhaka and across Bangladesh based on
+    the trip or event you actually need. Define the vehicle, passenger,
+    route and timing, receive partner quotations and compare actual
+    proposed vehicles before choosing.`,
+
+    steps: [
+        'Define Your Requirement',
+        'Relevant Partners Bid',
+        'Compare',
+        'Book',
+    ],
+
+    buttons: [
+        {
+            label: 'Get Car Rental Quotations in the App',
+            variant: 'primary',
+        },
+        {
+            label: 'Explore Car Rental Options',
+            variant: 'secondary',
+        },
+    ],
+
+    image: gari,
+    imageAlt:
+        'Car rental vehicles in Bangladesh for events, weddings and transportation',
+    imageTitle: 'Car Rental Services in Bangladesh - Utshob.xyz',
+};
+
+export default function CarRentalHero({ data = {} }) {
+    const heroData = {
+        ...DEFAULT_DATA,
+        ...data,
+    };
+
+    const {
+        title,
+        description,
+        steps,
+        buttons,
+        image,
+        imageAlt,
+        imageTitle,
+    } = heroData;
+
     return (
         <section className="w-full py-6 sm:py-8 lg:py-10">
             <div className="flex flex-col gap-8 lg:flex-row lg:items-stretch">
@@ -13,56 +61,52 @@ export default function CarRentalHero() {
 
                     <div>
                         <h1 className="mb-3 text-3xl font-bold text-[#111318] sm:text-[38px] lg:leading-[52px]">
-                            Car Rental in Bangladesh
+                            {title}
                         </h1>
 
-                        <p className="text-sm leading[145%] text-[#5E6878] sm:text-base">
-                            Find car rental services in Dhaka and across Bangladesh based on
-                            the trip or event you actually need. Define the vehicle, passenger,
-                            route and timing, receive partner quotations and compare actual
-                            proposed vehicles before choosing.
+                        <p className="text-sm leading-[145%] text-[#5E6878] sm:text-base">
+                            {description}
                         </p>
                     </div>
 
                     {/* Process Steps */}
-                    <div className="flex flex-wrap sm:mt-9 items-center gap-x-2 gap-y-2 text-[11px] font-semibold text-[#111318] sm:text-xs">
-                        <span>Define Your Requirement</span>
-                        <FaArrowRight className="shrink-0 text-[#E62E77]" />
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-2 text-[11px] font-semibold text-[#111318] sm:mt-9 sm:text-xs">
+                        {steps.map((step, index) => (
+                            <React.Fragment key={`${step}-${index}`}>
+                                <span>{step}</span>
 
-                        <span>Relevant Partners Bid</span>
-                        <FaArrowRight className="shrink-0 text-[#E62E77]" />
-
-                        <span>Compare</span>
-                        <FaArrowRight className="shrink-0 text-[#E62E77]" />
-
-                        <span>Book</span>
+                                {index !== steps.length - 1 && (
+                                    <FaArrowRight className="shrink-0 text-[#E62E77]" />
+                                )}
+                            </React.Fragment>
+                        ))}
                     </div>
 
                     {/* Action Buttons */}
                     <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-                        <Button
-                            type="button"
-                            className="rounded-xl bg-[#E62E77] px-5 py-3 text-xs font-semibold text-white shadow-sm transition-all duration-300  sm:text-sm"
-                        >
-                            Get Car Rental Quotations in the App
-                        </Button>
-
-                        <Button
-                            type="button"
-                            className="rounded-xl border border-rose-300 bg-white px-5 py-3 text-xs font-semibold text-[#E62E77] transition-all duration-300 0 sm:text-sm"
-                        >
-                            Explore Car Rental Options
-                        </Button>
+                        {buttons.map((button, index) => (
+                            <Button
+                                key={`${button.label}-${index}`}
+                                type="button"
+                                onClick={button.onClick}
+                                className={`rounded-xl px-5 py-3 text-xs font-semibold transition-all duration-300 sm:text-sm ${button.variant === 'primary'
+                                        ? 'bg-[#E62E77] text-white shadow-sm'
+                                        : 'border border-rose-300 bg-white text-[#E62E77]'
+                                    }`}
+                            >
+                                {button.label}
+                            </Button>
+                        ))}
                     </div>
 
                 </div>
 
                 {/* Right Image */}
-                <div className="w-full overflow-hidden rounded-[28px] border border-[#F1DCE5] bg-[#FFF5F9] lg:w-[48%] lg:min-h-[400px]">
+                <div className="w-full overflow-hidden rounded-[28px] border border-[#F1DCE5] bg-[#FFF5F9] lg:min-h-[400px] lg:w-[48%]">
                     <img
-                        src={gari}
-                        alt="Car rental vehicles in Bangladesh for events, weddings and transportation"
-                        title="Car Rental Services in Bangladesh - Utshob.xyz"
+                        src={image}
+                        alt={imageAlt}
+                        title={imageTitle}
                         loading="lazy"
                         decoding="async"
                         className="h-[240px] w-full object-cover sm:h-[300px] lg:h-full"

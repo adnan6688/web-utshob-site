@@ -17,7 +17,7 @@ const accountRoutes = [
 
 const categoryRoutes = [
   route('event-decoration', './pages/Category/EventDecor.jsx', { id: 'event-decoration' }),
-  route('photography-videography', './pages/Category/ServiceCategoryPage.jsx', { id: 'photography-videography' }),
+  route('photography-videography', './pages/Category/Photograpy/PhotograpyPage.jsx', { id: 'photography-videography' }),
   route('rides-band-party', './pages/Category/ServiceCategoryPage.jsx', { id: 'rides-band-party' }),
   route('cake', './pages/Category/ServiceCategoryPage.jsx', { id: 'cake' }),
   route('event-rental-support', './pages/Category/ServiceCategoryPage.jsx', { id: 'event-rental-support' }),

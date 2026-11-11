@@ -69,14 +69,14 @@ export default function Megamenu({
             // "Kunjo Decoration",
         ],
 
-        // "Photography & Videography": [
-        //     "Wedding Photography",
-        //     "Wedding Videography",
-        //     "Pre-Wedding Photography",
-        //     "Cinematic Wedding Film",
-        //     "Birthday Photography",
-        //     "Event Photography",
-        // ],
+        "Photography & Videography": [
+            "Wedding Photography",
+            "Wedding Videography",
+            "Pre-Wedding Photography",
+            "Cinematic Wedding Film",
+            "Birthday Photography",
+            "Event Photography",
+        ],
 
         "Car Rental": [
             "Wedding Car Rental",
