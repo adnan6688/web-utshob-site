@@ -29,7 +29,7 @@ const Bannar = () => {
 
         <p className="w-[90%] font-noto text-[18px] font-normal leading-normal tracking-normal text-[#626773] md:w-[75%] lg:leading-[150%]">
           From decoration and photography to car rental, cake, sound, lighting
-          and rentals—submit one requirement, receive quotations and compare
+          and rentals-submit one requirement, receive quotations and compare
           before you book.
         </p>
 

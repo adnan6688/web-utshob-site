@@ -67,13 +67,13 @@ function PlanningCard({ item }) {
         {item.description}
       </p>
 
-      <a
+      {/* <a
         href={PLANNER_ROUTE(item.route)}
         className="mt-auto inline-flex items-center gap-2 text-[13px] font-semibold text-[#111318] hover:text-[#DF266F]"
       >
         <span>{item.cta}</span>
         <FaArrowRight className="shrink-0" aria-hidden="true" />
-      </a>
+      </a> */}
     </article>
   );
 }

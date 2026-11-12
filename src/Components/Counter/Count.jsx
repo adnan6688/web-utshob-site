@@ -12,7 +12,7 @@ const Count = () => {
         },
         {
             value: '2,000+',
-            label: 'Registered Partners — Growing',
+            label: 'Registered Partners-Growing',
         },
     ];
 
