@@ -69,7 +69,7 @@ const Footer = () => {
                 {/* Middle Section: Download Apps & Contact Box */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-[#FFFFFF] p-6 md:p-8 rounded-3xl border border-[#E2E6EB] shadow-[0_4px_20px_rgba(0,0,0,0.06)]">
                     {/* App Download Area */}
-                    <div className="lg:col-span-8 space-y-6">
+                    <div className="lg:col-span-8 hidden sm:block space-y-6">
                         <div>
                             <h2 className="text-2xl font-semibold text-[#111318]">Download the Utshob apps</h2>
                             <p className="text-[#626773] text-sm mt-1">

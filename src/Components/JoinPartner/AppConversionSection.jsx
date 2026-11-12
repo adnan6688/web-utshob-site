@@ -48,7 +48,7 @@ export const AppConversionSection = ({
 
             {button2 && (
               <a
-               target='_blank'
+                target='_blank'
                 href={button2Url || requestHomeUrl}
                 className="inline-flex   items-center justify-center gap-3 rounded-[10px] border border-[#367A70] bg-white px-11 py-2 text-base font-semibold text-[#367A70] shadow-sm transition-all hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 sm:w-auto"
               >
