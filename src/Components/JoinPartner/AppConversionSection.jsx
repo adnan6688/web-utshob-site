@@ -1,5 +1,5 @@
 import { APP_DOWNLOAD_URL, REQUEST_HOME } from '../../constants/seoHome';
-import mobile from '../../assets/web Images/Hero image/heroimage.webp';
+import mobile from '../../assets/web Images/Hero image/heroimage.png';
 import partnerMobile from '../../assets/uthosob-partner.webp'
 import icon from '../../assets/icon.webp'
 import Button from '../Shared/Button';

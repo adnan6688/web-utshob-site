@@ -1,7 +1,7 @@
 
 import { FaArrowRight } from "react-icons/fa";
 
-import bannar from "../../assets/web Images/Hero image/heroimage.webp";
+import bannar from "../../assets/web Images/Hero image/heroimage.png";
 import logoIcon from "../../assets/apple-touch-icon.png";
 import Button from "../Shared/Button";
 import { APP_DOWNLOAD_URL, REQUEST_HOME } from '../../constants/seoHome';
