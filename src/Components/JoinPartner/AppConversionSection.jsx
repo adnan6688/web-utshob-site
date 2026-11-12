@@ -34,59 +34,67 @@ export const AppConversionSection = ({
             {des}
           </p>
 
-          <div className="mt-2 flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start sm:gap-5">
-            <Button
-              img={app == 'partner' ? appicon : icon}
-              onClick={() => window.open(button1Url || appDownloadUrl, '_blank', 'noopener,noreferrer')}
-              className={`rounded-[10px] px-4 py-2 flex gap-x-2 text-base font-semibold text-white shadow-sm transition-all duration-300 hover:shadow-md ${app === "partner"
-                ? "bg-[#367A70] hover:bg-[#2D685F]"
-                : "bg-[#E62E77] hover:bg-[#D0235B]"
-                }`}
-            >
-              {button1}
-            </Button>
 
-            {button2 && (
-              <a
-                target='_blank'
-                href={button2Url || requestHomeUrl}
-                className="inline-flex   items-center justify-center gap-3 rounded-[10px] border border-[#367A70] bg-white px-11 py-2 text-base font-semibold text-[#367A70] shadow-sm transition-all hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 sm:w-auto"
+
+          <div className="mt-2 w-full sm:w-[75%]">
+
+            <div className="flex flex-col sm:flex-row gap-y-3 gap-x-3">
+
+              {/* Button 1 */}
+              <Button
+                img={app === 'partner' ? appicon : icon}
+                onClick={() =>
+                  window.open(button1Url || appDownloadUrl, '_blank', 'noopener,noreferrer')
+                }
+                className={`flex  min-w-0 items-center justify-center  rounded-[10px] px-2 py-2 text-sm font-semibold text-white shadow-sm  sm:text-xs md:px-4 md:text-base ${app === 'partner'
+                  ? 'bg-[#367A70] w-full gap-x-1 hover:bg-[#2D685F]'
+                  : 'bg-[#E62E77] gap-x-3 w-full sm:w-auto hover:bg-[#D0235B]'
+                  }`}
               >
-                {app === 'partner' && (
-                  <img
-                    src={appicon}
-                    alt="Partner"
-                    className="h-8 w-8 rounded-full object-cover"
-                    width="324"
-                    height="324"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                )}
+                {button1}
+              </Button>
 
-                <span>{button2}</span>
-              </a>
-            )}
+              {/* Button 2 */}
+              {button2 && (
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={button2Url || requestHomeUrl}
+                  className="flex w-full min-w-0 items-center justify-center gap-1 rounded-[10px] border border-[#367A70] bg-white px-2 py-2 text-center text-sm sm:text-xs font-semibold text-[#367A70] shadow-sm md:px-4 md:text-base"
+                >
+                  {app === 'partner' && (
+                    <img
+                      src={appicon}
+                      alt="Partner"
+                      className="h-8 w-8 shrink-0 rounded-full object-cover md:h-8 md:w-8"
+                    />
+                  )}
+                  {button2}
+                </a>
+              )}
+            </div>
+
+            {/* QR Card */}
+            <div className="mt-3 hidden w-full sm:block">
+              <QRCard
+                label={app === 'partner' ? 'Partner APP' : 'Customer APP'}
+                title="Scan to download"
+                androidText="Android available now"
+                iosText="iOS coming soon"
+                contentWidth="100%"
+                colors={{
+                  background: app === 'partner' ? '#E8F7F5' : '#FFF1F6',
+                  border: app === 'partner' ? '#367A70' : '#E8D1DB',
+                  accent: app === 'partner' ? '#1C4F4A' : '#CC0166',
+                  title: '#171717',
+                  description: '#6B7280',
+                }}
+              />
+            </div>
+
           </div>
 
-          <div className=' hidden sm:block'>
-            <QRCard
 
-              label={app == 'partner' ? "Partner APP" : "Customer APP"}
-              title="Scan to download"
-              androidText="Android available now"
-              iosText="iOS coming soon"
-              actionText=""
-              contentWidth="75%"
-              colors={{
-                background: app == 'partner' ? '#E8F7F5' : "#FFF1F6",
-                border: app == 'partner' ? '#367A70' : "#E8D1DB",
-                accent: app == "partner" ? '#1C4F4A' : "#CC0166",
-                title: "#171717",
-                description: "#6B7280",
-              }}
-            />
-          </div>
         </div>
 
         {/* Image */}
