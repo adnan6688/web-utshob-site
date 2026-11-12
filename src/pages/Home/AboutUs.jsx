@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div className='relative overflow-hidden max-w-[1180px] mx-auto'>
 
-            <div className='sm:pt-30 pt-20 '>
+            <div className="">
 
                 <section className="my-6  ">
                     <h2 className="text-[16px] sm:text-2xl font-semibold mb-2">

@@ -130,7 +130,7 @@ const Home = () => {
             </div>
 
             {/* Event Services */}
-            <div ref={eventServicesRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+            <div ref={eventServicesRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-6 sm:px-6 sm:py-10 lg:px-0">
                 <EventService />
             </div>
 

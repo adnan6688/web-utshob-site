@@ -14,7 +14,7 @@ const Refund = () => {
 
 
 
-            <div className='sm:pt-30 pt-20 '>
+            <div className='mt-5'>
                 <h1 className='text-2xl  font-semibold'>Refund Policy</h1>
 
                
