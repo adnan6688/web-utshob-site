@@ -10,7 +10,7 @@ const Layout = () => {
 
             <main
                 id="main-content"
-                className="mx-auto w-full min-h-[calc(100vh-370px)] overflow-x-hidden pt-17 sm:pt-15"
+                className="mx-auto w-full  overflow-x-hidden pt-17 sm:pt-15"
             >
                 <Outlet />
             </main>

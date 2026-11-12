@@ -9,9 +9,9 @@ export const meta = () => [
 
 const TermsAndCondition = () => {
     return (
-        <div className='max-w-[1180px] mx-auto' >
+        <div className='max-w-[1180px] mx-auto px-2 sm:px-6 lg:px-0' >
 
-            <div className="p-2 py-20 sm:py-20 text-[#5E6878]">
+            <div className="p-2 py-5 text-[#111318]">
                 <h1 className="text-3xl font-bold mb-4">Utshob.xyz – Terms & Conditions</h1>
                 <p className="mb-2">Last Updated: 26 September 2025</p>
                 <p className="mb-6">
@@ -30,8 +30,8 @@ const TermsAndCondition = () => {
                 </ul>
 
                 <div>
-                    <h3 className="text-[16px] sm:text-xl font-semibold text-[#59606C]  ">2. Service Use and Booking</h3>
-                    <ul className="mt-2 text-[14px] text-[#59606C]   leading[145%] list-disc list-inside space-y-1">
+                    <h3 className="text-[16px] sm:text-xl font-semibold text-[#111318]  ">2. Service Use and Booking</h3>
+                    <ul className="mt-2 text-[14px] text-[#111318]   leading[145%] list-disc list-inside space-y-1">
                         <li>Customers can browse, request, and book services through the Platform.</li>
                         <li>Partners can submit bids to provide services requested by Customers.</li>
                         <li>Bookings are subject to Partner availability and confirmation via the Platform.</li>
@@ -40,8 +40,8 @@ const TermsAndCondition = () => {
                 </div>
 
                 <div>
-                    <h3 className="text-[16px] sm:text-xl font-semibold text-[#59606C]  ">3. Bidding Model</h3>
-                    <ul className="mt-2 text-[14px] text-[#59606C]   leading[145%] list-disc list-inside space-y-1">
+                    <h3 className="text-[16px] sm:text-xl font-semibold text-[#111318]  ">3. Bidding Model</h3>
+                    <ul className="mt-2 text-[14px] text-[#111318]   leading[145%] list-disc list-inside space-y-1">
                         <li>Partners submit bids for service requests posted by Customers.</li>
                         <li>The winning bid is determined based on the criteria provided by the Customer and/or Platform.</li>
                         <li>Utshob may apply a service commission to the Partner’s bid, as displayed on the Platform.</li>

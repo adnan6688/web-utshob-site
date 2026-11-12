@@ -10,11 +10,11 @@ export const meta = () => [
 
 const Refund = () => {
     return (
-        <div className='max-w-[1180px] mx-auto'>
+        <div className='max-w-[1180px] mx-auto px-2 sm:px-3 md:px-0'>
 
 
 
-            <div className='sm:pt-30 pt-20 '>
+            <div className='py-5 '>
                 <h1 className='text-2xl  font-semibold'>Refund Policy</h1>
 
                

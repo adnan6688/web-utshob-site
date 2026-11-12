@@ -9,7 +9,7 @@ import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaPhoneAlt, FaEnvelo
 const Footer = () => {
     return (
         <footer className="bg-[#EEF3F2] text-[#4a5568]">
-            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-0 pt-5 sm:pt-10 pb-4 sm:py-16">
+            <div className="max-w-[1180px] mx-auto space-y-5 px-4 md:px-6 xl:px-0 pt-5 sm:pt-10 pb-4 sm:py-16">
                 {/* Top Section: Logo & Links */}
                 <div>
                     <div className="col-span-1">
@@ -31,24 +31,24 @@ const Footer = () => {
                     {/* Event Services */}
                     <div>
                         <h3 className="font-bold text-[#111318] mb-4 text-base">Event Services</h3>
-                        <ul className="space-y-2.5 text-sm text-[#59606C]  ">
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Event Decoration</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Photography & Videography</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Car Rental</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Rides & Band Party</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Cake</a></li>
-                            <li><a href="/#event-services" className="hover:text-[#E62E77] transition-colors">Event Rental & Support</a></li>
+                        <ul className="space-y-2.5 text-sm text-[#59606C]">
+                            <li>Event Decoration</li>
+                            <li>Photography & Videography</li>
+                            <li>Car Rental</li>
+                            <li>Rides & Band Party</li>
+                            <li>Cake</li>
+                            <li>Event Rental & Support</li>
                         </ul>
                     </div>
 
                     {/* Planning Solutions */}
                     <div>
                         <h3 className="font-bold text-[#111318] mb-4 text-base">Planning Solutions</h3>
-                        <ul className="space-y-2.5 text-sm text-[#59606C]  ">
-                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Event Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Wedding Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Birthday Party Planner</a></li>
-                            <li><a href="/#planning-solutions" className="hover:text-[#E62E77] transition-colors">Corporate Event Management</a></li>
+                        <ul className="space-y-2.5 text-sm text-[#59606C]">
+                            <li>Event Planner</li>
+                            <li>Wedding Planner</li>
+                            <li>Birthday Party Planner</li>
+                            <li>Corporate Event Management</li>
                         </ul>
                     </div>
 
@@ -77,45 +77,48 @@ const Footer = () => {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            {/* Customer App Card */}
-                            <div className="border border-[#DF266F] bg-[#FFF1F6] rounded-2xl p-[14px] flex items-center gap-4">
-                                <img
-                                    src={customerBarCode}
-                                    alt="Utshob customer app QR code"
-                                    width="80"
-                                    height="80"
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-20 h-20 rounded-lg object-cover"
-                                />
-                                <div className='bg-white flex-1 px-1'>
-                                    <h4 className="font-bold text-[#111318] text-base">Customer App</h4>
-                                    <p className="text-[#E62E77] font-semibold text-sm">Android available</p>
-                                    <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
-                                    <p className="text-[#626773] text-xs">Scan to download</p>
+                        <div className="hidden sm:block ">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                {/* Customer App Card */}
+                                <div className="border border-[#DF266F] bg-[#FFF1F6] rounded-2xl p-[14px] flex items-center gap-4">
+                                    <img
+                                        src={customerBarCode}
+                                        alt="Utshob customer app QR code"
+                                        width="80"
+                                        height="80"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-20 h-20 rounded-lg object-cover"
+                                    />
+                                    <div className='bg-white flex-1 px-1'>
+                                        <h4 className="font-bold text-[#111318] text-base">Customer App</h4>
+                                        <p className="text-[#E62E77] font-semibold text-sm">Android available</p>
+                                        <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
+                                        <p className="text-[#626773] text-xs">Scan to download</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            {/* Partner App Card */}
-                            <div className="border border-[#367A70] bg-[#F1F7F6] rounded-2xl p-4 flex items-center gap-4">
-                                <img
-                                    src={partnerbarCode}
-                                    alt="Utshob partner app QR code"
-                                    width="80"
-                                    height="80"
-                                    loading="lazy"
-                                    decoding="async"
-                                    className="w-20 h-20 rounded-lg object-cover"
-                                />
-                                <div className='bg-white flex-1 p-2'>
-                                    <h4 className="font-bold text-[#111318] text-base">Partner App</h4>
-                                    <p className="text-[#2ca58d] font-semibold text-sm">Android available</p>
-                                    <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
-                                    <p className="text-[#626773] text-xs">Scan to download</p>
+                                {/* Partner App Card */}
+                                <div className="border border-[#367A70] bg-[#F1F7F6] rounded-2xl p-4 flex items-center gap-4">
+                                    <img
+                                        src={partnerbarCode}
+                                        alt="Utshob partner app QR code"
+                                        width="80"
+                                        height="80"
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="w-20 h-20 rounded-lg object-cover"
+                                    />
+                                    <div className='bg-white flex-1 p-2'>
+                                        <h4 className="font-bold text-[#111318] text-base">Partner App</h4>
+                                        <p className="text-[#2ca58d] font-semibold text-sm">Android available</p>
+                                        <p className="text-[#626773] text-xs mt-1">iOS — Coming soon</p>
+                                        <p className="text-[#626773] text-xs">Scan to download</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     {/* Contact & Follow Box */}
@@ -124,21 +127,14 @@ const Footer = () => {
                             <h3 className="font-semibold text-[#111318] text-[20px] mb-3">Contact & Follow</h3>
 
                             <div className="space-y-2 mb-4">
-                                <a
-                                    href="tel:+8801575336382"
-                                    className="flex items-center gap-2 text-[#367A70] font-bold text-base hover:underline"
-                                >
-
+                                <p className="flex items-center gap-2 text-[#367A70] font-bold text-base">
                                     +88 01575 336382
-                                </a>
+                                </p>
 
-                                <a
-                                    href="mailto:utshobplatform@utshob.xyz"
-                                    className="flex items-center gap-2 text-[#59606C] text-sm hover:underline"
-                                >
+                                <p className="flex items-center gap-2 text-[#59606C] text-sm">
                                     <FaEnvelope className="text-xs" />
                                     admin@utshob.xyz
-                                </a>
+                                </p>
                             </div>
                         </div>
 

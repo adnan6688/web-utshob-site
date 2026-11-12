@@ -124,19 +124,22 @@ const Home = () => {
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             {/* Hero */}
             <div className="bg-[#F7F8FA] " ref={homeRef}>
-                <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0 py-8">
+                <div className="mx-auto w-full max-w-[1180px] px-4 md:px-6 xl:px-0 py-8">
                     <Bannar />
                 </div>
             </div>
 
             {/* Event Services */}
-            <div ref={eventServicesRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+            <div
+                ref={eventServicesRef}
+                className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-6 sm:px-6 sm:py-10 xl:px-0"
+            >
                 <EventService />
             </div>
 
             {/* Quotations */}
             <div ref={whyRef} className="bg-[#EDF6F5]">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-6 sm:py-12 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-6 sm:py-12 xl:px-0">
                     <Quotations />
                 </div>
             </div>
@@ -144,7 +147,7 @@ const Home = () => {
             {/* Design */}
 
             <div className='bg-[#F7F8FA]'>
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 xl:px-0">
                     <DesignLedFeature />
                 </div>
             </div>
@@ -152,18 +155,24 @@ const Home = () => {
 
             <div className='bg-[#EDF6F5]'>
                 {/* Counter */}
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 xl:px-0">
                     <Count />
                 </div>
             </div>
 
-                        {/* How Utshob Works */}
-            <div ref={howRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0">
+            {/* How Utshob Works */}
+            <div
+                ref={howRef}
+                className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 xl:px-0"
+            >
                 <HowUtshobWorksSection />
             </div>
 
             {/* Planning Solutions */}
-            <div ref={serviceRef} className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-0">
+            <div
+                ref={serviceRef}
+                className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 sm:px-6 xl:px-0"
+            >
                 <PlanningSolutions />
             </div>
 
@@ -171,7 +180,7 @@ const Home = () => {
 
             {/* Why Utshob */}
             <div className="mt-12 bg-[#F3F4F6] sm:mt-16">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-0 sm:px-6 sm:py-0 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-0 sm:px-6 sm:py-0 xl:px-0">
                     <WhyUseUtshobSection />
                 </div>
             </div>
@@ -182,7 +191,7 @@ const Home = () => {
 
             {/* Customer App Conversion */}
             <div className="bg-[#EDF8FF] ">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-8 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-8 xl:px-0">
                     <AppConversionSection
                         title="Your Event Services, in One App"
                         des="Create service requests, receive quotations, compare providers and manage confirmed bookings through the Utshob app."
@@ -192,7 +201,7 @@ const Home = () => {
             </div>
 
             {/* English FAQ */}
-            <div className="mx-auto w-full max-w-[1180px] px-4 py-10 sm:px-6 sm:py-13 lg:px-0">
+            <div className="mx-auto w-full max-w-[1180px] px-4 py-10 sm:px-6 sm:py-13 xl:px-0">
                 <QuestionAns
                     title="Frequently Asked Questions About Utshob"
                     faqs={faqs}
@@ -202,7 +211,7 @@ const Home = () => {
 
             {/* Bangla FAQ */}
             <div className="bg-[#F3F4F6]" lang="bn">
-                <div className="mx-auto w-full max-w-[1180px] px-4 py-10 sm:px-6 sm:py-13 lg:px-0">
+                <div className="mx-auto w-full max-w-[1180px] px-4 py-10 sm:px-6 sm:py-13 xl:px-0">
                     <QuestionAns
                         title="Utshob.xyz নিয়ে বিভিন্ন প্রশ্নোত্তর"
                         faqs={faqsBn}
@@ -216,7 +225,7 @@ const Home = () => {
             <div>
                 <div
                     ref={partnerRef}
-                    className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
+                    className="scroll-mt-[96px] mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 xl:px-0"
                 >
                     <AppConversionSection
                         requestHomeUrl='https://play.google.com/store/apps/details?id=xyz.utshob.partner'
@@ -234,7 +243,7 @@ const Home = () => {
             <div className="bg-[#EDF6F5]">
                 <div
                     ref={customerRef}
-                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 lg:px-0"
+                    className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-6 sm:py-16 xl:px-0"
                 >
                     <CustomerCare />
                 </div>
